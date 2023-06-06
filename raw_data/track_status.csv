@@ -1,0 +1,1393 @@
+,Time,Status,Message,Location,Year
+0,0 days 00:14:47.534000,2,Yellow,Melbourne,2018
+1,0 days 00:14:54.676000,1,AllClear,Melbourne,2018
+2,0 days 00:14:55.424000,2,Yellow,Melbourne,2018
+3,0 days 00:17:32.340000,1,AllClear,Melbourne,2018
+4,0 days 00:21:00.464000,2,Yellow,Melbourne,2018
+5,0 days 00:21:02.731000,1,AllClear,Melbourne,2018
+6,0 days 00:41:39.694000,2,Yellow,Melbourne,2018
+7,0 days 00:41:54.199000,1,AllClear,Melbourne,2018
+8,0 days 00:42:09.798000,2,Yellow,Melbourne,2018
+9,0 days 00:43:06.320000,1,AllClear,Melbourne,2018
+10,0 days 00:44:01.324000,2,Yellow,Melbourne,2018
+11,0 days 00:44:59.666000,6,VSCDeployed,Melbourne,2018
+12,0 days 00:49:00.615000,4,SCDeployed,Melbourne,2018
+13,0 days 00:57:11.990000,1,AllClear,Melbourne,2018
+14,0 days 00:08:08.643000,2,Yellow,Sakhir,2018
+15,0 days 00:08:14.695000,1,AllClear,Sakhir,2018
+16,0 days 00:08:26.014000,2,Yellow,Sakhir,2018
+17,0 days 00:08:51.074000,1,AllClear,Sakhir,2018
+18,0 days 00:09:57.697000,2,Yellow,Sakhir,2018
+19,0 days 00:10:24.916000,1,AllClear,Sakhir,2018
+20,0 days 00:10:32.280000,2,Yellow,Sakhir,2018
+21,0 days 00:10:41.473000,6,VSCDeployed,Sakhir,2018
+22,0 days 00:14:18.149000,7,VSCEnding,Sakhir,2018
+23,0 days 00:14:28.726000,1,AllClear,Sakhir,2018
+24,0 days 00:16:12.118000,2,Yellow,Sakhir,2018
+25,0 days 00:16:52.560000,1,AllClear,Sakhir,2018
+26,0 days 00:16:54.296000,2,Yellow,Sakhir,2018
+27,0 days 00:17:03.081000,1,AllClear,Sakhir,2018
+28,0 days 00:24:49.514000,2,Yellow,Sakhir,2018
+29,0 days 00:25:07.399000,1,AllClear,Sakhir,2018
+30,0 days 00:51:26.333000,2,Yellow,Sakhir,2018
+31,0 days 00:51:37.393000,1,AllClear,Sakhir,2018
+32,0 days 01:12:30.099000,2,Yellow,Sakhir,2018
+33,0 days 01:12:43.186000,1,AllClear,Sakhir,2018
+34,0 days 00:56:48.669000,2,Yellow,Shanghai,2018
+35,0 days 00:56:55.543000,1,AllClear,Shanghai,2018
+36,0 days 00:56:56.675000,2,Yellow,Shanghai,2018
+37,0 days 00:57:01.660000,1,AllClear,Shanghai,2018
+38,0 days 00:58:51.111000,4,SCDeployed,Shanghai,2018
+39,0 days 01:08:59.294000,1,AllClear,Shanghai,2018
+40,0 days 01:22:07.472000,2,Yellow,Shanghai,2018
+41,0 days 01:22:15.100000,1,AllClear,Shanghai,2018
+42,0 days 00:08:08.035000,2,Yellow,Baku,2018
+43,0 days 00:08:31.311000,4,SCDeployed,Baku,2018
+44,0 days 00:20:55.542000,1,AllClear,Baku,2018
+45,0 days 00:29:45.887000,2,Yellow,Baku,2018
+46,0 days 00:29:57.038000,1,AllClear,Baku,2018
+47,0 days 00:31:56.943000,2,Yellow,Baku,2018
+48,0 days 00:32:11.113000,1,AllClear,Baku,2018
+49,0 days 00:38:24.721000,2,Yellow,Baku,2018
+50,0 days 00:39:20.846000,1,AllClear,Baku,2018
+51,0 days 00:39:21.089000,2,Yellow,Baku,2018
+52,0 days 00:39:24.030000,1,AllClear,Baku,2018
+53,0 days 00:44:33.894000,2,Yellow,Baku,2018
+54,0 days 00:44:46.392000,1,AllClear,Baku,2018
+55,0 days 00:48:45.019000,2,Yellow,Baku,2018
+56,0 days 00:48:56.143000,1,AllClear,Baku,2018
+57,0 days 01:23:08.659000,2,Yellow,Baku,2018
+58,0 days 01:23:50.402000,4,SCDeployed,Baku,2018
+59,0 days 01:44:03.406000,1,AllClear,Baku,2018
+60,0 days 01:46:30.618000,2,Yellow,Baku,2018
+61,0 days 01:46:34.249000,1,AllClear,Baku,2018
+62,0 days 01:46:44.106000,2,Yellow,Baku,2018
+63,0 days 01:47:59.907000,1,AllClear,Baku,2018
+64,0 days 00:07:38.778000,2,Yellow,Barcelona,2018
+65,0 days 00:07:45.735000,4,SCDeployed,Barcelona,2018
+66,0 days 00:20:01.446000,1,AllClear,Barcelona,2018
+67,0 days 01:06:31.369000,2,Yellow,Barcelona,2018
+68,0 days 01:07:06.365000,6,VSCDeployed,Barcelona,2018
+69,0 days 01:10:26.389000,7,VSCEnding,Barcelona,2018
+70,0 days 01:10:40.273000,1,AllClear,Barcelona,2018
+71,0 days 01:10:45.365000,2,Yellow,Barcelona,2018
+72,0 days 01:10:53.057000,1,AllClear,Barcelona,2018
+73,0 days 00:07:26.615000,2,Yellow,Monte Carlo,2018
+74,0 days 00:08:23.728000,1,AllClear,Monte Carlo,2018
+75,0 days 00:23:43.859000,2,Yellow,Monte Carlo,2018
+76,0 days 00:23:52.390000,1,AllClear,Monte Carlo,2018
+77,0 days 01:16:03.406000,2,Yellow,Monte Carlo,2018
+78,0 days 01:17:08.918000,1,AllClear,Monte Carlo,2018
+79,0 days 01:40:35.410000,2,Yellow,Monte Carlo,2018
+80,0 days 01:41:19.432000,6,VSCDeployed,Monte Carlo,2018
+81,0 days 01:43:22.924000,7,VSCEnding,Monte Carlo,2018
+82,0 days 01:43:34.712000,1,AllClear,Monte Carlo,2018
+83,0 days 00:07:29.041000,2,Yellow,Montréal,2018
+84,0 days 00:07:42.541000,4,SCDeployed,Montréal,2018
+85,0 days 00:14:35.528000,1,AllClear,Montréal,2018
+86,0 days 01:39:03.793000,2,Yellow,Montréal,2018
+87,0 days 01:39:07.326000,1,AllClear,Montréal,2018
+88,0 days 01:39:09.347000,2,Yellow,Montréal,2018
+89,0 days 01:39:18.240000,1,AllClear,Montréal,2018
+90,0 days 01:39:31.886000,2,Yellow,Montréal,2018
+91,0 days 01:39:35.425000,1,AllClear,Montréal,2018
+92,0 days 00:07:41.290000,2,Yellow,Le Castellet,2018
+93,0 days 00:07:46.439000,1,AllClear,Le Castellet,2018
+94,0 days 00:07:54.649000,2,Yellow,Le Castellet,2018
+95,0 days 00:08:13.781000,4,SCDeployed,Le Castellet,2018
+96,0 days 00:19:28.652000,1,AllClear,Le Castellet,2018
+97,0 days 00:20:07.542000,2,Yellow,Le Castellet,2018
+98,0 days 00:20:14.784000,1,AllClear,Le Castellet,2018
+99,0 days 01:32:22.447000,2,Yellow,Le Castellet,2018
+100,0 days 01:33:48.044000,6,VSCDeployed,Le Castellet,2018
+101,0 days 01:36:11.850000,7,VSCEnding,Le Castellet,2018
+102,0 days 01:36:24.477000,1,AllClear,Le Castellet,2018
+103,0 days 01:36:26.822000,2,Yellow,Le Castellet,2018
+104,0 days 01:41:57.006000,1,AllClear,Le Castellet,2018
+105,0 days 00:08:50.939000,2,Yellow,Spielberg,2018
+106,0 days 00:08:59.637000,1,AllClear,Spielberg,2018
+107,0 days 00:20:11.925000,2,Yellow,Spielberg,2018
+108,0 days 00:20:24.836000,1,AllClear,Spielberg,2018
+109,0 days 00:20:29.649000,2,Yellow,Spielberg,2018
+110,0 days 00:20:58.721000,1,AllClear,Spielberg,2018
+111,0 days 00:22:53.051000,2,Yellow,Spielberg,2018
+112,0 days 00:23:23.891000,6,VSCDeployed,Spielberg,2018
+113,0 days 00:25:17.153000,7,VSCEnding,Spielberg,2018
+114,0 days 00:25:27.155000,1,AllClear,Spielberg,2018
+115,0 days 01:09:04.645000,2,Yellow,Spielberg,2018
+116,0 days 01:10:36.446000,1,AllClear,Spielberg,2018
+117,0 days 01:10:50.645000,2,Yellow,Spielberg,2018
+118,0 days 01:10:52.201000,1,AllClear,Spielberg,2018
+119,0 days 01:10:53.447000,2,Yellow,Spielberg,2018
+120,0 days 01:11:14.290000,1,AllClear,Spielberg,2018
+121,0 days 01:11:59.724000,2,Yellow,Spielberg,2018
+122,0 days 01:12:51.103000,1,AllClear,Spielberg,2018
+123,0 days 01:19:26.932000,2,Yellow,Spielberg,2018
+124,0 days 01:19:30.706000,1,AllClear,Spielberg,2018
+125,0 days 01:20:22.350000,2,Yellow,Spielberg,2018
+126,0 days 01:21:13.115000,1,AllClear,Spielberg,2018
+127,0 days 01:29:56.639000,2,Yellow,Spielberg,2018
+128,0 days 01:30:14.550000,1,AllClear,Spielberg,2018
+129,0 days 00:07:30.107000,2,Yellow,Silverstone,2018
+130,0 days 00:07:47.894000,1,AllClear,Silverstone,2018
+131,0 days 00:08:11.625000,2,Yellow,Silverstone,2018
+132,0 days 00:08:53.427000,1,AllClear,Silverstone,2018
+133,0 days 00:09:55.014000,2,Yellow,Silverstone,2018
+134,0 days 00:10:15.054000,1,AllClear,Silverstone,2018
+135,0 days 00:11:20.502000,2,Yellow,Silverstone,2018
+136,0 days 00:11:30.829000,1,AllClear,Silverstone,2018
+137,0 days 00:36:41.432000,2,Yellow,Silverstone,2018
+138,0 days 00:36:51.567000,1,AllClear,Silverstone,2018
+139,0 days 00:37:25.655000,2,Yellow,Silverstone,2018
+140,0 days 00:39:17.571000,1,AllClear,Silverstone,2018
+141,0 days 00:57:19.348000,2,Yellow,Silverstone,2018
+142,0 days 00:58:03.901000,4,SCDeployed,Silverstone,2018
+143,0 days 01:08:53.708000,1,AllClear,Silverstone,2018
+144,0 days 01:10:08.354000,2,Yellow,Silverstone,2018
+145,0 days 01:10:38.959000,4,SCDeployed,Silverstone,2018
+146,0 days 01:17:41.064000,1,AllClear,Silverstone,2018
+147,0 days 01:25:38.313000,2,Yellow,Silverstone,2018
+148,0 days 01:25:44.361000,1,AllClear,Silverstone,2018
+149,0 days 01:27:11.253000,2,Yellow,Silverstone,2018
+150,0 days 01:27:35.928000,1,AllClear,Silverstone,2018
+151,0 days 00:44:03.011000,2,Yellow,Hockenheim,2018
+152,0 days 00:45:27.208000,1,AllClear,Hockenheim,2018
+153,0 days 01:09:39.076000,2,Yellow,Hockenheim,2018
+154,0 days 01:09:51.155000,1,AllClear,Hockenheim,2018
+155,0 days 01:11:19.205000,2,Yellow,Hockenheim,2018
+156,0 days 01:11:20.843000,1,AllClear,Hockenheim,2018
+157,0 days 01:13:45.667000,2,Yellow,Hockenheim,2018
+158,0 days 01:13:56.558000,1,AllClear,Hockenheim,2018
+159,0 days 01:14:50.284000,2,Yellow,Hockenheim,2018
+160,0 days 01:15:05.199000,1,AllClear,Hockenheim,2018
+161,0 days 01:15:27.833000,2,Yellow,Hockenheim,2018
+162,0 days 01:15:43.951000,4,SCDeployed,Hockenheim,2018
+163,0 days 01:26:35.450000,1,AllClear,Hockenheim,2018
+164,0 days 00:15:04.279000,2,Yellow,Budapest,2018
+165,0 days 00:15:14.559000,6,VSCDeployed,Budapest,2018
+166,0 days 00:16:02.173000,7,VSCEnding,Budapest,2018
+167,0 days 00:16:16.333000,1,AllClear,Budapest,2018
+168,0 days 01:17:28.040000,2,Yellow,Budapest,2018
+169,0 days 01:17:35.690000,6,VSCDeployed,Budapest,2018
+170,0 days 01:18:47.016000,7,VSCEnding,Budapest,2018
+171,0 days 01:19:01.500000,1,AllClear,Budapest,2018
+172,0 days 00:00:00,1,AllClear,Spa-Francorchamps,2018
+173,0 days 00:14:48.834000,2,Yellow,Spa-Francorchamps,2018
+174,0 days 00:14:50.817000,1,AllClear,Spa-Francorchamps,2018
+175,0 days 00:18:44.585000,2,Yellow,Spa-Francorchamps,2018
+176,0 days 00:19:13.527000,4,SCDeployed,Spa-Francorchamps,2018
+177,0 days 00:29:34.490000,1,AllClear,Spa-Francorchamps,2018
+178,0 days 01:42:18.720000,2,Yellow,Spa-Francorchamps,2018
+179,0 days 01:45:13.546000,1,AllClear,Spa-Francorchamps,2018
+180,0 days 00:00:00,1,AllClear,Monza,2018
+181,0 days 00:18:55.262000,2,Yellow,Monza,2018
+182,0 days 00:19:37.098000,6,VSCDeployed,Monza,2018
+183,0 days 00:20:49.389000,7,VSCEnding,Monza,2018
+184,0 days 00:22:37.098000,4,SCDeployed,Monza,2018
+185,0 days 00:24:40.762000,1,AllClear,Monza,2018
+186,0 days 00:54:24.938000,2,Yellow,Monza,2018
+187,0 days 00:56:49.323000,1,AllClear,Monza,2018
+188,0 days 00:07:50.402000,1,AllClear,Singapore,2018
+189,0 days 00:18:58.280000,2,Yellow,Singapore,2018
+190,0 days 00:19:09.767000,4,SCDeployed,Singapore,2018
+191,0 days 00:28:57.272000,1,AllClear,Singapore,2018
+192,0 days 00:00:00,1,AllClear,Sochi,2018
+193,0 days 00:19:12.622000,2,Yellow,Sochi,2018
+194,0 days 00:19:30.434000,1,AllClear,Sochi,2018
+195,0 days 00:19:47.345000,2,Yellow,Sochi,2018
+196,0 days 00:20:05.237000,1,AllClear,Sochi,2018
+197,0 days 00:24:34.322000,2,Yellow,Sochi,2018
+198,0 days 00:24:44.044000,1,AllClear,Sochi,2018
+199,0 days 00:24:46.876000,2,Yellow,Sochi,2018
+200,0 days 00:24:48.184000,1,AllClear,Sochi,2018
+201,0 days 00:07:18.242000,1,AllClear,Suzuka,2018
+202,0 days 00:23:40.758000,4,SCDeployed,Suzuka,2018
+203,0 days 00:32:40.378000,1,AllClear,Suzuka,2018
+204,0 days 00:34:00.280000,2,Yellow,Suzuka,2018
+205,0 days 00:34:17.552000,1,AllClear,Suzuka,2018
+206,0 days 01:24:37.502000,2,Yellow,Suzuka,2018
+207,0 days 01:24:44.109000,1,AllClear,Suzuka,2018
+208,0 days 01:25:16.445000,2,Yellow,Suzuka,2018
+209,0 days 01:26:07.512000,6,VSCDeployed,Suzuka,2018
+210,0 days 01:27:08.858000,7,VSCEnding,Suzuka,2018
+211,0 days 01:27:19.093000,1,AllClear,Suzuka,2018
+212,0 days 00:07:15.932000,1,AllClear,Austin,2018
+213,0 days 00:34:13.429000,2,Yellow,Austin,2018
+214,0 days 00:34:31.993000,1,AllClear,Austin,2018
+215,0 days 00:34:48.262000,2,Yellow,Austin,2018
+216,0 days 00:35:04.962000,1,AllClear,Austin,2018
+217,0 days 00:38:06.453000,2,Yellow,Austin,2018
+218,0 days 00:38:16.838000,1,AllClear,Austin,2018
+219,0 days 00:48:09.923000,2,Yellow,Austin,2018
+220,0 days 00:48:10.804000,1,AllClear,Austin,2018
+221,0 days 00:48:11.032000,2,Yellow,Austin,2018
+222,0 days 00:48:25.059000,1,AllClear,Austin,2018
+223,0 days 00:48:36.446000,2,Yellow,Austin,2018
+224,0 days 00:50:23.873000,6,VSCDeployed,Austin,2018
+225,0 days 00:53:07.612000,7,VSCEnding,Austin,2018
+226,0 days 00:53:22.469000,1,AllClear,Austin,2018
+227,0 days 00:05:20.880000,1,AllClear,Mexico City,2018
+228,0 days 00:38:30.932000,2,Yellow,Mexico City,2018
+229,0 days 00:38:48.936000,1,AllClear,Mexico City,2018
+230,0 days 00:38:53.651000,2,Yellow,Mexico City,2018
+231,0 days 00:38:58.567000,6,VSCDeployed,Mexico City,2018
+232,0 days 00:39:55.469000,7,VSCEnding,Mexico City,2018
+233,0 days 00:40:06.874000,1,AllClear,Mexico City,2018
+234,0 days 01:14:15.429000,2,Yellow,Mexico City,2018
+235,0 days 01:14:41.480000,6,VSCDeployed,Mexico City,2018
+236,0 days 01:17:37.957000,7,VSCEnding,Mexico City,2018
+237,0 days 01:17:50.261000,1,AllClear,Mexico City,2018
+238,0 days 01:57:58.372000,2,Yellow,Mexico City,2018
+239,0 days 01:58:13.123000,6,VSCDeployed,Mexico City,2018
+240,0 days 02:00:43.030000,7,VSCEnding,Mexico City,2018
+241,0 days 02:00:57.466000,1,AllClear,Mexico City,2018
+242,0 days 00:10:26.889000,1,AllClear,São Paulo,2018
+243,0 days 00:58:44.871000,2,Yellow,São Paulo,2018
+244,0 days 00:58:46.189000,1,AllClear,São Paulo,2018
+245,0 days 00:58:50.036000,2,Yellow,São Paulo,2018
+246,0 days 00:58:55.932000,1,AllClear,São Paulo,2018
+247,0 days 01:26:58.826000,2,Yellow,São Paulo,2018
+248,0 days 01:27:11.053000,1,AllClear,São Paulo,2018
+249,0 days 00:14:50.789000,1,AllClear,Yas Marina,2018
+250,0 days 00:34:34.281000,2,Yellow,Yas Marina,2018
+251,0 days 00:34:38.530000,4,SCDeployed,Yas Marina,2018
+252,0 days 00:43:48.619000,1,AllClear,Yas Marina,2018
+253,0 days 00:47:51.675000,2,Yellow,Yas Marina,2018
+254,0 days 00:48:04.656000,6,VSCDeployed,Yas Marina,2018
+255,0 days 00:51:21.870000,7,VSCEnding,Yas Marina,2018
+256,0 days 00:51:34.104000,1,AllClear,Yas Marina,2018
+257,0 days 02:01:04.848000,2,Yellow,Yas Marina,2018
+258,0 days 02:01:34.561000,1,AllClear,Yas Marina,2018
+259,0 days 02:01:36.124000,2,Yellow,Yas Marina,2018
+260,0 days 02:03:00.479000,1,AllClear,Yas Marina,2018
+261,0 days 02:14:57.626000,2,Yellow,Yas Marina,2018
+262,0 days 02:15:13.561000,1,AllClear,Yas Marina,2018
+263,0 days 00:00:00,1,AllClear,Melbourne,2019
+264,0 days 00:34:07.225000,2,Yellow,Melbourne,2019
+265,0 days 00:34:50.255000,1,AllClear,Melbourne,2019
+266,0 days 01:19:15.470000,2,Yellow,Melbourne,2019
+267,0 days 01:19:24.296000,1,AllClear,Melbourne,2019
+268,0 days 00:11:35.413000,1,AllClear,Sakhir,2019
+269,0 days 00:11:35.413000,2,Yellow,Sakhir,2019
+270,0 days 00:11:35.413000,1,AllClear,Sakhir,2019
+271,0 days 00:34:13.604000,2,Yellow,Sakhir,2019
+272,0 days 00:34:15.208000,1,AllClear,Sakhir,2019
+273,0 days 00:34:21.300000,2,Yellow,Sakhir,2019
+274,0 days 00:34:23.498000,1,AllClear,Sakhir,2019
+275,0 days 00:34:41.968000,2,Yellow,Sakhir,2019
+276,0 days 00:34:47.654000,1,AllClear,Sakhir,2019
+277,0 days 00:34:57.343000,2,Yellow,Sakhir,2019
+278,0 days 00:35:15.885000,1,AllClear,Sakhir,2019
+279,0 days 00:36:00.703000,2,Yellow,Sakhir,2019
+280,0 days 00:36:04.956000,1,AllClear,Sakhir,2019
+281,0 days 00:39:02.300000,2,Yellow,Sakhir,2019
+282,0 days 00:39:17.245000,1,AllClear,Sakhir,2019
+283,0 days 00:42:29.779000,2,Yellow,Sakhir,2019
+284,0 days 00:42:37.415000,1,AllClear,Sakhir,2019
+285,0 days 00:52:59.771000,2,Yellow,Sakhir,2019
+286,0 days 00:53:09.611000,1,AllClear,Sakhir,2019
+287,0 days 01:34:27.384000,2,Yellow,Sakhir,2019
+288,0 days 01:34:37.647000,1,AllClear,Sakhir,2019
+289,0 days 01:38:46.084000,2,Yellow,Sakhir,2019
+290,0 days 01:38:54.802000,1,AllClear,Sakhir,2019
+291,0 days 01:42:50.190000,2,Yellow,Sakhir,2019
+292,0 days 01:42:58.341000,1,AllClear,Sakhir,2019
+293,0 days 02:00:47.445000,2,Yellow,Sakhir,2019
+294,0 days 02:02:15.423000,4,SCDeployed,Sakhir,2019
+295,0 days 00:02:12.673000,1,AllClear,Shanghai,2019
+296,0 days 00:34:16.094000,2,Yellow,Shanghai,2019
+297,0 days 00:34:21.312000,1,AllClear,Shanghai,2019
+298,0 days 00:34:52.298000,6,VSCDeployed,Shanghai,2019
+299,0 days 00:35:43.635000,7,VSCEnding,Shanghai,2019
+300,0 days 00:35:55.890000,1,AllClear,Shanghai,2019
+301,0 days 00:00:00,1,AllClear,Baku,2019
+302,0 days 00:01:22.039000,2,Yellow,Baku,2019
+303,0 days 00:01:26.109000,1,AllClear,Baku,2019
+304,0 days 00:01:30.027000,2,Yellow,Baku,2019
+305,0 days 00:02:56.309000,1,AllClear,Baku,2019
+306,0 days 00:08:19.127000,2,Yellow,Baku,2019
+307,0 days 00:08:42.220000,1,AllClear,Baku,2019
+308,0 days 00:09:00.023000,2,Yellow,Baku,2019
+309,0 days 00:09:03.208000,1,AllClear,Baku,2019
+310,0 days 00:29:00.646000,2,Yellow,Baku,2019
+311,0 days 00:29:10.240000,1,AllClear,Baku,2019
+312,0 days 01:29:17.788000,2,Yellow,Baku,2019
+313,0 days 01:30:06.538000,1,AllClear,Baku,2019
+314,0 days 01:32:14.820000,2,Yellow,Baku,2019
+315,0 days 01:32:24.573000,1,AllClear,Baku,2019
+316,0 days 01:43:24.755000,2,Yellow,Baku,2019
+317,0 days 01:43:44.117000,6,VSCDeployed,Baku,2019
+318,0 days 01:46:55.319000,7,VSCEnding,Baku,2019
+319,0 days 01:47:09.895000,1,AllClear,Baku,2019
+320,0 days 00:11:56.307000,1,AllClear,Barcelona,2019
+321,0 days 00:21:29.417000,2,Yellow,Barcelona,2019
+322,0 days 00:21:34.798000,1,AllClear,Barcelona,2019
+323,0 days 00:33:44.426000,2,Yellow,Barcelona,2019
+324,0 days 00:33:52.697000,1,AllClear,Barcelona,2019
+325,0 days 01:35:42.720000,2,Yellow,Barcelona,2019
+326,0 days 01:36:08.106000,4,SCDeployed,Barcelona,2019
+327,0 days 01:50:14.665000,1,AllClear,Barcelona,2019
+328,0 days 00:04:42.136000,1,AllClear,Monte Carlo,2019
+329,0 days 00:24:57.650000,2,Yellow,Monte Carlo,2019
+330,0 days 00:25:03.853000,1,AllClear,Monte Carlo,2019
+331,0 days 00:25:09.482000,2,Yellow,Monte Carlo,2019
+332,0 days 00:25:18.636000,1,AllClear,Monte Carlo,2019
+333,0 days 00:25:31.865000,2,Yellow,Monte Carlo,2019
+334,0 days 00:25:38.079000,1,AllClear,Monte Carlo,2019
+335,0 days 00:25:42.701000,2,Yellow,Monte Carlo,2019
+336,0 days 00:25:57.176000,1,AllClear,Monte Carlo,2019
+337,0 days 00:33:21.929000,2,Yellow,Monte Carlo,2019
+338,0 days 00:33:25.453000,1,AllClear,Monte Carlo,2019
+339,0 days 00:40:25.914000,2,Yellow,Monte Carlo,2019
+340,0 days 00:40:29.162000,1,AllClear,Monte Carlo,2019
+341,0 days 00:43:28.466000,2,Yellow,Monte Carlo,2019
+342,0 days 00:43:32.405000,1,AllClear,Monte Carlo,2019
+343,0 days 00:44:14.388000,2,Yellow,Monte Carlo,2019
+344,0 days 00:44:17.198000,1,AllClear,Monte Carlo,2019
+345,0 days 00:44:23.408000,2,Yellow,Monte Carlo,2019
+346,0 days 00:44:27.879000,1,AllClear,Monte Carlo,2019
+347,0 days 00:45:35.018000,2,Yellow,Monte Carlo,2019
+348,0 days 00:46:09.007000,4,SCDeployed,Monte Carlo,2019
+349,0 days 00:53:09.865000,1,AllClear,Monte Carlo,2019
+350,0 days 00:54:25.649000,2,Yellow,Monte Carlo,2019
+351,0 days 00:54:27.067000,1,AllClear,Monte Carlo,2019
+352,0 days 00:54:42.013000,2,Yellow,Monte Carlo,2019
+353,0 days 00:55:06.708000,1,AllClear,Monte Carlo,2019
+354,0 days 01:27:54.458000,2,Yellow,Monte Carlo,2019
+355,0 days 01:27:57.613000,1,AllClear,Monte Carlo,2019
+356,0 days 02:16:37.066000,2,Yellow,Monte Carlo,2019
+357,0 days 02:18:18.957000,1,AllClear,Monte Carlo,2019
+358,0 days 00:00:00,1,AllClear,Montréal,2019
+359,0 days 00:33:18.614000,2,Yellow,Montréal,2019
+360,0 days 00:33:22.966000,1,AllClear,Montréal,2019
+361,0 days 00:33:25.699000,2,Yellow,Montréal,2019
+362,0 days 00:33:46.005000,1,AllClear,Montréal,2019
+363,0 days 00:34:01.290000,2,Yellow,Montréal,2019
+364,0 days 00:34:32.859000,1,AllClear,Montréal,2019
+365,0 days 00:44:12.840000,2,Yellow,Montréal,2019
+366,0 days 00:47:21.107000,1,AllClear,Montréal,2019
+367,0 days 00:48:55.236000,2,Yellow,Montréal,2019
+368,0 days 00:50:05.274000,1,AllClear,Montréal,2019
+369,0 days 01:11:37.549000,2,Yellow,Montréal,2019
+370,0 days 01:12:55.045000,1,AllClear,Montréal,2019
+371,0 days 00:07:58.968000,1,AllClear,Le Castellet,2019
+372,0 days 01:08:50.612000,2,Yellow,Le Castellet,2019
+373,0 days 01:09:00.562000,1,AllClear,Le Castellet,2019
+374,0 days 01:30:06.581000,2,Yellow,Le Castellet,2019
+375,0 days 01:30:13.252000,1,AllClear,Le Castellet,2019
+376,0 days 01:51:15.945000,2,Yellow,Le Castellet,2019
+377,0 days 01:51:24.673000,1,AllClear,Le Castellet,2019
+378,0 days 01:52:41.127000,2,Yellow,Le Castellet,2019
+379,0 days 01:52:52.485000,6,VSCDeployed,Le Castellet,2019
+380,0 days 01:53:10.512000,7,VSCEnding,Le Castellet,2019
+381,0 days 01:53:25.270000,1,AllClear,Le Castellet,2019
+382,0 days 01:58:44.418000,2,Yellow,Le Castellet,2019
+383,0 days 01:58:47.914000,1,AllClear,Le Castellet,2019
+384,0 days 00:03:49.534000,1,AllClear,Spielberg,2019
+385,0 days 00:11:59.774000,1,AllClear,Silverstone,2019
+386,0 days 01:02:45.401000,2,Yellow,Silverstone,2019
+387,0 days 01:03:15.462000,4,SCDeployed,Silverstone,2019
+388,0 days 01:11:05.894000,1,AllClear,Silverstone,2019
+389,0 days 01:15:42.668000,2,Yellow,Silverstone,2019
+390,0 days 01:16:07.893000,1,AllClear,Silverstone,2019
+391,0 days 01:32:10.021000,2,Yellow,Silverstone,2019
+392,0 days 01:32:25.277000,1,AllClear,Silverstone,2019
+393,0 days 00:11:48.958000,1,AllClear,Hockenheim,2019
+394,0 days 00:43:20.330000,4,SCDeployed,Hockenheim,2019
+395,0 days 00:47:35.862000,1,AllClear,Hockenheim,2019
+396,0 days 01:03:10.874000,2,Yellow,Hockenheim,2019
+397,0 days 01:03:48.061000,6,VSCDeployed,Hockenheim,2019
+398,0 days 01:04:58.741000,7,VSCEnding,Hockenheim,2019
+399,0 days 01:05:12.678000,1,AllClear,Hockenheim,2019
+400,0 days 01:09:52.092000,2,Yellow,Hockenheim,2019
+401,0 days 01:10:11.625000,1,AllClear,Hockenheim,2019
+402,0 days 01:21:50.839000,2,Yellow,Hockenheim,2019
+403,0 days 01:22:11.593000,1,AllClear,Hockenheim,2019
+404,0 days 01:22:42.174000,2,Yellow,Hockenheim,2019
+405,0 days 01:23:17.328000,6,VSCDeployed,Hockenheim,2019
+406,0 days 01:24:46.236000,7,VSCEnding,Hockenheim,2019
+407,0 days 01:24:58.288000,1,AllClear,Hockenheim,2019
+408,0 days 01:25:22.906000,2,Yellow,Hockenheim,2019
+409,0 days 01:25:46.417000,4,SCDeployed,Hockenheim,2019
+410,0 days 01:36:35.078000,1,AllClear,Hockenheim,2019
+411,0 days 01:47:16.087000,2,Yellow,Hockenheim,2019
+412,0 days 01:47:51.607000,4,SCDeployed,Hockenheim,2019
+413,0 days 01:57:04.937000,1,AllClear,Hockenheim,2019
+414,0 days 02:07:25.277000,2,Yellow,Hockenheim,2019
+415,0 days 02:07:31.942000,1,AllClear,Hockenheim,2019
+416,0 days 02:12:25.379000,2,Yellow,Hockenheim,2019
+417,0 days 02:12:44.264000,4,SCDeployed,Hockenheim,2019
+418,0 days 02:17:58.448000,1,AllClear,Hockenheim,2019
+419,0 days 00:06:25.173000,1,AllClear,Budapest,2019
+420,0 days 00:34:40.576000,2,Yellow,Budapest,2019
+421,0 days 00:34:45.606000,1,AllClear,Budapest,2019
+422,0 days 00:00:00,1,AllClear,Spa-Francorchamps,2019
+423,0 days 00:01:13.199000,2,Yellow,Spa-Francorchamps,2019
+424,0 days 00:02:00.652000,1,AllClear,Spa-Francorchamps,2019
+425,0 days 00:33:37.550000,2,Yellow,Spa-Francorchamps,2019
+426,0 days 00:33:38.896000,1,AllClear,Spa-Francorchamps,2019
+427,0 days 00:33:40.221000,2,Yellow,Spa-Francorchamps,2019
+428,0 days 00:33:47.489000,1,AllClear,Spa-Francorchamps,2019
+429,0 days 00:33:49.537000,2,Yellow,Spa-Francorchamps,2019
+430,0 days 00:34:22.787000,4,SCDeployed,Spa-Francorchamps,2019
+431,0 days 00:44:30.275000,1,AllClear,Spa-Francorchamps,2019
+432,0 days 01:56:15.637000,2,Yellow,Spa-Francorchamps,2019
+433,0 days 00:08:06.272000,1,AllClear,Monza,2019
+434,0 days 00:33:37.039000,2,Yellow,Monza,2019
+435,0 days 00:33:40.003000,1,AllClear,Monza,2019
+436,0 days 00:37:05.594000,2,Yellow,Monza,2019
+437,0 days 00:37:09.759000,1,AllClear,Monza,2019
+438,0 days 00:41:34.800000,2,Yellow,Monza,2019
+439,0 days 00:41:55.548000,1,AllClear,Monza,2019
+440,0 days 01:12:57.265000,2,Yellow,Monza,2019
+441,0 days 01:13:27.092000,6,VSCDeployed,Monza,2019
+442,0 days 01:14:08.119000,7,VSCEnding,Monza,2019
+443,0 days 01:14:20.568000,1,AllClear,Monza,2019
+444,0 days 01:16:17.115000,2,Yellow,Monza,2019
+445,0 days 01:16:30.375000,6,VSCDeployed,Monza,2019
+446,0 days 01:17:34.771000,7,VSCEnding,Monza,2019
+447,0 days 01:17:49.029000,1,AllClear,Monza,2019
+448,0 days 00:08:25.229000,1,AllClear,Singapore,2019
+449,0 days 01:37:18.320000,2,Yellow,Singapore,2019
+450,0 days 01:38:41.623000,4,SCDeployed,Singapore,2019
+451,0 days 01:50:16.051000,1,AllClear,Singapore,2019
+452,0 days 01:56:00.932000,2,Yellow,Singapore,2019
+453,0 days 01:56:48.216000,4,SCDeployed,Singapore,2019
+454,0 days 02:06:01.324000,1,AllClear,Singapore,2019
+455,0 days 02:10:11.514000,2,Yellow,Singapore,2019
+456,0 days 02:10:12.138000,1,AllClear,Singapore,2019
+457,0 days 02:10:13.449000,2,Yellow,Singapore,2019
+458,0 days 02:11:01.543000,4,SCDeployed,Singapore,2019
+459,0 days 02:14:30.971000,1,AllClear,Singapore,2019
+460,0 days 00:00:00,1,AllClear,Sochi,2019
+461,0 days 00:34:04.751000,2,Yellow,Sochi,2019
+462,0 days 00:34:21.605000,4,SCDeployed,Sochi,2019
+463,0 days 00:40:44.764000,1,AllClear,Sochi,2019
+464,0 days 01:20:48.652000,2,Yellow,Sochi,2019
+465,0 days 01:21:20.030000,6,VSCDeployed,Sochi,2019
+466,0 days 01:23:29.896000,7,VSCEnding,Sochi,2019
+467,0 days 01:23:39.990000,1,AllClear,Sochi,2019
+468,0 days 01:23:53.196000,2,Yellow,Sochi,2019
+469,0 days 01:24:29.364000,4,SCDeployed,Sochi,2019
+470,0 days 01:32:58.607000,1,AllClear,Sochi,2019
+471,0 days 00:10:00.843000,1,AllClear,Suzuka,2019
+472,0 days 00:38:41.877000,2,Yellow,Suzuka,2019
+473,0 days 00:38:53.609000,1,AllClear,Suzuka,2019
+474,0 days 01:56:01.099000,2,Yellow,Suzuka,2019
+475,0 days 02:01:04.937000,1,AllClear,Suzuka,2019
+476,0 days 00:00:00,1,AllClear,Mexico City,2019
+477,0 days 00:34:13.665000,6,VSCDeployed,Mexico City,2019
+478,0 days 00:36:25.134000,7,VSCEnding,Mexico City,2019
+479,0 days 00:36:44.204000,1,AllClear,Mexico City,2019
+480,0 days 00:40:12.845000,2,Yellow,Mexico City,2019
+481,0 days 00:40:29.452000,1,AllClear,Mexico City,2019
+482,0 days 02:10:07.154000,2,Yellow,Mexico City,2019
+483,0 days 02:10:11.735000,1,AllClear,Mexico City,2019
+484,0 days 00:00:00,1,AllClear,Austin,2019
+485,0 days 00:46:39.218000,2,Yellow,Austin,2019
+486,0 days 00:47:43.187000,1,AllClear,Austin,2019
+487,0 days 02:04:25.783000,2,Yellow,Austin,2019
+488,0 days 00:00:00,1,AllClear,São Paulo,2019
+489,0 days 00:42:23.641000,2,Yellow,São Paulo,2019
+490,0 days 00:42:30.955000,1,AllClear,São Paulo,2019
+491,0 days 01:37:05.268000,2,Yellow,São Paulo,2019
+492,0 days 01:38:43.182000,4,SCDeployed,São Paulo,2019
+493,0 days 01:48:57.038000,1,AllClear,São Paulo,2019
+494,0 days 01:57:18.072000,4,SCDeployed,São Paulo,2019
+495,0 days 02:03:13.891000,1,AllClear,São Paulo,2019
+496,0 days 02:04:43.624000,2,Yellow,São Paulo,2019
+497,0 days 02:04:51.254000,1,AllClear,São Paulo,2019
+498,0 days 00:00:00,1,AllClear,Yas Island,2019
+499,0 days 00:33:44.715000,2,Yellow,Yas Island,2019
+500,0 days 00:34:50.953000,1,AllClear,Yas Island,2019
+501,0 days 00:06:02.707000,1,AllClear,Barcelona,2020
+502,0 days 01:24:54.341000,2,Yellow,Barcelona,2020
+503,0 days 01:25:39.088000,1,AllClear,Barcelona,2020
+504,0 days 00:06:02.707000,1,AllClear,Barcelona,2020
+505,0 days 01:24:54.341000,2,Yellow,Barcelona,2020
+506,0 days 01:25:39.088000,1,AllClear,Barcelona,2020
+507,0 days 00:07:56.420000,1,AllClear,Spielberg,2020
+508,0 days 00:56:21.333000,2,Yellow,Spielberg,2020
+509,0 days 00:56:30.327000,1,AllClear,Spielberg,2020
+510,0 days 01:01:52.836000,2,Yellow,Spielberg,2020
+511,0 days 01:02:31.497000,4,SCDeployed,Spielberg,2020
+512,0 days 01:10:47.603000,1,AllClear,Spielberg,2020
+513,0 days 01:11:20.892000,2,Yellow,Spielberg,2020
+514,0 days 01:11:28.620000,1,AllClear,Spielberg,2020
+515,0 days 01:34:24.520000,2,Yellow,Spielberg,2020
+516,0 days 01:34:38.932000,4,SCDeployed,Spielberg,2020
+517,0 days 01:40:24.625000,1,AllClear,Spielberg,2020
+518,0 days 01:40:34.511000,2,Yellow,Spielberg,2020
+519,0 days 01:40:55.235000,4,SCDeployed,Spielberg,2020
+520,0 days 01:51:02.467000,1,AllClear,Spielberg,2020
+521,0 days 02:00:34.428000,2,Yellow,Spielberg,2020
+522,0 days 02:01:44.898000,1,AllClear,Spielberg,2020
+523,0 days 02:01:58.819000,2,Yellow,Spielberg,2020
+524,0 days 02:02:12.139000,1,AllClear,Spielberg,2020
+525,0 days 00:07:56.420000,1,AllClear,Spielberg,2020
+526,0 days 00:56:21.333000,2,Yellow,Spielberg,2020
+527,0 days 00:56:30.327000,1,AllClear,Spielberg,2020
+528,0 days 01:01:52.836000,2,Yellow,Spielberg,2020
+529,0 days 01:02:31.497000,4,SCDeployed,Spielberg,2020
+530,0 days 01:10:47.603000,1,AllClear,Spielberg,2020
+531,0 days 01:11:20.892000,2,Yellow,Spielberg,2020
+532,0 days 01:11:28.620000,1,AllClear,Spielberg,2020
+533,0 days 01:34:24.520000,2,Yellow,Spielberg,2020
+534,0 days 01:34:38.932000,4,SCDeployed,Spielberg,2020
+535,0 days 01:40:24.625000,1,AllClear,Spielberg,2020
+536,0 days 01:40:34.511000,2,Yellow,Spielberg,2020
+537,0 days 01:40:55.235000,4,SCDeployed,Spielberg,2020
+538,0 days 01:51:02.467000,1,AllClear,Spielberg,2020
+539,0 days 02:00:34.428000,2,Yellow,Spielberg,2020
+540,0 days 02:01:44.898000,1,AllClear,Spielberg,2020
+541,0 days 02:01:58.819000,2,Yellow,Spielberg,2020
+542,0 days 02:02:12.139000,1,AllClear,Spielberg,2020
+543,0 days 00:00:00,1,AllClear,Budapest,2020
+544,0 days 00:07:17.355000,2,Yellow,Budapest,2020
+545,0 days 00:07:35.050000,1,AllClear,Budapest,2020
+546,0 days 00:38:34.469000,2,Yellow,Budapest,2020
+547,0 days 00:38:48.369000,1,AllClear,Budapest,2020
+548,0 days 00:39:43.759000,2,Yellow,Budapest,2020
+549,0 days 00:39:47.570000,1,AllClear,Budapest,2020
+550,0 days 01:31:42.461000,2,Yellow,Budapest,2020
+551,0 days 01:31:58.377000,1,AllClear,Budapest,2020
+552,0 days 00:08:44.159000,1,AllClear,Silverstone,2020
+553,0 days 00:35:07.230000,2,Yellow,Silverstone,2020
+554,0 days 00:35:21.022000,4,SCDeployed,Silverstone,2020
+555,0 days 00:44:16.115000,1,AllClear,Silverstone,2020
+556,0 days 00:54:57.839000,2,Yellow,Silverstone,2020
+557,0 days 00:55:05.878000,4,SCDeployed,Silverstone,2020
+558,0 days 01:09:55.304000,1,AllClear,Silverstone,2020
+559,0 days 01:54:26.907000,2,Yellow,Silverstone,2020
+560,0 days 01:54:31.901000,1,AllClear,Silverstone,2020
+561,0 days 00:08:44.159000,1,AllClear,Silverstone,2020
+562,0 days 00:35:07.230000,2,Yellow,Silverstone,2020
+563,0 days 00:35:21.022000,4,SCDeployed,Silverstone,2020
+564,0 days 00:44:16.115000,1,AllClear,Silverstone,2020
+565,0 days 00:54:57.839000,2,Yellow,Silverstone,2020
+566,0 days 00:55:05.878000,4,SCDeployed,Silverstone,2020
+567,0 days 01:09:55.304000,1,AllClear,Silverstone,2020
+568,0 days 01:54:26.907000,2,Yellow,Silverstone,2020
+569,0 days 01:54:31.901000,1,AllClear,Silverstone,2020
+570,0 days 00:06:02.707000,1,AllClear,Barcelona,2020
+571,0 days 01:24:54.341000,2,Yellow,Barcelona,2020
+572,0 days 01:25:39.088000,1,AllClear,Barcelona,2020
+573,0 days 00:14:39.519000,1,AllClear,Spa-Francorchamps,2020
+574,0 days 00:14:39.519000,2,Yellow,Spa-Francorchamps,2020
+575,0 days 00:14:39.519000,1,AllClear,Spa-Francorchamps,2020
+576,0 days 00:52:08.373000,2,Yellow,Spa-Francorchamps,2020
+577,0 days 00:52:19.307000,4,SCDeployed,Spa-Francorchamps,2020
+578,0 days 01:03:21.213000,1,AllClear,Spa-Francorchamps,2020
+579,0 days 01:58:27.186000,2,Yellow,Spa-Francorchamps,2020
+580,0 days 01:58:50.626000,1,AllClear,Spa-Francorchamps,2020
+581,0 days 02:00:38.487000,2,Yellow,Spa-Francorchamps,2020
+582,0 days 00:00:00,1,AllClear,Monza,2020
+583,0 days 00:44:43.018000,2,Yellow,Monza,2020
+584,0 days 00:45:01.840000,1,AllClear,Monza,2020
+585,0 days 01:00:35.255000,2,Yellow,Monza,2020
+586,0 days 01:01:35.482000,4,SCDeployed,Monza,2020
+587,0 days 01:08:43.757000,1,AllClear,Monza,2020
+588,0 days 01:10:21.987000,2,Yellow,Monza,2020
+589,0 days 01:10:26.773000,4,SCDeployed,Monza,2020
+590,0 days 01:13:02.308000,5,Red,Monza,2020
+591,0 days 01:34:01.075000,1,AllClear,Monza,2020
+592,0 days 00:01:19.369000,1,AllClear,Mugello,2020
+593,0 days 00:33:50.287000,2,Yellow,Mugello,2020
+594,0 days 00:34:03.516000,4,SCDeployed,Mugello,2020
+595,0 days 00:46:35.103000,1,AllClear,Mugello,2020
+596,0 days 00:46:52.739000,2,Yellow,Mugello,2020
+597,0 days 00:46:57.296000,4,SCDeployed,Mugello,2020
+598,0 days 00:49:34.491000,5,Red,Mugello,2020
+599,0 days 01:14:11.784000,1,AllClear,Mugello,2020
+600,0 days 02:05:40.977000,2,Yellow,Mugello,2020
+601,0 days 02:05:54.264000,4,SCDeployed,Mugello,2020
+602,0 days 02:09:44.391000,5,Red,Mugello,2020
+603,0 days 02:28:01.392000,1,AllClear,Mugello,2020
+604,0 days 00:07:43.184000,1,AllClear,Sochi,2020
+605,0 days 00:34:06.948000,2,Yellow,Sochi,2020
+606,0 days 00:34:32.789000,4,SCDeployed,Sochi,2020
+607,0 days 00:47:13.597000,1,AllClear,Sochi,2020
+608,0 days 01:49:53.243000,6,VSCDeployed,Sochi,2020
+609,0 days 01:50:18.948000,7,VSCEnding,Sochi,2020
+610,0 days 01:50:33.695000,1,AllClear,Sochi,2020
+611,0 days 02:11:41.425000,2,Yellow,Sochi,2020
+612,0 days 00:03:10.938000,1,AllClear,Nürburgring,2020
+613,0 days 00:19:50.532000,2,Yellow,Nürburgring,2020
+614,0 days 00:19:55.120000,1,AllClear,Nürburgring,2020
+615,0 days 00:20:08.332000,2,Yellow,Nürburgring,2020
+616,0 days 00:20:19.942000,1,AllClear,Nürburgring,2020
+617,0 days 00:24:07.065000,6,VSCDeployed,Nürburgring,2020
+618,0 days 00:25:11.222000,7,VSCEnding,Nürburgring,2020
+619,0 days 00:25:23.675000,1,AllClear,Nürburgring,2020
+620,0 days 00:25:53.043000,2,Yellow,Nürburgring,2020
+621,0 days 00:29:45.733000,1,AllClear,Nürburgring,2020
+622,0 days 01:07:40.570000,2,Yellow,Nürburgring,2020
+623,0 days 01:08:33.328000,4,SCDeployed,Nürburgring,2020
+624,0 days 01:19:20.193000,1,AllClear,Nürburgring,2020
+625,0 days 00:09:52.059000,1,AllClear,Portimão,2020
+626,0 days 00:33:36.599000,2,Yellow,Portimão,2020
+627,0 days 00:33:44.599000,1,AllClear,Portimão,2020
+628,0 days 00:07:45.636000,1,AllClear,Imola,2020
+629,0 days 00:33:34.595000,2,Yellow,Imola,2020
+630,0 days 00:33:36.095000,1,AllClear,Imola,2020
+631,0 days 00:33:43.625000,2,Yellow,Imola,2020
+632,0 days 00:34:09.986000,1,AllClear,Imola,2020
+633,0 days 01:11:10.759000,2,Yellow,Imola,2020
+634,0 days 01:12:38.062000,6,VSCDeployed,Imola,2020
+635,0 days 01:13:02.099000,7,VSCEnding,Imola,2020
+636,0 days 01:13:15.888000,1,AllClear,Imola,2020
+637,0 days 01:39:57.577000,2,Yellow,Imola,2020
+638,0 days 01:40:35.530000,4,SCDeployed,Imola,2020
+639,0 days 01:53:53.388000,1,AllClear,Imola,2020
+640,0 days 01:54:36.713000,2,Yellow,Imola,2020
+641,0 days 01:54:44.245000,1,AllClear,Imola,2020
+642,0 days 00:00:00,2,Yellow,Istanbul,2020
+643,0 days 00:01:06.485000,1,AllClear,Istanbul,2020
+644,0 days 00:33:41.378000,2,Yellow,Istanbul,2020
+645,0 days 00:33:50.775000,1,AllClear,Istanbul,2020
+646,0 days 00:34:49.880000,2,Yellow,Istanbul,2020
+647,0 days 00:34:54.190000,1,AllClear,Istanbul,2020
+648,0 days 00:35:03.673000,2,Yellow,Istanbul,2020
+649,0 days 00:35:10.183000,1,AllClear,Istanbul,2020
+650,0 days 00:35:37.610000,2,Yellow,Istanbul,2020
+651,0 days 00:35:48.638000,1,AllClear,Istanbul,2020
+652,0 days 00:57:18.090000,2,Yellow,Istanbul,2020
+653,0 days 00:58:00.357000,6,VSCDeployed,Istanbul,2020
+654,0 days 01:00:58.764000,7,VSCEnding,Istanbul,2020
+655,0 days 01:01:13.477000,1,AllClear,Istanbul,2020
+656,0 days 01:05:47.991000,2,Yellow,Istanbul,2020
+657,0 days 01:05:52.931000,1,AllClear,Istanbul,2020
+658,0 days 01:07:18.983000,2,Yellow,Istanbul,2020
+659,0 days 01:07:30.587000,1,AllClear,Istanbul,2020
+660,0 days 01:07:30.845000,2,Yellow,Istanbul,2020
+661,0 days 01:07:38.360000,1,AllClear,Istanbul,2020
+662,0 days 01:12:33.271000,2,Yellow,Istanbul,2020
+663,0 days 01:12:43.898000,1,AllClear,Istanbul,2020
+664,0 days 01:34:11.005000,2,Yellow,Istanbul,2020
+665,0 days 01:34:16.959000,1,AllClear,Istanbul,2020
+666,0 days 01:43:12.110000,2,Yellow,Istanbul,2020
+667,0 days 01:43:35.327000,1,AllClear,Istanbul,2020
+668,0 days 01:44:32.852000,2,Yellow,Istanbul,2020
+669,0 days 01:44:38.466000,1,AllClear,Istanbul,2020
+670,0 days 01:45:34.843000,2,Yellow,Istanbul,2020
+671,0 days 01:45:45.067000,1,AllClear,Istanbul,2020
+672,0 days 01:45:55.860000,2,Yellow,Istanbul,2020
+673,0 days 01:46:04.110000,1,AllClear,Istanbul,2020
+674,0 days 01:46:09.782000,2,Yellow,Istanbul,2020
+675,0 days 01:46:19.593000,1,AllClear,Istanbul,2020
+676,0 days 01:59:03.771000,2,Yellow,Istanbul,2020
+677,0 days 01:59:16.770000,1,AllClear,Istanbul,2020
+678,0 days 02:00:04.231000,2,Yellow,Istanbul,2020
+679,0 days 02:00:09.740000,1,AllClear,Istanbul,2020
+680,0 days 02:03:34.240000,2,Yellow,Istanbul,2020
+681,0 days 02:03:42.880000,1,AllClear,Istanbul,2020
+682,0 days 02:18:45.269000,2,Yellow,Istanbul,2020
+683,0 days 02:18:49.317000,1,AllClear,Istanbul,2020
+684,0 days 02:18:57.752000,2,Yellow,Istanbul,2020
+685,0 days 00:00:00,2,Yellow,Sakhir,2020
+686,0 days 00:00:25.693000,1,AllClear,Sakhir,2020
+687,0 days 00:34:07.560000,5,Red,Sakhir,2020
+688,0 days 01:50:00.706000,1,AllClear,Sakhir,2020
+689,0 days 02:00:12.487000,2,Yellow,Sakhir,2020
+690,0 days 02:00:18.673000,4,SCDeployed,Sakhir,2020
+691,0 days 02:13:13.766000,1,AllClear,Sakhir,2020
+692,0 days 02:21:15.688000,2,Yellow,Sakhir,2020
+693,0 days 02:21:24.246000,1,AllClear,Sakhir,2020
+694,0 days 03:26:29.779000,2,Yellow,Sakhir,2020
+695,0 days 03:26:34.944000,4,SCDeployed,Sakhir,2020
+696,0 days 00:00:00,2,Yellow,Sakhir,2020
+697,0 days 00:00:25.693000,1,AllClear,Sakhir,2020
+698,0 days 00:34:07.560000,5,Red,Sakhir,2020
+699,0 days 01:50:00.706000,1,AllClear,Sakhir,2020
+700,0 days 02:00:12.487000,2,Yellow,Sakhir,2020
+701,0 days 02:00:18.673000,4,SCDeployed,Sakhir,2020
+702,0 days 02:13:13.766000,1,AllClear,Sakhir,2020
+703,0 days 02:21:15.688000,2,Yellow,Sakhir,2020
+704,0 days 02:21:24.246000,1,AllClear,Sakhir,2020
+705,0 days 03:26:29.779000,2,Yellow,Sakhir,2020
+706,0 days 03:26:34.944000,4,SCDeployed,Sakhir,2020
+707,0 days 00:08:40.721000,1,AllClear,Yas Island,2020
+708,0 days 00:49:19.126000,2,Yellow,Yas Island,2020
+709,0 days 00:49:35.215000,6,VSCDeployed,Yas Island,2020
+710,0 days 00:52:35.245000,4,SCDeployed,Yas Island,2020
+711,0 days 00:58:45.423000,1,AllClear,Yas Island,2020
+712,0 days 00:00:00,1,AllClear,Bahrain,2021
+713,0 days 00:27:39.918000,2,Yellow,Bahrain,2021
+714,0 days 00:27:41.288000,1,AllClear,Bahrain,2021
+715,0 days 00:37:34.997000,2,Yellow,Bahrain,2021
+716,0 days 00:38:12.198000,4,SCDeployed,Bahrain,2021
+717,0 days 00:43:48.936000,1,AllClear,Bahrain,2021
+718,0 days 00:44:47.777000,2,Yellow,Bahrain,2021
+719,0 days 00:45:01.019000,1,AllClear,Bahrain,2021
+720,0 days 00:45:33.063000,6,VSCDeployed,Bahrain,2021
+721,0 days 00:46:16.419000,7,VSCEnding,Bahrain,2021
+722,0 days 00:46:29.986000,1,AllClear,Bahrain,2021
+723,0 days 01:50:13.169000,2,Yellow,Bahrain,2021
+724,0 days 01:50:20.738000,1,AllClear,Bahrain,2021
+725,0 days 00:00:00,1,AllClear,Sakhir,2021
+726,0 days 00:27:39.918000,2,Yellow,Sakhir,2021
+727,0 days 00:27:41.288000,1,AllClear,Sakhir,2021
+728,0 days 00:37:34.997000,2,Yellow,Sakhir,2021
+729,0 days 00:38:12.198000,4,SCDeployed,Sakhir,2021
+730,0 days 00:43:48.936000,1,AllClear,Sakhir,2021
+731,0 days 00:44:47.777000,2,Yellow,Sakhir,2021
+732,0 days 00:45:01.019000,1,AllClear,Sakhir,2021
+733,0 days 00:45:33.063000,6,VSCDeployed,Sakhir,2021
+734,0 days 00:46:16.419000,7,VSCEnding,Sakhir,2021
+735,0 days 00:46:29.986000,1,AllClear,Sakhir,2021
+736,0 days 01:50:13.169000,2,Yellow,Sakhir,2021
+737,0 days 01:50:20.738000,1,AllClear,Sakhir,2021
+738,0 days 00:00:00,1,AllClear,Imola,2021
+739,0 days 00:03:33.085000,2,Yellow,Imola,2021
+740,0 days 00:09:36.333000,1,AllClear,Imola,2021
+741,0 days 00:34:32.243000,2,Yellow,Imola,2021
+742,0 days 00:34:36.760000,1,AllClear,Imola,2021
+743,0 days 00:34:45.778000,2,Yellow,Imola,2021
+744,0 days 00:34:55.943000,4,SCDeployed,Imola,2021
+745,0 days 00:46:44.410000,1,AllClear,Imola,2021
+746,0 days 00:52:36.021000,2,Yellow,Imola,2021
+747,0 days 00:52:41.451000,1,AllClear,Imola,2021
+748,0 days 00:57:16.023000,2,Yellow,Imola,2021
+749,0 days 00:57:18.095000,1,AllClear,Imola,2021
+750,0 days 01:23:30.732000,2,Yellow,Imola,2021
+751,0 days 01:24:44.242000,4,SCDeployed,Imola,2021
+752,0 days 01:27:40.736000,5,Red,Imola,2021
+753,0 days 01:49:48.562000,1,AllClear,Imola,2021
+754,0 days 01:58:09.632000,2,Yellow,Imola,2021
+755,0 days 01:58:29.648000,1,AllClear,Imola,2021
+756,0 days 02:02:24.487000,2,Yellow,Imola,2021
+757,0 days 02:02:40.089000,1,AllClear,Imola,2021
+758,0 days 02:33:24.703000,2,Yellow,Imola,2021
+759,0 days 02:33:32.700000,1,AllClear,Imola,2021
+760,0 days 00:00:00,1,AllClear,Portimão,2021
+761,0 days 00:35:04.391000,4,SCDeployed,Portimão,2021
+762,0 days 00:44:53.571000,1,AllClear,Portimão,2021
+763,0 days 00:13:38.039000,1,AllClear,Barcelona,2021
+764,0 days 00:43:22.754000,2,Yellow,Barcelona,2021
+765,0 days 00:44:22.323000,4,SCDeployed,Barcelona,2021
+766,0 days 00:48:47.890000,1,AllClear,Barcelona,2021
+767,0 days 00:00:00,1,AllClear,Monte Carlo,2021
+768,0 days 00:02:49.680000,1,AllClear,Baku,2021
+769,0 days 00:27:39.207000,2,Yellow,Baku,2021
+770,0 days 00:27:48.096000,1,AllClear,Baku,2021
+771,0 days 00:28:26.329000,2,Yellow,Baku,2021
+772,0 days 00:28:30.945000,1,AllClear,Baku,2021
+773,0 days 00:32:17.953000,2,Yellow,Baku,2021
+774,0 days 00:32:19.329000,1,AllClear,Baku,2021
+775,0 days 00:33:27.961000,2,Yellow,Baku,2021
+776,0 days 00:33:32.467000,1,AllClear,Baku,2021
+777,0 days 00:41:04.172000,2,Yellow,Baku,2021
+778,0 days 00:41:08.798000,1,AllClear,Baku,2021
+779,0 days 00:53:27.543000,2,Yellow,Baku,2021
+780,0 days 00:53:51.158000,1,AllClear,Baku,2021
+781,0 days 01:15:29.316000,2,Yellow,Baku,2021
+782,0 days 01:15:31.501000,1,AllClear,Baku,2021
+783,0 days 01:17:24.211000,2,Yellow,Baku,2021
+784,0 days 01:17:34.620000,1,AllClear,Baku,2021
+785,0 days 01:27:57.646000,2,Yellow,Baku,2021
+786,0 days 01:28:32.488000,4,SCDeployed,Baku,2021
+787,0 days 01:41:42.267000,1,AllClear,Baku,2021
+788,0 days 02:01:37.754000,2,Yellow,Baku,2021
+789,0 days 02:02:46.814000,4,SCDeployed,Baku,2021
+790,0 days 02:06:03.265000,5,Red,Baku,2021
+791,0 days 02:08:36.346000,1,AllClear,Baku,2021
+792,0 days 02:10:24.360000,2,Yellow,Baku,2021
+793,0 days 02:10:37.354000,1,AllClear,Baku,2021
+794,0 days 02:44:10.459000,2,Yellow,Baku,2021
+795,0 days 02:44:16.002000,1,AllClear,Baku,2021
+796,0 days 02:48:39.043000,2,Yellow,Baku,2021
+797,0 days 02:50:42.346000,1,AllClear,Baku,2021
+798,0 days 00:01:22.354000,1,AllClear,Le Castellet,2021
+799,0 days 00:00:00,1,AllClear,Spielberg,2021
+800,0 days 00:33:34.794000,2,Yellow,Spielberg,2021
+801,0 days 00:33:38.604000,1,AllClear,Spielberg,2021
+802,0 days 00:00:00,1,AllClear,Spielberg,2021
+803,0 days 00:33:34.794000,2,Yellow,Spielberg,2021
+804,0 days 00:33:38.604000,1,AllClear,Spielberg,2021
+805,0 days 00:02:51.800000,1,AllClear,Silverstone,2021
+806,0 days 00:02:51.800000,2,Yellow,Silverstone,2021
+807,0 days 00:07:27.496000,1,AllClear,Silverstone,2021
+808,0 days 00:21:27.130000,2,Yellow,Silverstone,2021
+809,0 days 00:21:33.982000,1,AllClear,Silverstone,2021
+810,0 days 01:03:17.629000,2,Yellow,Silverstone,2021
+811,0 days 01:03:31.052000,4,SCDeployed,Silverstone,2021
+812,0 days 01:05:38.849000,5,Red,Silverstone,2021
+813,0 days 01:30:42.127000,1,AllClear,Silverstone,2021
+814,0 days 01:46:06.806000,2,Yellow,Silverstone,2021
+815,0 days 01:46:15.709000,1,AllClear,Silverstone,2021
+816,0 days 02:52:54.926000,2,Yellow,Silverstone,2021
+817,0 days 02:53:04.718000,1,AllClear,Silverstone,2021
+818,0 days 00:07:00.122000,1,AllClear,Budapest,2021
+819,0 days 01:02:29.505000,2,Yellow,Budapest,2021
+820,0 days 01:03:23.239000,4,SCDeployed,Budapest,2021
+821,0 days 01:06:15.187000,5,Red,Budapest,2021
+822,0 days 01:21:35.973000,1,AllClear,Budapest,2021
+823,0 days 02:57:17.504000,2,Yellow,Budapest,2021
+824,0 days 02:57:23.516000,1,AllClear,Budapest,2021
+825,0 days 03:08:31.789000,2,Yellow,Budapest,2021
+826,0 days 00:00:00,1,AllClear,Spa-Francorchamps,2021
+827,0 days 00:25:25.432000,2,Yellow,Spa-Francorchamps,2021
+828,0 days 00:32:17.778000,1,AllClear,Spa-Francorchamps,2021
+829,0 days 01:29:40.939000,5,Red,Spa-Francorchamps,2021
+830,0 days 04:10:20.221000,1,AllClear,Spa-Francorchamps,2021
+831,0 days 04:24:35.144000,5,Red,Spa-Francorchamps,2021
+832,0 days 00:00:00,1,AllClear,Zandvoort,2021
+833,0 days 01:48:13.346000,2,Yellow,Zandvoort,2021
+834,0 days 01:48:20.519000,1,AllClear,Zandvoort,2021
+835,0 days 00:00:00,2,Yellow,Monza,2021
+836,0 days 00:07:57.070000,1,AllClear,Monza,2021
+837,0 days 01:03:01.414000,2,Yellow,Monza,2021
+838,0 days 01:03:10.010000,1,AllClear,Monza,2021
+839,0 days 01:03:21.515000,6,VSCDeployed,Monza,2021
+840,0 days 01:04:00.484000,7,VSCEnding,Monza,2021
+841,0 days 01:04:10.726000,1,AllClear,Monza,2021
+842,0 days 01:39:26.397000,2,Yellow,Monza,2021
+843,0 days 01:39:40.973000,4,SCDeployed,Monza,2021
+844,0 days 01:50:52.042000,1,AllClear,Monza,2021
+845,0 days 01:53:07.940000,2,Yellow,Monza,2021
+846,0 days 01:53:17.838000,1,AllClear,Monza,2021
+847,0 days 02:06:06.050000,2,Yellow,Monza,2021
+848,0 days 02:06:32.398000,1,AllClear,Monza,2021
+849,0 days 02:09:25.958000,2,Yellow,Monza,2021
+850,0 days 02:10:03.983000,6,VSCDeployed,Monza,2021
+851,0 days 02:10:59.312000,7,VSCEnding,Monza,2021
+852,0 days 02:11:10.949000,1,AllClear,Monza,2021
+853,0 days 00:00:00,1,AllClear,Sochi,2021
+854,0 days 01:05:20.560000,2,Yellow,Sochi,2021
+855,0 days 01:05:38.804000,1,AllClear,Sochi,2021
+856,0 days 02:22:19.389000,2,Yellow,Sochi,2021
+857,0 days 02:22:20.695000,1,AllClear,Sochi,2021
+858,0 days 02:22:23.311000,2,Yellow,Sochi,2021
+859,0 days 02:22:28.703000,1,AllClear,Sochi,2021
+860,0 days 02:23:48.889000,2,Yellow,Sochi,2021
+861,0 days 02:23:56.244000,1,AllClear,Sochi,2021
+862,0 days 02:24:03.459000,2,Yellow,Sochi,2021
+863,0 days 02:24:07.039000,1,AllClear,Sochi,2021
+864,0 days 02:28:34.381000,2,Yellow,Sochi,2021
+865,0 days 02:28:39.190000,1,AllClear,Sochi,2021
+866,0 days 02:28:52.985000,2,Yellow,Sochi,2021
+867,0 days 02:29:16.753000,1,AllClear,Sochi,2021
+868,0 days 02:29:40.179000,2,Yellow,Sochi,2021
+869,0 days 02:30:01.080000,1,AllClear,Sochi,2021
+870,0 days 00:00:00,2,Yellow,Istanbul,2021
+871,0 days 00:06:29.703000,1,AllClear,Istanbul,2021
+872,0 days 00:33:30.711000,2,Yellow,Istanbul,2021
+873,0 days 00:33:40.018000,1,AllClear,Istanbul,2021
+874,0 days 01:02:34.600000,2,Yellow,Istanbul,2021
+875,0 days 01:02:38.755000,1,AllClear,Istanbul,2021
+876,0 days 01:03:41.022000,2,Yellow,Istanbul,2021
+877,0 days 01:03:53.827000,1,AllClear,Istanbul,2021
+878,0 days 01:04:35.505000,2,Yellow,Istanbul,2021
+879,0 days 01:04:40.746000,1,AllClear,Istanbul,2021
+880,0 days 01:37:09.369000,2,Yellow,Istanbul,2021
+881,0 days 01:37:15.408000,1,AllClear,Istanbul,2021
+882,0 days 02:00:43.862000,2,Yellow,Istanbul,2021
+883,0 days 02:00:47.732000,1,AllClear,Istanbul,2021
+884,0 days 02:01:14.067000,2,Yellow,Istanbul,2021
+885,0 days 02:01:15.601000,1,AllClear,Istanbul,2021
+886,0 days 00:00:00,1,AllClear,Austin,2021
+887,0 days 01:02:52.943000,2,Yellow,Austin,2021
+888,0 days 01:03:15.704000,1,AllClear,Austin,2021
+889,0 days 01:48:33.645000,6,VSCDeployed,Austin,2021
+890,0 days 01:48:53.725000,7,VSCEnding,Austin,2021
+891,0 days 01:49:06.486000,1,AllClear,Austin,2021
+892,0 days 02:31:31.754000,2,Yellow,Austin,2021
+893,0 days 02:31:35.851000,1,AllClear,Austin,2021
+894,0 days 00:00:00,2,Yellow,Mexico City,2021
+895,0 days 00:07:05.555000,1,AllClear,Mexico City,2021
+896,0 days 01:02:25.133000,2,Yellow,Mexico City,2021
+897,0 days 01:03:02.255000,4,SCDeployed,Mexico City,2021
+898,0 days 01:10:07.807000,1,AllClear,Mexico City,2021
+899,0 days 00:13:56.358000,1,AllClear,São Paulo,2021
+900,0 days 01:08:53.051000,4,SCDeployed,São Paulo,2021
+901,0 days 01:15:55.042000,1,AllClear,São Paulo,2021
+902,0 days 01:19:10.057000,6,VSCDeployed,São Paulo,2021
+903,0 days 01:22:28.753000,7,VSCEnding,São Paulo,2021
+904,0 days 01:22:40.247000,1,AllClear,São Paulo,2021
+905,0 days 01:43:09.876000,6,VSCDeployed,São Paulo,2021
+906,0 days 01:43:57.781000,7,VSCEnding,São Paulo,2021
+907,0 days 01:44:11.332000,1,AllClear,São Paulo,2021
+908,0 days 00:00:03.111000,2,Yellow,Lusail,2021
+909,0 days 00:03:52.277000,1,AllClear,Lusail,2021
+910,0 days 00:03:59.214000,2,Yellow,Lusail,2021
+911,0 days 00:04:01.194000,1,AllClear,Lusail,2021
+912,0 days 00:04:05.123000,2,Yellow,Lusail,2021
+913,0 days 00:04:07.302000,1,AllClear,Lusail,2021
+914,0 days 00:04:15.014000,2,Yellow,Lusail,2021
+915,0 days 00:04:16.350000,1,AllClear,Lusail,2021
+916,0 days 00:04:18.118000,2,Yellow,Lusail,2021
+917,0 days 00:04:20.445000,1,AllClear,Lusail,2021
+918,0 days 00:04:32.642000,2,Yellow,Lusail,2021
+919,0 days 00:04:34.814000,1,AllClear,Lusail,2021
+920,0 days 01:00:55.060000,2,Yellow,Lusail,2021
+921,0 days 01:00:56.400000,1,AllClear,Lusail,2021
+922,0 days 01:51:29.252000,2,Yellow,Lusail,2021
+923,0 days 01:51:51.290000,1,AllClear,Lusail,2021
+924,0 days 01:52:03.476000,2,Yellow,Lusail,2021
+925,0 days 01:52:14.727000,1,AllClear,Lusail,2021
+926,0 days 02:16:44.912000,2,Yellow,Lusail,2021
+927,0 days 02:16:52.398000,1,AllClear,Lusail,2021
+928,0 days 02:16:53.692000,2,Yellow,Lusail,2021
+929,0 days 02:17:00.909000,1,AllClear,Lusail,2021
+930,0 days 02:19:19.105000,2,Yellow,Lusail,2021
+931,0 days 02:19:21.483000,1,AllClear,Lusail,2021
+932,0 days 02:23:09.971000,6,VSCDeployed,Lusail,2021
+933,0 days 02:25:47.258000,7,VSCEnding,Lusail,2021
+934,0 days 02:25:59.667000,1,AllClear,Lusail,2021
+935,0 days 00:00:00,1,AllClear,Jeddah,2021
+936,0 days 00:30:53.856000,2,Yellow,Jeddah,2021
+937,0 days 00:31:12.451000,1,AllClear,Jeddah,2021
+938,0 days 00:50:13.042000,2,Yellow,Jeddah,2021
+939,0 days 00:50:14.845000,1,AllClear,Jeddah,2021
+940,0 days 01:15:58.449000,2,Yellow,Jeddah,2021
+941,0 days 01:16:10.264000,4,SCDeployed,Jeddah,2021
+942,0 days 01:24:52.688000,5,Red,Jeddah,2021
+943,0 days 01:34:21.474000,1,AllClear,Jeddah,2021
+944,0 days 01:47:47.276000,2,Yellow,Jeddah,2021
+945,0 days 01:48:22.569000,5,Red,Jeddah,2021
+946,0 days 02:00:34.203000,1,AllClear,Jeddah,2021
+947,0 days 02:22:23.419000,2,Yellow,Jeddah,2021
+948,0 days 02:23:10.025000,6,VSCDeployed,Jeddah,2021
+949,0 days 02:24:58.871000,7,VSCEnding,Jeddah,2021
+950,0 days 02:25:09.931000,1,AllClear,Jeddah,2021
+951,0 days 02:30:07.808000,6,VSCDeployed,Jeddah,2021
+952,0 days 02:30:43.353000,7,VSCEnding,Jeddah,2021
+953,0 days 02:30:58.271000,1,AllClear,Jeddah,2021
+954,0 days 02:33:02.530000,6,VSCDeployed,Jeddah,2021
+955,0 days 02:40:12.660000,7,VSCEnding,Jeddah,2021
+956,0 days 02:40:23.767000,1,AllClear,Jeddah,2021
+957,0 days 02:44:52.318000,6,VSCDeployed,Jeddah,2021
+958,0 days 02:45:26.606000,7,VSCEnding,Jeddah,2021
+959,0 days 02:45:39.453000,1,AllClear,Jeddah,2021
+960,0 days 00:00:00,1,AllClear,Yas Island,2021
+961,0 days 01:40:06.247000,2,Yellow,Yas Island,2021
+962,0 days 01:40:47.317000,1,AllClear,Yas Island,2021
+963,0 days 01:55:03.019000,6,VSCDeployed,Yas Island,2021
+964,0 days 01:57:53.608000,7,VSCEnding,Yas Island,2021
+965,0 days 01:58:06.176000,1,AllClear,Yas Island,2021
+966,0 days 02:20:38.379000,2,Yellow,Yas Island,2021
+967,0 days 02:20:54.313000,4,SCDeployed,Yas Island,2021
+968,0 days 02:31:02.298000,1,AllClear,Yas Island,2021
+969,0 days 00:00:00,2,Yellow,Spain,2022
+970,0 days 00:07:30.185000,1,AllClear,Spain,2022
+971,0 days 01:02:47.426000,2,Yellow,Spain,2022
+972,0 days 01:02:59.996000,1,AllClear,Spain,2022
+973,0 days 01:11:36.002000,2,Yellow,Spain,2022
+974,0 days 01:11:48.338000,1,AllClear,Spain,2022
+975,0 days 01:14:25.457000,2,Yellow,Spain,2022
+976,0 days 01:14:33.638000,1,AllClear,Spain,2022
+977,0 days 00:13:36.667000,1,AllClear,Bahrain,2022
+978,0 days 01:25:49.895000,2,Yellow,Bahrain,2022
+979,0 days 01:25:58.557000,1,AllClear,Bahrain,2022
+980,0 days 02:17:19.828000,6,VSCDeployed,Bahrain,2022
+981,0 days 02:17:39.726000,4,SCDeployed,Bahrain,2022
+982,0 days 02:28:54.157000,1,AllClear,Bahrain,2022
+983,0 days 02:38:53.199000,2,Yellow,Bahrain,2022
+984,0 days 00:13:36.667000,1,AllClear,Sakhir,2022
+985,0 days 01:25:49.895000,2,Yellow,Sakhir,2022
+986,0 days 01:25:58.557000,1,AllClear,Sakhir,2022
+987,0 days 02:17:19.828000,6,VSCDeployed,Sakhir,2022
+988,0 days 02:17:39.726000,4,SCDeployed,Sakhir,2022
+989,0 days 02:28:54.157000,1,AllClear,Sakhir,2022
+990,0 days 02:38:53.199000,2,Yellow,Sakhir,2022
+991,0 days 00:00:00,1,AllClear,Jeddah,2022
+992,0 days 00:01:46.583000,2,Yellow,Jeddah,2022
+993,0 days 00:11:00.955000,1,AllClear,Jeddah,2022
+994,0 days 00:24:06.423000,2,Yellow,Jeddah,2022
+995,0 days 00:31:02.766000,1,AllClear,Jeddah,2022
+996,0 days 01:27:06.240000,2,Yellow,Jeddah,2022
+997,0 days 01:27:32.923000,6,VSCDeployed,Jeddah,2022
+998,0 days 01:27:51.962000,4,SCDeployed,Jeddah,2022
+999,0 days 01:38:40.471000,1,AllClear,Jeddah,2022
+1000,0 days 02:05:13.559000,2,Yellow,Jeddah,2022
+1001,0 days 02:06:20.738000,6,VSCDeployed,Jeddah,2022
+1002,0 days 02:11:24.173000,7,VSCEnding,Jeddah,2022
+1003,0 days 02:11:36.808000,1,AllClear,Jeddah,2022
+1004,0 days 02:23:32.259000,2,Yellow,Jeddah,2022
+1005,0 days 02:23:39.541000,1,AllClear,Jeddah,2022
+1006,0 days 02:23:40.529000,2,Yellow,Jeddah,2022
+1007,0 days 02:23:48.232000,1,AllClear,Jeddah,2022
+1008,0 days 02:24:12.424000,2,Yellow,Jeddah,2022
+1009,0 days 00:11:29.385000,1,AllClear,Melbourne,2022
+1010,0 days 01:04:51.877000,2,Yellow,Melbourne,2022
+1011,0 days 01:05:47.999000,6,VSCDeployed,Melbourne,2022
+1012,0 days 01:06:34.882000,4,SCDeployed,Melbourne,2022
+1013,0 days 01:13:33.242000,1,AllClear,Melbourne,2022
+1014,0 days 01:37:24.288000,2,Yellow,Melbourne,2022
+1015,0 days 01:37:26.582000,1,AllClear,Melbourne,2022
+1016,0 days 01:37:28.643000,2,Yellow,Melbourne,2022
+1017,0 days 01:37:40.082000,4,SCDeployed,Melbourne,2022
+1018,0 days 01:45:30.263000,1,AllClear,Melbourne,2022
+1019,0 days 02:02:57.882000,6,VSCDeployed,Melbourne,2022
+1020,0 days 02:04:42.705000,7,VSCEnding,Melbourne,2022
+1021,0 days 02:04:56.094000,1,AllClear,Melbourne,2022
+1022,0 days 02:32:54.609000,2,Yellow,Melbourne,2022
+1023,0 days 02:32:56.747000,1,AllClear,Melbourne,2022
+1024,0 days 02:33:25.544000,2,Yellow,Melbourne,2022
+1025,0 days 02:35:21.742000,1,AllClear,Melbourne,2022
+1026,0 days 00:00:00,1,AllClear,Imola,2022
+1027,0 days 01:02:23.363000,2,Yellow,Imola,2022
+1028,0 days 01:03:13.645000,4,SCDeployed,Imola,2022
+1029,0 days 01:10:53.647000,1,AllClear,Imola,2022
+1030,0 days 01:42:12.719000,2,Yellow,Imola,2022
+1031,0 days 01:42:19.717000,1,AllClear,Imola,2022
+1032,0 days 02:20:45.792000,2,Yellow,Imola,2022
+1033,0 days 02:20:55.223000,1,AllClear,Imola,2022
+1034,0 days 00:02:08.769000,1,AllClear,Miami,2022
+1035,0 days 01:33:01.398000,2,Yellow,Miami,2022
+1036,0 days 01:33:11.895000,1,AllClear,Miami,2022
+1037,0 days 02:05:28.249000,2,Yellow,Miami,2022
+1038,0 days 02:05:28.608000,6,VSCDeployed,Miami,2022
+1039,0 days 02:06:49.739000,4,SCDeployed,Miami,2022
+1040,0 days 02:19:42.516000,1,AllClear,Miami,2022
+1041,0 days 02:20:09.086000,2,Yellow,Miami,2022
+1042,0 days 02:20:10.661000,1,AllClear,Miami,2022
+1043,0 days 02:31:02.228000,2,Yellow,Miami,2022
+1044,0 days 02:31:09.097000,1,AllClear,Miami,2022
+1045,0 days 02:34:58.268000,2,Yellow,Miami,2022
+1046,0 days 02:34:59.877000,1,AllClear,Miami,2022
+1047,0 days 00:00:00,2,Yellow,Barcelona,2022
+1048,0 days 00:07:30.185000,1,AllClear,Barcelona,2022
+1049,0 days 01:02:47.426000,2,Yellow,Barcelona,2022
+1050,0 days 01:02:59.996000,1,AllClear,Barcelona,2022
+1051,0 days 01:11:36.002000,2,Yellow,Barcelona,2022
+1052,0 days 01:11:48.338000,1,AllClear,Barcelona,2022
+1053,0 days 01:14:25.457000,2,Yellow,Barcelona,2022
+1054,0 days 01:14:33.638000,1,AllClear,Barcelona,2022
+1055,0 days 00:00:00,1,AllClear,Monaco,2022
+1056,0 days 00:25:31.516000,2,Yellow,Monaco,2022
+1057,0 days 00:25:37.692000,1,AllClear,Monaco,2022
+1058,0 days 00:51:03.026000,2,Yellow,Monaco,2022
+1059,0 days 00:51:13.019000,1,AllClear,Monaco,2022
+1060,0 days 01:19:22.344000,5,Red,Monaco,2022
+1061,0 days 02:02:18.135000,1,AllClear,Monaco,2022
+1062,0 days 02:05:59.441000,2,Yellow,Monaco,2022
+1063,0 days 02:06:15.238000,1,AllClear,Monaco,2022
+1064,0 days 02:07:21.514000,4,SCDeployed,Monaco,2022
+1065,0 days 02:08:37.509000,1,AllClear,Monaco,2022
+1066,0 days 02:14:27.027000,2,Yellow,Monaco,2022
+1067,0 days 02:14:29.640000,1,AllClear,Monaco,2022
+1068,0 days 02:21:45.327000,2,Yellow,Monaco,2022
+1069,0 days 02:21:52.470000,1,AllClear,Monaco,2022
+1070,0 days 02:22:59.472000,2,Yellow,Monaco,2022
+1071,0 days 02:23:06.994000,1,AllClear,Monaco,2022
+1072,0 days 02:33:15.824000,2,Yellow,Monaco,2022
+1073,0 days 02:33:19.417000,1,AllClear,Monaco,2022
+1074,0 days 02:37:54.716000,2,Yellow,Monaco,2022
+1075,0 days 02:38:01.377000,1,AllClear,Monaco,2022
+1076,0 days 02:46:32.826000,2,Yellow,Monaco,2022
+1077,0 days 02:46:46.261000,6,VSCDeployed,Monaco,2022
+1078,0 days 02:48:33.853000,4,SCDeployed,Monaco,2022
+1079,0 days 02:54:02.815000,5,Red,Monaco,2022
+1080,0 days 03:10:08.667000,1,AllClear,Monaco,2022
+1081,0 days 03:50:03.263000,2,Yellow,Monaco,2022
+1082,0 days 03:50:10.544000,1,AllClear,Monaco,2022
+1083,0 days 03:54:35,2,Yellow,Monaco,2022
+1084,0 days 03:54:43.128000,1,AllClear,Monaco,2022
+1085,0 days 04:04:20.991000,2,Yellow,Monaco,2022
+1086,0 days 00:00:03.133000,2,Yellow,Baku,2022
+1087,0 days 00:00:12.284000,1,AllClear,Baku,2022
+1088,0 days 00:00:14.876000,2,Yellow,Baku,2022
+1089,0 days 00:11:48.278000,1,AllClear,Baku,2022
+1090,0 days 00:20:40.673000,2,Yellow,Baku,2022
+1091,0 days 00:21:07.849000,1,AllClear,Baku,2022
+1092,0 days 00:51:37.173000,2,Yellow,Baku,2022
+1093,0 days 00:51:43.773000,1,AllClear,Baku,2022
+1094,0 days 00:51:47.484000,2,Yellow,Baku,2022
+1095,0 days 00:52:07.769000,1,AllClear,Baku,2022
+1096,0 days 00:52:14.690000,2,Yellow,Baku,2022
+1097,0 days 00:52:24.748000,1,AllClear,Baku,2022
+1098,0 days 01:18:10.247000,2,Yellow,Baku,2022
+1099,0 days 01:19:09.213000,6,VSCDeployed,Baku,2022
+1100,0 days 01:21:06.431000,7,VSCEnding,Baku,2022
+1101,0 days 01:21:20.621000,1,AllClear,Baku,2022
+1102,0 days 01:26:26.185000,2,Yellow,Baku,2022
+1103,0 days 01:26:32.065000,1,AllClear,Baku,2022
+1104,0 days 02:02:45.972000,2,Yellow,Baku,2022
+1105,0 days 02:03:22.133000,6,VSCDeployed,Baku,2022
+1106,0 days 02:07:27.871000,7,VSCEnding,Baku,2022
+1107,0 days 02:07:40.908000,1,AllClear,Baku,2022
+1108,0 days 02:38:28.902000,2,Yellow,Baku,2022
+1109,0 days 00:00:00,2,Yellow,Montréal,2022
+1110,0 days 00:06:01.850000,1,AllClear,Montréal,2022
+1111,0 days 01:12:46.079000,2,Yellow,Montréal,2022
+1112,0 days 01:13:11.665000,6,VSCDeployed,Montréal,2022
+1113,0 days 01:15:55.176000,7,VSCEnding,Montréal,2022
+1114,0 days 01:16:09.743000,1,AllClear,Montréal,2022
+1115,0 days 01:27:52.759000,2,Yellow,Montréal,2022
+1116,0 days 01:28:10.130000,6,VSCDeployed,Montréal,2022
+1117,0 days 01:29:35.617000,7,VSCEnding,Montréal,2022
+1118,0 days 01:29:49.731000,1,AllClear,Montréal,2022
+1119,0 days 02:06:35.092000,2,Yellow,Montréal,2022
+1120,0 days 02:07:19.350000,4,SCDeployed,Montréal,2022
+1121,0 days 02:18:05.440000,1,AllClear,Montréal,2022
+1122,0 days 00:00:00,1,AllClear,Silverstone,2022
+1123,0 days 01:02:26.276000,2,Yellow,Silverstone,2022
+1124,0 days 01:02:38.097000,5,Red,Silverstone,2022
+1125,0 days 01:54:02.388000,1,AllClear,Silverstone,2022
+1126,0 days 02:11:53.059000,2,Yellow,Silverstone,2022
+1127,0 days 02:12:03.034000,1,AllClear,Silverstone,2022
+1128,0 days 02:55:58.711000,2,Yellow,Silverstone,2022
+1129,0 days 02:56:11.429000,4,SCDeployed,Silverstone,2022
+1130,0 days 03:04:51.200000,1,AllClear,Silverstone,2022
+1131,0 days 03:20:51.705000,2,Yellow,Silverstone,2022
+1132,0 days 03:22:47.062000,1,AllClear,Silverstone,2022
+1133,0 days 00:08:05.416000,1,AllClear,Spielberg,2022
+1134,0 days 01:48:58.964000,2,Yellow,Spielberg,2022
+1135,0 days 01:49:14.531000,1,AllClear,Spielberg,2022
+1136,0 days 02:09:18.938000,2,Yellow,Spielberg,2022
+1137,0 days 02:09:21.419000,1,AllClear,Spielberg,2022
+1138,0 days 02:09:26.637000,2,Yellow,Spielberg,2022
+1139,0 days 02:10:18.024000,6,VSCDeployed,Spielberg,2022
+1140,0 days 02:12:46.453000,7,VSCEnding,Spielberg,2022
+1141,0 days 02:12:58.041000,1,AllClear,Spielberg,2022
+1142,0 days 00:00:00,1,AllClear,Le Castellet,2022
+1143,0 days 00:15:20.751000,2,Yellow,Le Castellet,2022
+1144,0 days 00:15:23.161000,1,AllClear,Le Castellet,2022
+1145,0 days 00:15:24.861000,2,Yellow,Le Castellet,2022
+1146,0 days 00:15:27.740000,1,AllClear,Le Castellet,2022
+1147,0 days 00:43:42.474000,2,Yellow,Le Castellet,2022
+1148,0 days 00:43:57.738000,1,AllClear,Le Castellet,2022
+1149,0 days 01:11:55.277000,2,Yellow,Le Castellet,2022
+1150,0 days 01:12:15.584000,4,SCDeployed,Le Castellet,2022
+1151,0 days 01:18:02.505000,1,AllClear,Le Castellet,2022
+1152,0 days 01:21:18.845000,2,Yellow,Le Castellet,2022
+1153,0 days 01:21:37,1,AllClear,Le Castellet,2022
+1154,0 days 01:47:01.605000,2,Yellow,Le Castellet,2022
+1155,0 days 01:47:07.661000,1,AllClear,Le Castellet,2022
+1156,0 days 02:05:04.377000,2,Yellow,Le Castellet,2022
+1157,0 days 02:05:47.311000,6,VSCDeployed,Le Castellet,2022
+1158,0 days 02:06:45.700000,7,VSCEnding,Le Castellet,2022
+1159,0 days 02:07:44.438000,1,AllClear,Le Castellet,2022
+1160,0 days 00:00:00,2,Yellow,Budapest,2022
+1161,0 days 00:04:16.015000,1,AllClear,Budapest,2022
+1162,0 days 01:02:47.449000,2,Yellow,Budapest,2022
+1163,0 days 01:03:00.518000,1,AllClear,Budapest,2022
+1164,0 days 01:03:35.598000,6,VSCDeployed,Budapest,2022
+1165,0 days 01:05:42.914000,7,VSCEnding,Budapest,2022
+1166,0 days 01:05:53.098000,1,AllClear,Budapest,2022
+1167,0 days 01:51:41.509000,2,Yellow,Budapest,2022
+1168,0 days 01:51:56.165000,1,AllClear,Budapest,2022
+1169,0 days 02:00:44.321000,2,Yellow,Budapest,2022
+1170,0 days 02:00:46.696000,1,AllClear,Budapest,2022
+1171,0 days 02:09:19.027000,2,Yellow,Budapest,2022
+1172,0 days 02:09:21.966000,1,AllClear,Budapest,2022
+1173,0 days 02:09:26.516000,2,Yellow,Budapest,2022
+1174,0 days 02:09:28.570000,1,AllClear,Budapest,2022
+1175,0 days 02:36:59.872000,2,Yellow,Budapest,2022
+1176,0 days 02:37:36.563000,6,VSCDeployed,Budapest,2022
+1177,0 days 02:39:27.997000,7,VSCEnding,Budapest,2022
+1178,0 days 02:39:41.769000,1,AllClear,Budapest,2022
+1179,0 days 00:01:29.745000,1,AllClear,Spa-Francorchamps,2022
+1180,0 days 00:30:37.879000,2,Yellow,Spa-Francorchamps,2022
+1181,0 days 00:31:09.838000,1,AllClear,Spa-Francorchamps,2022
+1182,0 days 01:03:26.855000,2,Yellow,Spa-Francorchamps,2022
+1183,0 days 01:03:32.069000,1,AllClear,Spa-Francorchamps,2022
+1184,0 days 01:05:18.853000,2,Yellow,Spa-Francorchamps,2022
+1185,0 days 01:05:51.780000,4,SCDeployed,Spa-Francorchamps,2022
+1186,0 days 01:12:57.770000,1,AllClear,Spa-Francorchamps,2022
+1187,0 days 02:28:40.049000,2,Yellow,Spa-Francorchamps,2022
+1188,0 days 02:30:56.014000,1,AllClear,Spa-Francorchamps,2022
+1189,0 days 00:00:00,1,AllClear,Zandvoort,2022
+1190,0 days 01:03:40.534000,2,Yellow,Zandvoort,2022
+1191,0 days 01:03:46.992000,1,AllClear,Zandvoort,2022
+1192,0 days 01:06:24.939000,2,Yellow,Zandvoort,2022
+1193,0 days 01:06:28.074000,1,AllClear,Zandvoort,2022
+1194,0 days 01:57:59.631000,2,Yellow,Zandvoort,2022
+1195,0 days 01:59:00.629000,1,AllClear,Zandvoort,2022
+1196,0 days 02:01:59.716000,2,Yellow,Zandvoort,2022
+1197,0 days 02:02:28.234000,6,VSCDeployed,Zandvoort,2022
+1198,0 days 02:06:03.103000,7,VSCEnding,Zandvoort,2022
+1199,0 days 02:06:16.780000,1,AllClear,Zandvoort,2022
+1200,0 days 02:13:01.978000,2,Yellow,Zandvoort,2022
+1201,0 days 02:14:18.971000,4,SCDeployed,Zandvoort,2022
+1202,0 days 02:23:46.597000,1,AllClear,Zandvoort,2022
+1203,0 days 00:07:13.128000,1,AllClear,Monza,2022
+1204,0 days 00:07:13.128000,2,Yellow,Monza,2022
+1205,0 days 00:08:32.384000,1,AllClear,Monza,2022
+1206,0 days 01:18:18.928000,2,Yellow,Monza,2022
+1207,0 days 01:18:28.703000,1,AllClear,Monza,2022
+1208,0 days 01:18:29.579000,2,Yellow,Monza,2022
+1209,0 days 01:18:50.912000,6,VSCDeployed,Monza,2022
+1210,0 days 01:20:01.263000,7,VSCEnding,Monza,2022
+1211,0 days 01:20:14.670000,1,AllClear,Monza,2022
+1212,0 days 02:09:42.002000,2,Yellow,Monza,2022
+1213,0 days 02:10:43.523000,4,SCDeployed,Monza,2022
+1214,0 days 00:14:57.999000,1,AllClear,Marina Bay,2022
+1215,0 days 00:48:08.380000,2,Yellow,Marina Bay,2022
+1216,0 days 01:19:47.419000,1,AllClear,Marina Bay,2022
+1217,0 days 01:37:26.264000,2,Yellow,Marina Bay,2022
+1218,0 days 01:46:46.991000,1,AllClear,Marina Bay,2022
+1219,0 days 02:08:46.566000,2,Yellow,Marina Bay,2022
+1220,0 days 02:08:48.063000,1,AllClear,Marina Bay,2022
+1221,0 days 02:21:22.302000,2,Yellow,Marina Bay,2022
+1222,0 days 02:21:28.424000,1,AllClear,Marina Bay,2022
+1223,0 days 02:21:45.120000,2,Yellow,Marina Bay,2022
+1224,0 days 02:23:37.736000,4,SCDeployed,Marina Bay,2022
+1225,0 days 02:30:05.688000,1,AllClear,Marina Bay,2022
+1226,0 days 02:51:31.439000,2,Yellow,Marina Bay,2022
+1227,0 days 02:52:08.287000,6,VSCDeployed,Marina Bay,2022
+1228,0 days 02:55:00.727000,7,VSCEnding,Marina Bay,2022
+1229,0 days 02:55:11.300000,1,AllClear,Marina Bay,2022
+1230,0 days 03:00:45.695000,2,Yellow,Marina Bay,2022
+1231,0 days 03:01:07.906000,1,AllClear,Marina Bay,2022
+1232,0 days 03:01:13.091000,2,Yellow,Marina Bay,2022
+1233,0 days 03:02:02.127000,6,VSCDeployed,Marina Bay,2022
+1234,0 days 03:03:26.325000,7,VSCEnding,Marina Bay,2022
+1235,0 days 03:03:38.220000,1,AllClear,Marina Bay,2022
+1236,0 days 03:05:29.126000,2,Yellow,Marina Bay,2022
+1237,0 days 03:06:56.303000,6,VSCDeployed,Marina Bay,2022
+1238,0 days 03:10:55.964000,7,VSCEnding,Marina Bay,2022
+1239,0 days 03:11:10.227000,1,AllClear,Marina Bay,2022
+1240,0 days 03:17:00.351000,2,Yellow,Marina Bay,2022
+1241,0 days 03:17:06.680000,1,AllClear,Marina Bay,2022
+1242,0 days 03:22:48.614000,2,Yellow,Marina Bay,2022
+1243,0 days 03:23:29.510000,4,SCDeployed,Marina Bay,2022
+1244,0 days 03:33:18.832000,1,AllClear,Marina Bay,2022
+1245,0 days 00:00:00,1,AllClear,Suzuka,2022
+1246,0 days 01:02:52.655000,2,Yellow,Suzuka,2022
+1247,0 days 01:03:12.328000,1,AllClear,Suzuka,2022
+1248,0 days 01:03:47.819000,2,Yellow,Suzuka,2022
+1249,0 days 01:04:10,4,SCDeployed,Suzuka,2022
+1250,0 days 01:07:12.953000,5,Red,Suzuka,2022
+1251,0 days 03:03:47.299000,1,AllClear,Suzuka,2022
+1252,0 days 00:00:00,1,AllClear,Austin,2022
+1253,0 days 00:10:06.521000,2,Yellow,Austin,2022
+1254,0 days 00:10:08.261000,1,AllClear,Austin,2022
+1255,0 days 00:14:45.524000,2,Yellow,Austin,2022
+1256,0 days 00:14:47.025000,1,AllClear,Austin,2022
+1257,0 days 00:14:48.446000,2,Yellow,Austin,2022
+1258,0 days 00:14:50.265000,1,AllClear,Austin,2022
+1259,0 days 00:15:30.757000,2,Yellow,Austin,2022
+1260,0 days 00:15:34.166000,1,AllClear,Austin,2022
+1261,0 days 01:02:54.062000,2,Yellow,Austin,2022
+1262,0 days 01:02:58.311000,1,AllClear,Austin,2022
+1263,0 days 01:32:34.068000,2,Yellow,Austin,2022
+1264,0 days 01:33:06.788000,4,SCDeployed,Austin,2022
+1265,0 days 01:41:54.800000,1,AllClear,Austin,2022
+1266,0 days 01:43:05.660000,2,Yellow,Austin,2022
+1267,0 days 01:43:13.471000,4,SCDeployed,Austin,2022
+1268,0 days 01:52:19.096000,1,AllClear,Austin,2022
+1269,0 days 00:00:02.936000,2,Yellow,Mexico City,2022
+1270,0 days 00:06:31.711000,1,AllClear,Mexico City,2022
+1271,0 days 02:31:34.690000,2,Yellow,Mexico City,2022
+1272,0 days 02:31:57.090000,6,VSCDeployed,Mexico City,2022
+1273,0 days 02:32:50.946000,7,VSCEnding,Mexico City,2022
+1274,0 days 02:33:02.399000,1,AllClear,Mexico City,2022
+1275,0 days 00:13:30.735000,1,AllClear,São Paulo,2022
+1276,0 days 01:02:34.787000,2,Yellow,São Paulo,2022
+1277,0 days 01:02:44.831000,4,SCDeployed,São Paulo,2022
+1278,0 days 01:12:52.027000,1,AllClear,São Paulo,2022
+1279,0 days 01:13:49.890000,2,Yellow,São Paulo,2022
+1280,0 days 01:14:01.337000,1,AllClear,São Paulo,2022
+1281,0 days 02:11:42.913000,2,Yellow,São Paulo,2022
+1282,0 days 02:12:45.520000,6,VSCDeployed,São Paulo,2022
+1283,0 days 02:15:23.432000,4,SCDeployed,São Paulo,2022
+1284,0 days 02:25:12.153000,1,AllClear,São Paulo,2022
+1285,0 days 00:00:00,1,AllClear,Yas Island,2022
+1286,0 days 00:02:19.161000,2,Yellow,Yas Island,2022
+1287,0 days 00:02:21.239000,1,AllClear,Yas Island,2022
+1288,0 days 02:00:17.981000,2,Yellow,Yas Island,2022
+1289,0 days 02:00:27.096000,1,AllClear,Yas Island,2022
+1290,0 days 00:05:28.637000,1,AllClear,Sakhir,2023
+1291,0 days 00:21:59.040000,2,Yellow,Sakhir,2023
+1292,0 days 00:22:03.165000,1,AllClear,Sakhir,2023
+1293,0 days 01:03:07.651000,2,Yellow,Sakhir,2023
+1294,0 days 01:03:08.151000,1,AllClear,Sakhir,2023
+1295,0 days 01:04:15.978000,2,Yellow,Sakhir,2023
+1296,0 days 01:04:51.243000,1,AllClear,Sakhir,2023
+1297,0 days 02:08:59.830000,2,Yellow,Sakhir,2023
+1298,0 days 02:09:18.298000,6,VSCDeployed,Sakhir,2023
+1299,0 days 02:10:53.875000,7,VSCEnding,Sakhir,2023
+1300,0 days 02:11:06.437000,1,AllClear,Sakhir,2023
+1301,0 days 00:05:28.637000,1,AllClear,Sakhir,2023
+1302,0 days 00:21:59.040000,2,Yellow,Sakhir,2023
+1303,0 days 00:22:03.165000,1,AllClear,Sakhir,2023
+1304,0 days 01:03:07.651000,2,Yellow,Sakhir,2023
+1305,0 days 01:03:08.151000,1,AllClear,Sakhir,2023
+1306,0 days 01:04:15.978000,2,Yellow,Sakhir,2023
+1307,0 days 01:04:51.243000,1,AllClear,Sakhir,2023
+1308,0 days 02:08:59.830000,2,Yellow,Sakhir,2023
+1309,0 days 02:09:18.298000,6,VSCDeployed,Sakhir,2023
+1310,0 days 02:10:53.875000,7,VSCEnding,Sakhir,2023
+1311,0 days 02:11:06.437000,1,AllClear,Sakhir,2023
+1312,0 days 00:00:00,1,AllClear,Jeddah,2023
+1313,0 days 01:29:32.087000,2,Yellow,Jeddah,2023
+1314,0 days 01:30:11.102000,4,SCDeployed,Jeddah,2023
+1315,0 days 01:37:27.407000,1,AllClear,Jeddah,2023
+1316,0 days 00:00:00,2,Yellow,Melbourne,2023
+1317,0 days 00:13:07.538000,1,AllClear,Melbourne,2023
+1318,0 days 00:30:47.338000,2,Yellow,Melbourne,2023
+1319,0 days 00:39:12.957000,1,AllClear,Melbourne,2023
+1320,0 days 01:02:44.534000,2,Yellow,Melbourne,2023
+1321,0 days 01:03:25.831000,4,SCDeployed,Melbourne,2023
+1322,0 days 01:08:10.984000,1,AllClear,Melbourne,2023
+1323,0 days 01:13:10.543000,2,Yellow,Melbourne,2023
+1324,0 days 01:13:23.246000,4,SCDeployed,Melbourne,2023
+1325,0 days 01:16:01.056000,5,Red,Melbourne,2023
+1326,0 days 01:31:41.671000,1,AllClear,Melbourne,2023
+1327,0 days 01:47:34.722000,6,VSCDeployed,Melbourne,2023
+1328,0 days 01:49:37.049000,7,VSCEnding,Melbourne,2023
+1329,0 days 01:49:51.267000,1,AllClear,Melbourne,2023
+1330,0 days 02:36:29.985000,2,Yellow,Melbourne,2023
+1331,0 days 02:36:38.329000,1,AllClear,Melbourne,2023
+1332,0 days 02:37:30.688000,4,SCDeployed,Melbourne,2023
+1333,0 days 02:40:06.264000,5,Red,Melbourne,2023
+1334,0 days 02:50:08.585000,1,AllClear,Melbourne,2023
+1335,0 days 02:59:13.048000,2,Yellow,Melbourne,2023
+1336,0 days 02:59:25.329000,5,Red,Melbourne,2023
+1337,0 days 03:22:14.751000,1,AllClear,Melbourne,2023
+1338,0 days 03:36:04.835000,5,Red,Melbourne,2023
+1339,0 days 00:00:00,1,AllClear,Baku,2023
+1340,0 days 00:05:00.728000,2,Yellow,Baku,2023
+1341,0 days 00:05:07.931000,1,AllClear,Baku,2023
+1342,0 days 00:11:22.236000,2,Yellow,Baku,2023
+1343,0 days 00:12:05.735000,1,AllClear,Baku,2023
+1344,0 days 00:13:14.953000,2,Yellow,Baku,2023
+1345,0 days 00:13:29.625000,1,AllClear,Baku,2023
+1346,0 days 01:04:04.913000,2,Yellow,Baku,2023
+1347,0 days 01:04:22.382000,1,AllClear,Baku,2023
+1348,0 days 01:20:00.630000,2,Yellow,Baku,2023
+1349,0 days 01:20:08.130000,1,AllClear,Baku,2023
+1350,0 days 01:20:22.927000,2,Yellow,Baku,2023
+1351,0 days 01:21:22.441000,4,SCDeployed,Baku,2023
+1352,0 days 01:28:42.308000,1,AllClear,Baku,2023
+1353,0 days 01:34:43.021000,2,Yellow,Baku,2023
+1354,0 days 01:34:44.208000,1,AllClear,Baku,2023
+1355,0 days 02:31:24.334000,2,Yellow,Baku,2023
+1356,0 days 02:31:26.428000,1,AllClear,Baku,2023
+1357,0 days 00:00:00,1,AllClear,Miami,2023
+1358,0 days 00:19:40.236000,2,Yellow,Miami,2023
+1359,0 days 00:19:43.236000,1,AllClear,Miami,2023
+1360,0 days 00:19:45.330000,2,Yellow,Miami,2023
+1361,0 days 00:19:48.345000,1,AllClear,Miami,2023
+1362,0 days 00:00:00,1,AllClear,Monaco,2023
+1363,0 days 00:06:38.603000,2,Yellow,Monaco,2023
+1364,0 days 00:06:52.259000,1,AllClear,Monaco,2023
+1365,0 days 00:19:51.886000,2,Yellow,Monaco,2023
+1366,0 days 00:22:06.399000,1,AllClear,Monaco,2023
+1367,0 days 01:02:41.403000,2,Yellow,Monaco,2023
+1368,0 days 01:02:43.872000,1,AllClear,Monaco,2023
+1369,0 days 01:16:53.044000,2,Yellow,Monaco,2023
+1370,0 days 01:17:50.246000,1,AllClear,Monaco,2023
+1371,0 days 01:20:09.353000,2,Yellow,Monaco,2023
+1372,0 days 01:20:19.681000,1,AllClear,Monaco,2023
+1373,0 days 02:13:43.686000,2,Yellow,Monaco,2023
+1374,0 days 02:13:50.999000,1,AllClear,Monaco,2023
+1375,0 days 02:13:52.358000,2,Yellow,Monaco,2023
+1376,0 days 02:14:27.670000,1,AllClear,Monaco,2023
+1377,0 days 02:14:34.107000,2,Yellow,Monaco,2023
+1378,0 days 02:15:46.465000,1,AllClear,Monaco,2023
+1379,0 days 02:15:49.637000,2,Yellow,Monaco,2023
+1380,0 days 02:15:54.371000,1,AllClear,Monaco,2023
+1381,0 days 02:19:08.462000,2,Yellow,Monaco,2023
+1382,0 days 02:19:24.555000,1,AllClear,Monaco,2023
+1383,0 days 02:20:09.367000,2,Yellow,Monaco,2023
+1384,0 days 02:20:22.585000,1,AllClear,Monaco,2023
+1385,0 days 02:22:10.974000,2,Yellow,Monaco,2023
+1386,0 days 02:22:48.864000,1,AllClear,Monaco,2023
+1387,0 days 02:24:31.143000,2,Yellow,Monaco,2023
+1388,0 days 02:24:43.940000,1,AllClear,Monaco,2023
+1389,0 days 02:37:00.864000,2,Yellow,Monaco,2023
+1390,0 days 02:37:31.864000,1,AllClear,Monaco,2023
+1391,0 days 00:00:00,1,AllClear,Barcelona,2023
