@@ -97,6 +97,6 @@ def mask_race_percentage(df, percentage):
     df = df[df["RaceProgress"] > percentage]
     return df
 
-def get_tyre_stress_level(df):
-    df["TyreStressLevel"] = df["Location"].map(TYRE_STRESS)
+def get_tyre_stress_level(df, tyre_stress_mapping):
+    df["TyreStressLevel"] = df["Location"].map(tyre_stress_mapping)
     return df
