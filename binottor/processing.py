@@ -38,9 +38,26 @@ def compound_cleaning(laps,tire_mapping,backfilling=3):
 def tire_degradation_offset(laps):
     pass
 
-def check_second_compound():
-    pass
-  
+def check_second_compound(laps):
+    years = laps['Year'].unique()
+    for year in years:
+        year_df = laps.loc[laps.Year == year]
+        locations = year_df['Location'].unique()
+        for location in locations:
+            loc_df = year_df.loc[(year_df.Location == location)]
+            drivers = loc_df['DriverNumber'].unique()
+            for driver in drivers:
+                driver_df = loc_df.loc[(loc_df.DriverNumber == driver)]
+                driver_df["prev_compound"]=driver_df["Compound"].shift(1)
+                first_index = driver_df.index[0]
+                for index, row in driver_df.iterrows():
+                    if index-1>=first_index:
+                        if laps.loc[index-1,"second_compound"]==True :
+                            laps.loc[index,"second_compound"]=True
+                    if laps.loc[index,"second_compound"]!=True:
+                        if row["Compound"] != row["prev_compound"] and row["prev_compound"]:
+                            laps.loc[index,"second_compound"]=True
+
 def add_race_progress(df):
     # Group data to get lap number per year per race
     grouped_data = df.groupby(by = ["Year", "Location"], as_index=False)["LapNumber"].max().rename(columns={"LapNumber":"TotalLaps"})
