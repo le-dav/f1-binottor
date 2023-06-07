@@ -132,5 +132,8 @@ def merge_weather(laps, weather):
         df['Time_min']=df['Time_min'].values.astype('timedelta64[m]')
     add_standardized_time(laps)
     add_standardized_time(weather)
-    laps_extended = laps.merge(weather,on="Time_min",how="left",suffixes=(None,"_w"))
+    laps_extended = laps.merge(weather,on=["Year","Location","Time_min"],how="left",suffixes=(None,"_w"))
     return laps_extended
+
+def merge_track_status():
+    pass
