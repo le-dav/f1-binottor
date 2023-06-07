@@ -83,7 +83,6 @@ def is_pitting_feature(laps):
     laps['pitting_this_lap'] = np.where(laps['PitInTime'].notna(), True, False)
     return laps
 
-
 def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
     '''
     Calculate if whether or not competitors ahead and behind are inside a predefined gap from the car.
@@ -126,3 +125,12 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
                 if delta_behind>=close_timedelta:
                     laps.loc[lap[0],"close_behind"]=True
                 laps.loc[lap[0],"is_pitting_behind"]=behind_pit
+
+def merge_weather(laps, weather):
+    def add_standardized_time(df):
+        df['Time_min']=pd.to_timedelta(df['Time'])
+        df['Time_min']=df['Time_min'].values.astype('timedelta64[m]')
+    add_standardized_time(laps)
+    add_standardized_time(weather)
+    laps_extended = laps.merge(weather,on="Time_min",how="left",suffixes=(None,"_w"))
+    return laps_extended
