@@ -13,3 +13,7 @@ def add_race_progress(df):
     df["RaceProgress"] = df["LapNumber"] / df["TotalLaps"]
     df.rename(columns={"Location_x": "Location", "Year_x": "Year"}, inplace=True)
     return df
+
+def mask_race_percentage(df, percentage):
+    df = df[df["RaceProgress"] > percentage]
+    return df
