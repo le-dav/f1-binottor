@@ -2,3 +2,7 @@ numpy
 pandas
 fastf1
 plotly
+tensorflow
+matplotlib.pyplot
+seaborn
+sklearn
