@@ -40,7 +40,7 @@ def tire_degradation_offset(laps):
 
 def check_second_compound():
     pass
-  
+
 def add_race_progress(df):
     # Group data to get lap number per year per race
     grouped_data = df.groupby(by = ["Year", "Location"], as_index=False)["LapNumber"].max().rename(columns={"LapNumber":"TotalLaps"})
@@ -59,3 +59,13 @@ laps_df, weather_df, track_status_df = load_dataset()
 new_laps = compound_cleaning(laps_df,TIRE_MATCH)
 
 print(new_laps['Compound'].value_counts())
+
+def sunny_races(df):
+    #Group data to get data per race
+    df['LocationYear'] = df['Location'] + ' ' + df['Year'].astype(str)
+    #Group data for every race where 'Wet' and 'Intermediate' tyres were used
+    df = df[(df['Compound'] == 'INTERMEDIATE') | (df['Compound'] == 'WET')]['LocationYear'].unique()
+    #Clean dataframe
+    df = df['LocationYear'].isin(df)
+    df = df[~df]
+    return df
