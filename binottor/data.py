@@ -33,7 +33,6 @@ def get_laps_CSV(years):
     df_laps.to_csv('../raw_data/laps.csv')
     print (f'The file laps.csv has been successfully downloaded for the following years : {years} ')
 
-
 def get_trackstatus_CSV(years):
     """ This function downloads the track_status of all the races of the years you entered
     The parameter 'years' must be a list of integers """
@@ -62,7 +61,6 @@ def get_trackstatus_CSV(years):
 
     df_track_status.to_csv('../raw_data/track_status.csv')
     print (f'The file track_status.csv has been successfully downloaded for the following years : {years} ')
-
 
 def get_weather_CSV(years):
     """ This function downloads the weather data of all the races of the years you entered
@@ -93,9 +91,8 @@ def get_weather_CSV(years):
     df_weather.to_csv('../raw_data/weather.csv')
     print (f'The file weather.csv has been successfully downloaded for the following years : {years} ')
 
-
 def get_results_CSV(years):
-    """ This function downloads the final result of all the races of the years you entered
+    """ This function downloads the final result of all the races per team of the years you entered
     The parameter 'years' must be a list of integers """
 
     df_results = pd.DataFrame()
@@ -128,6 +125,37 @@ def get_results_CSV(years):
     df_results.to_csv('../raw_data/results.csv')
     print (f'The file results.csv has been successfully downloaded for the following years : {years} ')
 
+def get_results_driver_CSV(years):
+    """ This function downloads the final result of all the races per driver of the years you entered
+    The parameter 'years' must be a list of integers """
+
+    df_results = pd.DataFrame()
+
+    for year in years :
+        season = fastf1.get_event_schedule(year)
+        locations = season['Location'].values.tolist()
+        df_results_per_locations = pd.DataFrame()
+
+        if year != int(datetime.date.today().strftime("%Y")) :
+            locations = locations
+        else :
+            next_gp = fastf1.get_events_remaining()['Location'].values.tolist()[0]
+            locations = season['Location'].values.tolist()[0:locations.index(next_gp)]
+
+        for location in locations :
+            session = fastf1.get_session(year, location, 'R')
+            session.load()
+            points_per_driver = session.results[['Abbreviation','Position']].reset_index()
+            points_per_driver['Year']= year
+            points_per_driver['Location'] = location
+            df_results_per_locations = pd.concat([df_results_per_locations,points_per_driver],ignore_index=True)
+            print(f'Done for {location} & year {year} !')
+
+        df_results = pd.concat([df_results,df_results_per_locations],ignore_index=True)
+
+    df_results.to_csv('../raw_data/driver_results.csv')
+    print (f'The file driver_results.csv has been successfully downloaded for the following years : {years}')
+
 def get_locations_CSV(years):
     """ This function downloads the list of all the races of the years you entered
     The parameter 'years' must be a list of integers """
@@ -143,5 +171,3 @@ def get_locations_CSV(years):
 
     df_locations.to_csv('../raw_data/locations.csv')
     print (f'The file locations.csv has been successfully downloaded for the following years : {years} ')
-
-get_locations_CSV([2017,2018,2019,2020,2021,2022,2023])
