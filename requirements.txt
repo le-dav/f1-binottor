@@ -6,3 +6,4 @@ tensorflow
 matplotlib.pyplot
 seaborn
 sklearn
+imblearn
