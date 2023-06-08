@@ -116,11 +116,11 @@ def Compound_cleaning(laps,tire_mapping,backfilling=3):
     laps['Compound'].fillna(method="bfill",limit=backfilling,inplace=True)
     return laps
 
-#def remove_NaN_Drivers(laps):
-     #""" Removes the laps with Team = NaN and Driver = NaN """
-     #teams = laps['Team'].unique().tolist()[:-1]
-     #laps = laps[laps['Team'].isin(teams)]
-     #return laps
+def remove_NaN_Drivers(laps):
+     """ Removes the laps with Team = NaN and Driver = NaN """
+     teams = laps['Team'].unique().tolist()[:-1]
+     laps = laps[laps['Team'].isin(teams)]
+     return laps
 
 
 # FEATURE ENGINEERING FUNCTIONS
@@ -254,7 +254,7 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
 
 def get_tyre_stress_level(df, tyre_stress_mapping):
     df["TyreStressLevel"] = df["Location"].map(tyre_stress_mapping)
-
+    return df
 
 
 # MERGE FUNCTIONS
@@ -270,6 +270,7 @@ def merge_weather(laps, weather,backfilling=6):
         df['Time_min']=df['Time_min'].values.astype('timedelta64[m]')
     add_standardized_time(laps)
     add_standardized_time(weather)
+    weather.drop_duplicates(subset=['Time_min', 'Location', 'Year'], keep='last',inplace=True)
     # Merge on both the track, the year and the time
     laps_extended = laps.merge(weather,on=["Year","Location","Time_min"],how="left",suffixes=(None,"_w"))
     # Backfill with weather data from previous lap
@@ -331,18 +332,18 @@ def preproc_data():
     laps_df = fill_na(laps_df) #ok
     laps_df = TeamNames_cleaning(laps_df,NAME_MATCH) #ok
     laps_df = Compound_cleaning(laps_df,TIRE_MATCH) #ok
-    #laps_df = remove_NaN_Drivers(laps_df)
+    laps_df = remove_NaN_Drivers(laps_df)
     #laps_df = get_last_team_ranking(laps_df,results_df,locations_df)
     check_second_compound(laps_df) #ok
     laps_df = add_race_progress(laps_df) #ok
     laps_df = is_pitting_feature(laps_df) #ok
     #check_competitors(laps_df)
-    #laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS)
-    #laps_df = merge_weather(laps_df,weather_df)
+    laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS) #ok
+    laps_df = merge_weather(laps_df,weather_df) #ok
     #laps_df = merge_track_status(laps_df,track_status_df)
     #laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
-    #laps_df = sunny_races(laps_df)
-    #laps_df = mask_race_percentage(laps_df)
-    #laps_df = drop_useless_columns(laps_df)
-    #laps_df = drop_duplicates_rows(laps_df)
+    laps_df = sunny_races(laps_df) #ok
+    laps_df = mask_race_percentage(laps_df) #ok
+    laps_df = drop_useless_columns(laps_df) #ok
+    laps_df = drop_duplicates_rows(laps_df) #ok
     return laps_df
