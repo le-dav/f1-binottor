@@ -268,3 +268,13 @@ def get_tyre_stress_level(df):
     'Silverstone': 1}
     df["TyreStressLevel"] = df["Location"].map(params)
     return df
+
+  def sunny_races(df):
+    #Group data to get data per race
+    df['LocationYear'] = df['Location'] + ' ' + df['Year'].astype(str)
+    #Group data for every race where 'Wet' and 'Intermediate' tyres were used
+    df = df[(df['Compound'] == 'INTERMEDIATE') | (df['Compound'] == 'WET')]['LocationYear'].unique()
+    #Clean dataframe
+    df = df['LocationYear'].isin(df)
+    df = df[~df]
+    return df
