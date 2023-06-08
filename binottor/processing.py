@@ -126,13 +126,22 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
                     laps.loc[lap[0],"close_behind"]=True
                 laps.loc[lap[0],"is_pitting_behind"]=behind_pit
 
-def merge_weather(laps, weather):
+def merge_weather(laps, weather,backfilling=6):
+    '''
+    Merge the laps dataframe with the weather dataframe.
+    Caution: can backfill with inadequate data if the missing weather data is on the first lap. (0 case in our dataset)
+    '''
+    # Create a column with a minute-accurate timedelta object: will be the key for merging
     def add_standardized_time(df):
         df['Time_min']=pd.to_timedelta(df['Time'])
         df['Time_min']=df['Time_min'].values.astype('timedelta64[m]')
     add_standardized_time(laps)
     add_standardized_time(weather)
+    # Merge on both the track, the year and the time
     laps_extended = laps.merge(weather,on=["Year","Location","Time_min"],how="left",suffixes=(None,"_w"))
+    # Backfill with weather data from previous lap
+    for column in weather.columns:
+        laps_extended[column].fillna(method="bfill",limit=backfilling,inplace=True)
     return laps_extended
 
 def merge_track_status():
