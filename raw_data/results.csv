@@ -1,0 +1,1364 @@
+,Team,Points,Ranking,Year,Location
+0,Ferrari,37.0,1.0,2017,Melbourne
+1,Mercedes,33.0,2.0,2017,Melbourne
+2,Red Bull,10.0,3.0,2017,Melbourne
+3,Williams,8.0,4.0,2017,Melbourne
+4,Force India,7.0,5.0,2017,Melbourne
+5,Toro Rosso,6.0,6.0,2017,Melbourne
+6,Haas F1 Team,0.0,10.0,2017,Melbourne
+7,McLaren,0.0,10.0,2017,Melbourne
+8,Renault,0.0,10.0,2017,Melbourne
+9,Sauber,0.0,10.0,2017,Melbourne
+10,Mercedes,33.0,1.0,2017,Shanghai
+11,Ferrari,28.0,2.0,2017,Shanghai
+12,Red Bull,27.0,3.0,2017,Shanghai
+13,Toro Rosso,6.0,4.0,2017,Shanghai
+14,Haas F1 Team,4.0,5.0,2017,Shanghai
+15,Force India,3.0,6.0,2017,Shanghai
+16,McLaren,0.0,10.0,2017,Shanghai
+17,Renault,0.0,10.0,2017,Shanghai
+18,Sauber,0.0,10.0,2017,Shanghai
+19,Williams,0.0,10.0,2017,Shanghai
+20,Ferrari,37.0,1.0,2017,Sakhir
+21,Mercedes,33.0,2.0,2017,Sakhir
+22,Red Bull,10.0,3.0,2017,Sakhir
+23,Williams,8.0,4.0,2017,Sakhir
+24,Force India,7.0,5.0,2017,Sakhir
+25,Haas F1 Team,4.0,6.0,2017,Sakhir
+26,Renault,2.0,7.0,2017,Sakhir
+27,McLaren,0.0,10.0,2017,Sakhir
+28,Sauber,0.0,10.0,2017,Sakhir
+29,Toro Rosso,0.0,10.0,2017,Sakhir
+30,Mercedes,37.0,1.0,2017,Sochi
+31,Ferrari,33.0,2.0,2017,Sochi
+32,Force India,14.0,3.0,2017,Sochi
+33,Red Bull,10.0,4.0,2017,Sochi
+34,Renault,4.0,5.0,2017,Sochi
+35,Williams,2.0,6.0,2017,Sochi
+36,Toro Rosso,1.0,7.0,2017,Sochi
+37,Haas F1 Team,0.0,10.0,2017,Sochi
+38,McLaren,0.0,10.0,2017,Sochi
+39,Sauber,0.0,10.0,2017,Sochi
+40,Mercedes,25.0,1.0,2017,Montmeló
+41,Force India,22.0,2.0,2017,Montmeló
+42,Ferrari,18.0,3.0,2017,Montmeló
+43,Red Bull,15.0,4.0,2017,Montmeló
+44,Renault,8.0,6.0,2017,Montmeló
+45,Toro Rosso,8.0,6.0,2017,Montmeló
+46,Sauber,4.0,7.0,2017,Montmeló
+47,Haas F1 Team,1.0,8.0,2017,Montmeló
+48,McLaren,0.0,10.0,2017,Montmeló
+49,Williams,0.0,10.0,2017,Montmeló
+50,Ferrari,43.0,1.0,2017,Monte-Carlo
+51,Red Bull,25.0,2.0,2017,Monte-Carlo
+52,Mercedes,18.0,3.0,2017,Monte-Carlo
+53,Toro Rosso,8.0,4.0,2017,Monte-Carlo
+54,Haas F1 Team,5.0,5.0,2017,Monte-Carlo
+55,Williams,2.0,6.0,2017,Monte-Carlo
+56,Force India,0.0,10.0,2017,Monte-Carlo
+57,McLaren,0.0,10.0,2017,Monte-Carlo
+58,Renault,0.0,10.0,2017,Monte-Carlo
+59,Sauber,0.0,10.0,2017,Monte-Carlo
+60,Mercedes,43.0,1.0,2017,Montreal
+61,Ferrari,18.0,3.0,2017,Montreal
+62,Force India,18.0,3.0,2017,Montreal
+63,Red Bull,15.0,4.0,2017,Montreal
+64,Renault,4.0,5.0,2017,Montreal
+65,Williams,2.0,6.0,2017,Montreal
+66,Haas F1 Team,1.0,7.0,2017,Montreal
+67,McLaren,0.0,10.0,2017,Montreal
+68,Sauber,0.0,10.0,2017,Montreal
+69,Toro Rosso,0.0,10.0,2017,Montreal
+70,Mercedes,28.0,1.0,2017,Baku
+71,Red Bull,25.0,2.0,2017,Baku
+72,Williams,15.0,3.0,2017,Baku
+73,Ferrari,12.0,4.0,2017,Baku
+74,Force India,8.0,5.0,2017,Baku
+75,Haas F1 Team,6.0,6.0,2017,Baku
+76,Toro Rosso,4.0,7.0,2017,Baku
+77,McLaren,2.0,8.0,2017,Baku
+78,Sauber,1.0,9.0,2017,Baku
+79,Renault,0.0,10.0,2017,Baku
+80,Mercedes,37.0,1.0,2017,Spielberg
+81,Ferrari,28.0,2.0,2017,Spielberg
+82,Red Bull,15.0,3.0,2017,Spielberg
+83,Force India,10.0,4.0,2017,Spielberg
+84,Haas F1 Team,8.0,5.0,2017,Spielberg
+85,Williams,3.0,6.0,2017,Spielberg
+86,McLaren,0.0,10.0,2017,Spielberg
+87,Renault,0.0,10.0,2017,Spielberg
+88,Sauber,0.0,10.0,2017,Spielberg
+89,Toro Rosso,0.0,10.0,2017,Spielberg
+90,Mercedes,43.0,1.0,2017,Silverstone
+91,Red Bull,22.0,2.0,2017,Silverstone
+92,Ferrari,21.0,3.0,2017,Silverstone
+93,Renault,8.0,4.0,2017,Silverstone
+94,Force India,6.0,5.0,2017,Silverstone
+95,Williams,1.0,6.0,2017,Silverstone
+96,Haas F1 Team,0.0,10.0,2017,Silverstone
+97,McLaren,0.0,10.0,2017,Silverstone
+98,Sauber,0.0,10.0,2017,Silverstone
+99,Toro Rosso,0.0,10.0,2017,Silverstone
+100,Ferrari,43.0,1.0,2017,Budapest
+101,Mercedes,27.0,2.0,2017,Budapest
+102,Red Bull,10.0,3.0,2017,Budapest
+103,McLaren,9.0,4.0,2017,Budapest
+104,Force India,6.0,6.0,2017,Budapest
+105,Toro Rosso,6.0,6.0,2017,Budapest
+106,Haas F1 Team,0.0,10.0,2017,Budapest
+107,Renault,0.0,10.0,2017,Budapest
+108,Sauber,0.0,10.0,2017,Budapest
+109,Williams,0.0,10.0,2017,Budapest
+110,Mercedes,35.0,1.0,2017,Spa
+111,Ferrari,30.0,2.0,2017,Spa
+112,Red Bull,15.0,3.0,2017,Spa
+113,Renault,8.0,4.0,2017,Spa
+114,Haas F1 Team,6.0,5.0,2017,Spa
+115,Williams,4.0,6.0,2017,Spa
+116,Force India,2.0,7.0,2017,Spa
+117,Toro Rosso,1.0,8.0,2017,Spa
+118,McLaren,0.0,10.0,2017,Spa
+119,Sauber,0.0,10.0,2017,Spa
+120,Mercedes,43.0,1.0,2017,Monza
+121,Ferrari,25.0,2.0,2017,Monza
+122,Red Bull,13.0,3.0,2017,Monza
+123,Force India,10.0,5.0,2017,Monza
+124,Williams,10.0,5.0,2017,Monza
+125,Haas F1 Team,0.0,10.0,2017,Monza
+126,McLaren,0.0,10.0,2017,Monza
+127,Renault,0.0,10.0,2017,Monza
+128,Sauber,0.0,10.0,2017,Monza
+129,Toro Rosso,0.0,10.0,2017,Monza
+130,Mercedes,40.0,1.0,2017,Marina Bay
+131,Red Bull,18.0,2.0,2017,Marina Bay
+132,Toro Rosso,12.0,3.0,2017,Marina Bay
+133,Force India,11.0,4.0,2017,Marina Bay
+134,Renault,8.0,5.0,2017,Marina Bay
+135,McLaren,6.0,6.0,2017,Marina Bay
+136,Williams,4.0,7.0,2017,Marina Bay
+137,Haas F1 Team,2.0,8.0,2017,Marina Bay
+138,Ferrari,0.0,10.0,2017,Marina Bay
+139,Sauber,0.0,10.0,2017,Marina Bay
+140,Red Bull,40.0,1.0,2017,Kuala Lumpur
+141,Mercedes,28.0,2.0,2017,Kuala Lumpur
+142,Ferrari,12.0,3.0,2017,Kuala Lumpur
+143,Force India,9.0,4.0,2017,Kuala Lumpur
+144,McLaren,6.0,6.0,2017,Kuala Lumpur
+145,Williams,6.0,6.0,2017,Kuala Lumpur
+146,Haas F1 Team,0.0,10.0,2017,Kuala Lumpur
+147,Renault,0.0,10.0,2017,Kuala Lumpur
+148,Sauber,0.0,10.0,2017,Kuala Lumpur
+149,Toro Rosso,0.0,10.0,2017,Kuala Lumpur
+150,Mercedes,37.0,1.0,2017,Suzuka
+151,Red Bull,33.0,2.0,2017,Suzuka
+152,Force India,14.0,3.0,2017,Suzuka
+153,Ferrari,10.0,4.0,2017,Suzuka
+154,Haas F1 Team,6.0,5.0,2017,Suzuka
+155,Williams,1.0,6.0,2017,Suzuka
+156,McLaren,0.0,10.0,2017,Suzuka
+157,Renault,0.0,10.0,2017,Suzuka
+158,Sauber,0.0,10.0,2017,Suzuka
+159,Toro Rosso,0.0,10.0,2017,Suzuka
+160,Mercedes,35.0,1.0,2017,Austin
+161,Ferrari,33.0,2.0,2017,Austin
+162,Force India,12.0,4.0,2017,Austin
+163,Red Bull,12.0,4.0,2017,Austin
+164,Renault,6.0,5.0,2017,Austin
+165,Williams,2.0,6.0,2017,Austin
+166,Toro Rosso,1.0,7.0,2017,Austin
+167,Haas F1 Team,0.0,10.0,2017,Austin
+168,McLaren,0.0,10.0,2017,Austin
+169,Sauber,0.0,10.0,2017,Austin
+170,Ferrari,27.0,1.0,2017,Mexico City
+171,Red Bull,25.0,2.0,2017,Mexico City
+172,Mercedes,20.0,3.0,2017,Mexico City
+173,Force India,16.0,4.0,2017,Mexico City
+174,Williams,8.0,5.0,2017,Mexico City
+175,Haas F1 Team,4.0,6.0,2017,Mexico City
+176,McLaren,1.0,7.0,2017,Mexico City
+177,Renault,0.0,10.0,2017,Mexico City
+178,Sauber,0.0,10.0,2017,Mexico City
+179,Toro Rosso,0.0,10.0,2017,Mexico City
+180,Ferrari,40.0,1.0,2017,São Paulo
+181,Mercedes,30.0,2.0,2017,São Paulo
+182,Red Bull,18.0,3.0,2017,São Paulo
+183,Williams,6.0,4.0,2017,São Paulo
+184,McLaren,4.0,5.0,2017,São Paulo
+185,Force India,2.0,6.0,2017,São Paulo
+186,Renault,1.0,7.0,2017,São Paulo
+187,Haas F1 Team,0.0,10.0,2017,São Paulo
+188,Sauber,0.0,10.0,2017,São Paulo
+189,Toro Rosso,0.0,10.0,2017,São Paulo
+190,Mercedes,43.0,1.0,2017,Abu Dhabi
+191,Ferrari,27.0,2.0,2017,Abu Dhabi
+192,Force India,10.0,4.0,2017,Abu Dhabi
+193,Red Bull,10.0,4.0,2017,Abu Dhabi
+194,Renault,8.0,5.0,2017,Abu Dhabi
+195,McLaren,2.0,6.0,2017,Abu Dhabi
+196,Williams,1.0,7.0,2017,Abu Dhabi
+197,Haas F1 Team,0.0,10.0,2017,Abu Dhabi
+198,Sauber,0.0,10.0,2017,Abu Dhabi
+199,Toro Rosso,0.0,10.0,2017,Abu Dhabi
+0,Ferrari,40.0,1.0,2018,Melbourne
+1,Mercedes,22.0,2.0,2018,Melbourne
+2,Red Bull Racing,20.0,3.0,2018,Melbourne
+3,McLaren,12.0,4.0,2018,Melbourne
+4,Renault,7.0,5.0,2018,Melbourne
+5,Force India,0.0,10.0,2018,Melbourne
+6,Haas F1 Team,0.0,10.0,2018,Melbourne
+7,Sauber,0.0,10.0,2018,Melbourne
+8,Toro Rosso,0.0,10.0,2018,Melbourne
+9,Williams,0.0,10.0,2018,Melbourne
+10,Mercedes,33.0,1.0,2018,Sakhir
+11,Ferrari,25.0,2.0,2018,Sakhir
+12,Toro Rosso,12.0,3.0,2018,Sakhir
+13,Haas F1 Team,10.0,5.0,2018,Sakhir
+14,McLaren,10.0,5.0,2018,Sakhir
+15,Renault,8.0,6.0,2018,Sakhir
+16,Sauber,2.0,7.0,2018,Sakhir
+17,Force India,1.0,8.0,2018,Sakhir
+18,Red Bull Racing,0.0,10.0,2018,Sakhir
+19,Williams,0.0,10.0,2018,Sakhir
+20,Red Bull Racing,35.0,1.0,2018,Shanghai
+21,Mercedes,30.0,2.0,2018,Shanghai
+22,Ferrari,19.0,3.0,2018,Shanghai
+23,Renault,10.0,4.0,2018,Shanghai
+24,McLaren,6.0,5.0,2018,Shanghai
+25,Haas F1 Team,1.0,6.0,2018,Shanghai
+26,Force India,0.0,10.0,2018,Shanghai
+27,Sauber,0.0,10.0,2018,Shanghai
+28,Toro Rosso,0.0,10.0,2018,Shanghai
+29,Williams,0.0,10.0,2018,Shanghai
+30,Ferrari,30.0,1.0,2018,Baku
+31,Mercedes,25.0,2.0,2018,Baku
+32,Force India,15.0,3.0,2018,Baku
+33,Renault,10.0,4.0,2018,Baku
+34,McLaren,8.0,6.0,2018,Baku
+35,Sauber,8.0,6.0,2018,Baku
+36,Williams,4.0,7.0,2018,Baku
+37,Toro Rosso,1.0,8.0,2018,Baku
+38,Haas F1 Team,0.0,10.0,2018,Baku
+39,Red Bull Racing,0.0,10.0,2018,Baku
+40,Mercedes,43.0,1.0,2018,Barcelona
+41,Red Bull Racing,25.0,2.0,2018,Barcelona
+42,Ferrari,12.0,3.0,2018,Barcelona
+43,Haas F1 Team,8.0,4.0,2018,Barcelona
+44,Renault,6.0,5.0,2018,Barcelona
+45,McLaren,4.0,6.0,2018,Barcelona
+46,Force India,2.0,7.0,2018,Barcelona
+47,Sauber,1.0,8.0,2018,Barcelona
+48,Toro Rosso,0.0,10.0,2018,Barcelona
+49,Williams,0.0,10.0,2018,Barcelona
+50,Ferrari,30.0,1.0,2018,Monte Carlo
+51,Red Bull Racing,27.0,2.0,2018,Monte Carlo
+52,Mercedes,25.0,3.0,2018,Monte Carlo
+53,Force India,8.0,4.0,2018,Monte Carlo
+54,Toro Rosso,6.0,5.0,2018,Monte Carlo
+55,Renault,5.0,6.0,2018,Monte Carlo
+56,Haas F1 Team,0.0,10.0,2018,Monte Carlo
+57,McLaren,0.0,10.0,2018,Monte Carlo
+58,Sauber,0.0,10.0,2018,Monte Carlo
+59,Williams,0.0,10.0,2018,Monte Carlo
+60,Ferrari,33.0,1.0,2018,Montréal
+61,Mercedes,28.0,2.0,2018,Montréal
+62,Red Bull Racing,27.0,3.0,2018,Montréal
+63,Renault,10.0,4.0,2018,Montréal
+64,Force India,2.0,5.0,2018,Montréal
+65,Sauber,1.0,6.0,2018,Montréal
+66,Haas F1 Team,0.0,10.0,2018,Montréal
+67,McLaren,0.0,10.0,2018,Montréal
+68,Toro Rosso,0.0,10.0,2018,Montréal
+69,Williams,0.0,10.0,2018,Montréal
+70,Mercedes,31.0,1.0,2018,Le Castellet
+71,Red Bull Racing,30.0,2.0,2018,Le Castellet
+72,Ferrari,25.0,3.0,2018,Le Castellet
+73,Haas F1 Team,8.0,4.0,2018,Le Castellet
+74,Renault,6.0,5.0,2018,Le Castellet
+75,Sauber,1.0,6.0,2018,Le Castellet
+76,Force India,0.0,10.0,2018,Le Castellet
+77,McLaren,0.0,10.0,2018,Le Castellet
+78,Toro Rosso,0.0,10.0,2018,Le Castellet
+79,Williams,0.0,10.0,2018,Le Castellet
+80,Ferrari,33.0,1.0,2018,Spielberg
+81,Red Bull Racing,25.0,2.0,2018,Spielberg
+82,Haas F1 Team,22.0,3.0,2018,Spielberg
+83,Force India,14.0,4.0,2018,Spielberg
+84,McLaren,4.0,5.0,2018,Spielberg
+85,Sauber,3.0,6.0,2018,Spielberg
+86,Mercedes,0.0,10.0,2018,Spielberg
+87,Renault,0.0,10.0,2018,Spielberg
+88,Toro Rosso,0.0,10.0,2018,Spielberg
+89,Williams,0.0,10.0,2018,Spielberg
+90,Ferrari,40.0,1.0,2018,Silverstone
+91,Mercedes,30.0,2.0,2018,Silverstone
+92,Red Bull Racing,10.0,3.0,2018,Silverstone
+93,Renault,8.0,4.0,2018,Silverstone
+94,Force India,7.0,5.0,2018,Silverstone
+95,McLaren,4.0,6.0,2018,Silverstone
+96,Haas F1 Team,2.0,7.0,2018,Silverstone
+97,Sauber,0.0,10.0,2018,Silverstone
+98,Toro Rosso,0.0,10.0,2018,Silverstone
+99,Williams,0.0,10.0,2018,Silverstone
+100,Mercedes,43.0,1.0,2018,Hockenheim
+101,Ferrari,15.0,2.0,2018,Hockenheim
+102,Red Bull Racing,12.0,3.0,2018,Hockenheim
+103,Force India,10.0,5.0,2018,Hockenheim
+104,Renault,10.0,5.0,2018,Hockenheim
+105,Haas F1 Team,8.0,6.0,2018,Hockenheim
+106,Sauber,2.0,7.0,2018,Hockenheim
+107,Toro Rosso,1.0,8.0,2018,Hockenheim
+108,McLaren,0.0,10.0,2018,Hockenheim
+109,Williams,0.0,10.0,2018,Hockenheim
+110,Mercedes,35.0,1.0,2018,Budapest
+111,Ferrari,33.0,2.0,2018,Budapest
+112,Red Bull Racing,12.0,3.0,2018,Budapest
+113,Toro Rosso,8.0,4.0,2018,Budapest
+114,Haas F1 Team,7.0,5.0,2018,Budapest
+115,McLaren,4.0,6.0,2018,Budapest
+116,Renault,2.0,7.0,2018,Budapest
+117,Force India,0.0,10.0,2018,Budapest
+118,Sauber,0.0,10.0,2018,Budapest
+119,Williams,0.0,10.0,2018,Budapest
+120,Mercedes,30.0,1.0,2018,Spa-Francorchamps
+121,Ferrari,25.0,2.0,2018,Spa-Francorchamps
+122,Racing Point,18.0,3.0,2018,Spa-Francorchamps
+123,Red Bull Racing,15.0,4.0,2018,Spa-Francorchamps
+124,Haas F1 Team,10.0,5.0,2018,Spa-Francorchamps
+125,Toro Rosso,2.0,6.0,2018,Spa-Francorchamps
+126,Sauber,1.0,7.0,2018,Spa-Francorchamps
+127,McLaren,0.0,10.0,2018,Spa-Francorchamps
+128,Renault,0.0,10.0,2018,Spa-Francorchamps
+129,Williams,0.0,10.0,2018,Spa-Francorchamps
+130,Mercedes,40.0,1.0,2018,Monza
+131,Ferrari,30.0,2.0,2018,Monza
+132,Racing Point,14.0,3.0,2018,Monza
+133,Red Bull Racing,10.0,4.0,2018,Monza
+134,Renault,4.0,5.0,2018,Monza
+135,Williams,3.0,6.0,2018,Monza
+136,Haas F1 Team,0.0,10.0,2018,Monza
+137,McLaren,0.0,10.0,2018,Monza
+138,Sauber,0.0,10.0,2018,Monza
+139,Toro Rosso,0.0,10.0,2018,Monza
+140,Mercedes,37.0,1.0,2018,Singapore
+141,Red Bull Racing,26.0,2.0,2018,Singapore
+142,Ferrari,25.0,3.0,2018,Singapore
+143,McLaren,6.0,4.0,2018,Singapore
+144,Renault,5.0,5.0,2018,Singapore
+145,Sauber,2.0,6.0,2018,Singapore
+146,Haas F1 Team,0.0,10.0,2018,Singapore
+147,Racing Point,0.0,10.0,2018,Singapore
+148,Toro Rosso,0.0,10.0,2018,Singapore
+149,Williams,0.0,10.0,2018,Singapore
+150,Mercedes,43.0,1.0,2018,Sochi
+151,Ferrari,27.0,2.0,2018,Sochi
+152,Red Bull Racing,18.0,3.0,2018,Sochi
+153,Sauber,6.0,4.0,2018,Sochi
+154,Haas F1 Team,4.0,5.0,2018,Sochi
+155,Racing Point,3.0,6.0,2018,Sochi
+156,McLaren,0.0,10.0,2018,Sochi
+157,Renault,0.0,10.0,2018,Sochi
+158,Toro Rosso,0.0,10.0,2018,Sochi
+159,Williams,0.0,10.0,2018,Sochi
+160,Mercedes,43.0,1.0,2018,Suzuka
+161,Red Bull Racing,27.0,2.0,2018,Suzuka
+162,Ferrari,18.0,3.0,2018,Suzuka
+163,Racing Point,8.0,4.0,2018,Suzuka
+164,Haas F1 Team,4.0,5.0,2018,Suzuka
+165,Renault,1.0,6.0,2018,Suzuka
+166,McLaren,0.0,10.0,2018,Suzuka
+167,Sauber,0.0,10.0,2018,Suzuka
+168,Toro Rosso,0.0,10.0,2018,Suzuka
+169,Williams,0.0,10.0,2018,Suzuka
+170,Ferrari,37.0,1.0,2018,Austin
+171,Mercedes,25.0,2.0,2018,Austin
+172,Red Bull Racing,18.0,3.0,2018,Austin
+173,Renault,14.0,4.0,2018,Austin
+174,Racing Point,4.0,5.0,2018,Austin
+175,Toro Rosso,2.0,6.0,2018,Austin
+176,Sauber,1.0,7.0,2018,Austin
+177,Haas F1 Team,0.0,10.0,2018,Austin
+178,McLaren,0.0,10.0,2018,Austin
+179,Williams,0.0,10.0,2018,Austin
+180,Ferrari,33.0,1.0,2018,Mexico City
+181,Red Bull Racing,25.0,2.0,2018,Mexico City
+182,Mercedes,22.0,3.0,2018,Mexico City
+183,Renault,8.0,5.0,2018,Mexico City
+184,Sauber,8.0,5.0,2018,Mexico City
+185,McLaren,4.0,6.0,2018,Mexico City
+186,Toro Rosso,1.0,7.0,2018,Mexico City
+187,Haas F1 Team,0.0,10.0,2018,Mexico City
+188,Racing Point,0.0,10.0,2018,Mexico City
+189,Williams,0.0,10.0,2018,Mexico City
+190,Mercedes,35.0,1.0,2018,São Paulo
+191,Red Bull Racing,30.0,2.0,2018,São Paulo
+192,Ferrari,23.0,3.0,2018,São Paulo
+193,Haas F1 Team,6.0,5.0,2018,São Paulo
+194,Sauber,6.0,5.0,2018,São Paulo
+195,Racing Point,1.0,6.0,2018,São Paulo
+196,McLaren,0.0,10.0,2018,São Paulo
+197,Renault,0.0,10.0,2018,São Paulo
+198,Toro Rosso,0.0,10.0,2018,São Paulo
+199,Williams,0.0,10.0,2018,São Paulo
+200,Mercedes,35.0,1.0,2018,Yas Marina
+201,Red Bull Racing,27.0,2.0,2018,Yas Marina
+202,Ferrari,18.0,3.0,2018,Yas Marina
+203,Renault,8.0,4.0,2018,Yas Marina
+204,Sauber,6.0,5.0,2018,Yas Marina
+205,Racing Point,4.0,6.0,2018,Yas Marina
+206,Haas F1 Team,3.0,7.0,2018,Yas Marina
+207,McLaren,0.0,10.0,2018,Yas Marina
+208,Toro Rosso,0.0,10.0,2018,Yas Marina
+209,Williams,0.0,10.0,2018,Yas Marina
+210,Mercedes,44.0,1.0,2019,Melbourne
+211,Ferrari,22.0,2.0,2019,Melbourne
+212,Red Bull Racing,15.0,3.0,2019,Melbourne
+213,Haas F1 Team,8.0,4.0,2019,Melbourne
+214,Renault,6.0,5.0,2019,Melbourne
+215,Alfa Romeo Racing,4.0,6.0,2019,Melbourne
+216,Racing Point,2.0,7.0,2019,Melbourne
+217,Toro Rosso,1.0,8.0,2019,Melbourne
+218,McLaren,0.0,10.0,2019,Melbourne
+219,Williams,0.0,10.0,2019,Melbourne
+220,Mercedes,43.0,1.0,2019,Sakhir
+221,Ferrari,26.0,2.0,2019,Sakhir
+222,Red Bull Racing,16.0,3.0,2019,Sakhir
+223,McLaren,8.0,4.0,2019,Sakhir
+224,Alfa Romeo Racing,6.0,5.0,2019,Sakhir
+225,Toro Rosso,2.0,6.0,2019,Sakhir
+226,Racing Point,1.0,7.0,2019,Sakhir
+227,Haas F1 Team,0.0,10.0,2019,Sakhir
+228,Renault,0.0,10.0,2019,Sakhir
+229,Williams,0.0,10.0,2019,Sakhir
+230,Mercedes,43.0,1.0,2019,Shanghai
+231,Ferrari,25.0,2.0,2019,Shanghai
+232,Red Bull Racing,21.0,3.0,2019,Shanghai
+233,Renault,6.0,4.0,2019,Shanghai
+234,Racing Point,4.0,5.0,2019,Shanghai
+235,Alfa Romeo Racing,2.0,6.0,2019,Shanghai
+236,Toro Rosso,1.0,7.0,2019,Shanghai
+237,Haas F1 Team,0.0,10.0,2019,Shanghai
+238,McLaren,0.0,10.0,2019,Shanghai
+239,Williams,0.0,10.0,2019,Shanghai
+240,Mercedes,43.0,1.0,2019,Baku
+241,Ferrari,26.0,2.0,2019,Baku
+242,Red Bull Racing,12.0,3.0,2019,Baku
+243,McLaren,10.0,5.0,2019,Baku
+244,Racing Point,10.0,5.0,2019,Baku
+245,Alfa Romeo Racing,1.0,6.0,2019,Baku
+246,Haas F1 Team,0.0,10.0,2019,Baku
+247,Renault,0.0,10.0,2019,Baku
+248,Toro Rosso,0.0,10.0,2019,Baku
+249,Williams,0.0,10.0,2019,Baku
+250,Mercedes,44.0,1.0,2019,Barcelona
+251,Red Bull Racing,23.0,2.0,2019,Barcelona
+252,Ferrari,22.0,3.0,2019,Barcelona
+253,Haas F1 Team,7.0,4.0,2019,Barcelona
+254,McLaren,4.0,5.0,2019,Barcelona
+255,Toro Rosso,2.0,6.0,2019,Barcelona
+256,Alfa Romeo Racing,0.0,10.0,2019,Barcelona
+257,Racing Point,0.0,10.0,2019,Barcelona
+258,Renault,0.0,10.0,2019,Barcelona
+259,Williams,0.0,10.0,2019,Barcelona
+260,Mercedes,40.0,1.0,2019,Monte Carlo
+261,Red Bull Racing,23.0,2.0,2019,Monte Carlo
+262,Ferrari,18.0,3.0,2019,Monte Carlo
+263,Toro Rosso,10.0,4.0,2019,Monte Carlo
+264,McLaren,8.0,5.0,2019,Monte Carlo
+265,Renault,2.0,6.0,2019,Monte Carlo
+266,Haas F1 Team,1.0,7.0,2019,Monte Carlo
+267,Alfa Romeo Racing,0.0,10.0,2019,Monte Carlo
+268,Racing Point,0.0,10.0,2019,Monte Carlo
+269,Williams,0.0,10.0,2019,Monte Carlo
+270,Mercedes,38.0,1.0,2019,Montréal
+271,Ferrari,33.0,2.0,2019,Montréal
+272,Red Bull Racing,14.0,4.0,2019,Montréal
+273,Renault,14.0,4.0,2019,Montréal
+274,Racing Point,2.0,5.0,2019,Montréal
+275,Toro Rosso,1.0,6.0,2019,Montréal
+276,Alfa Romeo Racing,0.0,10.0,2019,Montréal
+277,Haas F1 Team,0.0,10.0,2019,Montréal
+278,McLaren,0.0,10.0,2019,Montréal
+279,Williams,0.0,10.0,2019,Montréal
+280,Mercedes,43.0,1.0,2019,Le Castellet
+281,Ferrari,26.0,2.0,2019,Le Castellet
+282,Red Bull Racing,13.0,3.0,2019,Le Castellet
+283,McLaren,10.0,4.0,2019,Le Castellet
+284,Alfa Romeo Racing,6.0,5.0,2019,Le Castellet
+285,Renault,4.0,6.0,2019,Le Castellet
+286,Haas F1 Team,0.0,10.0,2019,Le Castellet
+287,Racing Point,0.0,10.0,2019,Le Castellet
+288,Toro Rosso,0.0,10.0,2019,Le Castellet
+289,Williams,0.0,10.0,2019,Le Castellet
+290,Red Bull Racing,32.0,1.0,2019,Spielberg
+291,Ferrari,30.0,2.0,2019,Spielberg
+292,Mercedes,25.0,3.0,2019,Spielberg
+293,McLaren,12.0,4.0,2019,Spielberg
+294,Alfa Romeo Racing,3.0,5.0,2019,Spielberg
+295,Haas F1 Team,0.0,10.0,2019,Spielberg
+296,Racing Point,0.0,10.0,2019,Spielberg
+297,Renault,0.0,10.0,2019,Spielberg
+298,Toro Rosso,0.0,10.0,2019,Spielberg
+299,Williams,0.0,10.0,2019,Spielberg
+300,Mercedes,44.0,1.0,2019,Silverstone
+301,Red Bull Racing,22.0,2.0,2019,Silverstone
+302,Ferrari,15.0,3.0,2019,Silverstone
+303,McLaren,8.0,4.0,2019,Silverstone
+304,Renault,7.0,5.0,2019,Silverstone
+305,Alfa Romeo Racing,4.0,6.0,2019,Silverstone
+306,Toro Rosso,2.0,7.0,2019,Silverstone
+307,Haas F1 Team,0.0,10.0,2019,Silverstone
+308,Racing Point,0.0,10.0,2019,Silverstone
+309,Williams,0.0,10.0,2019,Silverstone
+310,Red Bull Racing,26.0,1.0,2019,Hockenheim
+311,Toro Rosso,23.0,2.0,2019,Hockenheim
+312,Ferrari,18.0,3.0,2019,Hockenheim
+313,Racing Point,12.0,4.0,2019,Hockenheim
+314,Haas F1 Team,10.0,6.0,2019,Hockenheim
+315,McLaren,10.0,6.0,2019,Hockenheim
+316,Mercedes,2.0,7.0,2019,Hockenheim
+317,Williams,1.0,8.0,2019,Hockenheim
+318,Alfa Romeo Racing,0.0,10.0,2019,Hockenheim
+319,Renault,0.0,10.0,2019,Hockenheim
+320,Mercedes,29.0,1.0,2019,Budapest
+321,Ferrari,27.0,3.0,2019,Budapest
+322,Red Bull Racing,27.0,3.0,2019,Budapest
+323,McLaren,12.0,4.0,2019,Budapest
+324,Alfa Romeo Racing,6.0,5.0,2019,Budapest
+325,Toro Rosso,1.0,6.0,2019,Budapest
+326,Haas F1 Team,0.0,10.0,2019,Budapest
+327,Racing Point,0.0,10.0,2019,Budapest
+328,Renault,0.0,10.0,2019,Budapest
+329,Williams,0.0,10.0,2019,Budapest
+330,Ferrari,38.0,1.0,2019,Spa-Francorchamps
+331,Mercedes,33.0,2.0,2019,Spa-Francorchamps
+332,Red Bull Racing,10.0,3.0,2019,Spa-Francorchamps
+333,Racing Point,9.0,4.0,2019,Spa-Francorchamps
+334,Toro Rosso,8.0,5.0,2019,Spa-Francorchamps
+335,Renault,4.0,6.0,2019,Spa-Francorchamps
+336,Alfa Romeo Racing,0.0,10.0,2019,Spa-Francorchamps
+337,Haas F1 Team,0.0,10.0,2019,Spa-Francorchamps
+338,McLaren,0.0,10.0,2019,Spa-Francorchamps
+339,Williams,0.0,10.0,2019,Spa-Francorchamps
+340,Mercedes,34.0,1.0,2019,Monza
+341,Ferrari,25.0,2.0,2019,Monza
+342,Renault,22.0,3.0,2019,Monza
+343,Red Bull Racing,12.0,4.0,2019,Monza
+344,Racing Point,6.0,5.0,2019,Monza
+345,Alfa Romeo Racing,2.0,6.0,2019,Monza
+346,McLaren,1.0,7.0,2019,Monza
+347,Haas F1 Team,0.0,10.0,2019,Monza
+348,Toro Rosso,0.0,10.0,2019,Monza
+349,Williams,0.0,10.0,2019,Monza
+350,Ferrari,43.0,1.0,2019,Singapore
+351,Red Bull Racing,23.0,2.0,2019,Singapore
+352,Mercedes,22.0,3.0,2019,Singapore
+353,McLaren,6.0,4.0,2019,Singapore
+354,Toro Rosso,4.0,5.0,2019,Singapore
+355,Renault,2.0,6.0,2019,Singapore
+356,Alfa Romeo Racing,1.0,7.0,2019,Singapore
+357,Haas F1 Team,0.0,10.0,2019,Singapore
+358,Racing Point,0.0,10.0,2019,Singapore
+359,Williams,0.0,10.0,2019,Singapore
+360,Mercedes,44.0,1.0,2019,Sochi
+361,Red Bull Racing,22.0,2.0,2019,Sochi
+362,Ferrari,15.0,3.0,2019,Sochi
+363,McLaren,12.0,4.0,2019,Sochi
+364,Racing Point,6.0,5.0,2019,Sochi
+365,Haas F1 Team,2.0,6.0,2019,Sochi
+366,Renault,1.0,7.0,2019,Sochi
+367,Alfa Romeo Racing,0.0,10.0,2019,Sochi
+368,Toro Rosso,0.0,10.0,2019,Sochi
+369,Williams,0.0,10.0,2019,Sochi
+370,Mercedes,41.0,1.0,2019,Suzuka
+371,Ferrari,26.0,2.0,2019,Suzuka
+372,Red Bull Racing,12.0,3.0,2019,Suzuka
+373,McLaren,10.0,4.0,2019,Suzuka
+374,Toro Rosso,7.0,5.0,2019,Suzuka
+375,Racing Point,6.0,6.0,2019,Suzuka
+376,Alfa Romeo Racing,0.0,10.0,2019,Suzuka
+377,Haas F1 Team,0.0,10.0,2019,Suzuka
+378,Renault,0.0,10.0,2019,Suzuka
+379,Williams,0.0,10.0,2019,Suzuka
+380,Mercedes,40.0,1.0,2019,Mexico City
+381,Ferrari,31.0,2.0,2019,Mexico City
+382,Red Bull Racing,18.0,3.0,2019,Mexico City
+383,Racing Point,6.0,4.0,2019,Mexico City
+384,Renault,5.0,5.0,2019,Mexico City
+385,Toro Rosso,2.0,6.0,2019,Mexico City
+386,Alfa Romeo Racing,0.0,10.0,2019,Mexico City
+387,Haas F1 Team,0.0,10.0,2019,Mexico City
+388,McLaren,0.0,10.0,2019,Mexico City
+389,Williams,0.0,10.0,2019,Mexico City
+390,Mercedes,43.0,1.0,2019,Austin
+391,Red Bull Racing,25.0,2.0,2019,Austin
+392,Ferrari,13.0,3.0,2019,Austin
+393,McLaren,10.0,5.0,2019,Austin
+394,Renault,10.0,5.0,2019,Austin
+395,Racing Point,1.0,6.0,2019,Austin
+396,Alfa Romeo Racing,0.0,10.0,2019,Austin
+397,Haas F1 Team,0.0,10.0,2019,Austin
+398,Toro Rosso,0.0,10.0,2019,Austin
+399,Williams,0.0,10.0,2019,Austin
+400,Red Bull Racing,25.0,1.0,2019,São Paulo
+401,Alfa Romeo Racing,22.0,2.0,2019,São Paulo
+402,McLaren,19.0,4.0,2019,São Paulo
+403,Toro Rosso,19.0,4.0,2019,São Paulo
+404,Renault,8.0,5.0,2019,São Paulo
+405,Mercedes,6.0,6.0,2019,São Paulo
+406,Racing Point,2.0,7.0,2019,São Paulo
+407,Ferrari,0.0,10.0,2019,São Paulo
+408,Haas F1 Team,0.0,10.0,2019,São Paulo
+409,Williams,0.0,10.0,2019,São Paulo
+410,Mercedes,38.0,1.0,2019,Yas Island
+411,Red Bull Racing,26.0,2.0,2019,Yas Island
+412,Ferrari,25.0,3.0,2019,Yas Island
+413,Racing Point,6.0,4.0,2019,Yas Island
+414,McLaren,5.0,5.0,2019,Yas Island
+415,Toro Rosso,2.0,6.0,2019,Yas Island
+416,Alfa Romeo Racing,0.0,10.0,2019,Yas Island
+417,Haas F1 Team,0.0,10.0,2019,Yas Island
+418,Renault,0.0,10.0,2019,Yas Island
+419,Williams,0.0,10.0,2019,Yas Island
+420,Mercedes,41.0,1.0,2020,Barcelona
+421,Racing Point,22.0,3.0,2020,Barcelona
+422,Red Bull Racing,22.0,3.0,2020,Barcelona
+423,McLaren,9.0,4.0,2020,Barcelona
+424,Ferrari,6.0,5.0,2020,Barcelona
+425,AlphaTauri,2.0,6.0,2020,Barcelona
+426,Alfa Romeo Racing,0.0,10.0,2020,Barcelona
+427,Haas F1 Team,0.0,10.0,2020,Barcelona
+428,Renault,0.0,10.0,2020,Barcelona
+429,Williams,0.0,10.0,2020,Barcelona
+430,Mercedes,41.0,1.0,2020,Barcelona
+431,Racing Point,22.0,3.0,2020,Barcelona
+432,Red Bull Racing,22.0,3.0,2020,Barcelona
+433,McLaren,9.0,4.0,2020,Barcelona
+434,Ferrari,6.0,5.0,2020,Barcelona
+435,AlphaTauri,2.0,6.0,2020,Barcelona
+436,Alfa Romeo Racing,0.0,10.0,2020,Barcelona
+437,Haas F1 Team,0.0,10.0,2020,Barcelona
+438,Renault,0.0,10.0,2020,Barcelona
+439,Williams,0.0,10.0,2020,Barcelona
+440,Mercedes,37.0,1.0,2020,Spielberg
+441,McLaren,26.0,2.0,2020,Spielberg
+442,Ferrari,19.0,3.0,2020,Spielberg
+443,Racing Point,8.0,4.0,2020,Spielberg
+444,AlphaTauri,6.0,5.0,2020,Spielberg
+445,Renault,4.0,6.0,2020,Spielberg
+446,Alfa Romeo Racing,2.0,7.0,2020,Spielberg
+447,Haas F1 Team,0.0,10.0,2020,Spielberg
+448,Red Bull Racing,0.0,10.0,2020,Spielberg
+449,Williams,0.0,10.0,2020,Spielberg
+450,Mercedes,37.0,1.0,2020,Spielberg
+451,McLaren,26.0,2.0,2020,Spielberg
+452,Ferrari,19.0,3.0,2020,Spielberg
+453,Racing Point,8.0,4.0,2020,Spielberg
+454,AlphaTauri,6.0,5.0,2020,Spielberg
+455,Renault,4.0,6.0,2020,Spielberg
+456,Alfa Romeo Racing,2.0,7.0,2020,Spielberg
+457,Haas F1 Team,0.0,10.0,2020,Spielberg
+458,Red Bull Racing,0.0,10.0,2020,Spielberg
+459,Williams,0.0,10.0,2020,Spielberg
+460,Mercedes,41.0,1.0,2020,Budapest
+461,Red Bull Racing,28.0,2.0,2020,Budapest
+462,Racing Point,18.0,3.0,2020,Budapest
+463,Ferrari,8.0,4.0,2020,Budapest
+464,Renault,4.0,5.0,2020,Budapest
+465,McLaren,2.0,6.0,2020,Budapest
+466,Haas F1 Team,1.0,7.0,2020,Budapest
+467,Alfa Romeo Racing,0.0,11.0,2020,Budapest
+468,AlphaTauri,0.0,11.0,2020,Budapest
+469,Williams,0.0,11.0,2020,Budapest
+470,nan,0.0,11.0,2020,Budapest
+471,Mercedes,25.0,1.0,2020,Silverstone
+472,Red Bull Racing,23.0,2.0,2020,Silverstone
+473,Renault,20.0,3.0,2020,Silverstone
+474,Ferrari,16.0,4.0,2020,Silverstone
+475,McLaren,10.0,5.0,2020,Silverstone
+476,AlphaTauri,6.0,6.0,2020,Silverstone
+477,Racing Point,2.0,7.0,2020,Silverstone
+478,Alfa Romeo Racing,0.0,10.0,2020,Silverstone
+479,Haas F1 Team,0.0,10.0,2020,Silverstone
+480,Williams,0.0,10.0,2020,Silverstone
+481,Mercedes,25.0,1.0,2020,Silverstone
+482,Red Bull Racing,23.0,2.0,2020,Silverstone
+483,Renault,20.0,3.0,2020,Silverstone
+484,Ferrari,16.0,4.0,2020,Silverstone
+485,McLaren,10.0,5.0,2020,Silverstone
+486,AlphaTauri,6.0,6.0,2020,Silverstone
+487,Racing Point,2.0,7.0,2020,Silverstone
+488,Alfa Romeo Racing,0.0,10.0,2020,Silverstone
+489,Haas F1 Team,0.0,10.0,2020,Silverstone
+490,Williams,0.0,10.0,2020,Silverstone
+491,Mercedes,41.0,1.0,2020,Barcelona
+492,Racing Point,22.0,3.0,2020,Barcelona
+493,Red Bull Racing,22.0,3.0,2020,Barcelona
+494,McLaren,9.0,4.0,2020,Barcelona
+495,Ferrari,6.0,5.0,2020,Barcelona
+496,AlphaTauri,2.0,6.0,2020,Barcelona
+497,Alfa Romeo Racing,0.0,10.0,2020,Barcelona
+498,Haas F1 Team,0.0,10.0,2020,Barcelona
+499,Renault,0.0,10.0,2020,Barcelona
+500,Williams,0.0,10.0,2020,Barcelona
+501,Mercedes,43.0,1.0,2020,Spa-Francorchamps
+502,Red Bull Racing,23.0,3.0,2020,Spa-Francorchamps
+503,Renault,23.0,3.0,2020,Spa-Francorchamps
+504,McLaren,6.0,4.0,2020,Spa-Francorchamps
+505,AlphaTauri,4.0,5.0,2020,Spa-Francorchamps
+506,Racing Point,3.0,6.0,2020,Spa-Francorchamps
+507,Alfa Romeo Racing,0.0,10.0,2020,Spa-Francorchamps
+508,Ferrari,0.0,10.0,2020,Spa-Francorchamps
+509,Haas F1 Team,0.0,10.0,2020,Spa-Francorchamps
+510,Williams,0.0,10.0,2020,Spa-Francorchamps
+511,McLaren,30.0,1.0,2020,Monza
+512,AlphaTauri,27.0,2.0,2020,Monza
+513,Mercedes,17.0,3.0,2020,Monza
+514,Racing Point,16.0,4.0,2020,Monza
+515,Renault,12.0,5.0,2020,Monza
+516,Alfa Romeo Racing,0.0,10.0,2020,Monza
+517,Ferrari,0.0,10.0,2020,Monza
+518,Haas F1 Team,0.0,10.0,2020,Monza
+519,Red Bull Racing,0.0,10.0,2020,Monza
+520,Williams,0.0,10.0,2020,Monza
+521,Mercedes,44.0,1.0,2020,Mugello
+522,Red Bull Racing,15.0,2.0,2020,Mugello
+523,Renault,12.0,3.0,2020,Mugello
+524,Racing Point,10.0,4.0,2020,Mugello
+525,McLaren,8.0,5.0,2020,Mugello
+526,AlphaTauri,6.0,6.0,2020,Mugello
+527,Ferrari,5.0,7.0,2020,Mugello
+528,Alfa Romeo Racing,2.0,8.0,2020,Mugello
+529,Haas F1 Team,0.0,10.0,2020,Mugello
+530,Williams,0.0,10.0,2020,Mugello
+531,Mercedes,41.0,1.0,2020,Sochi
+532,Red Bull Racing,19.0,2.0,2020,Sochi
+533,Renault,16.0,3.0,2020,Sochi
+534,Racing Point,12.0,4.0,2020,Sochi
+535,Ferrari,8.0,5.0,2020,Sochi
+536,AlphaTauri,6.0,6.0,2020,Sochi
+537,Alfa Romeo Racing,0.0,10.0,2020,Sochi
+538,Haas F1 Team,0.0,10.0,2020,Sochi
+539,McLaren,0.0,10.0,2020,Sochi
+540,Williams,0.0,10.0,2020,Sochi
+541,Mercedes,25.0,1.0,2020,Nürburgring
+542,Red Bull Racing,19.0,2.0,2020,Nürburgring
+543,Racing Point,16.0,3.0,2020,Nürburgring
+544,Renault,15.0,4.0,2020,Nürburgring
+545,McLaren,10.0,5.0,2020,Nürburgring
+546,AlphaTauri,8.0,6.0,2020,Nürburgring
+547,Ferrari,6.0,7.0,2020,Nürburgring
+548,Haas F1 Team,2.0,8.0,2020,Nürburgring
+549,Alfa Romeo Racing,1.0,9.0,2020,Nürburgring
+550,Williams,0.0,10.0,2020,Nürburgring
+551,Mercedes,44.0,1.0,2020,Portimão
+552,Red Bull Racing,15.0,2.0,2020,Portimão
+553,Ferrari,13.0,3.0,2020,Portimão
+554,AlphaTauri,10.0,4.0,2020,Portimão
+555,McLaren,8.0,5.0,2020,Portimão
+556,Racing Point,6.0,7.0,2020,Portimão
+557,Renault,6.0,7.0,2020,Portimão
+558,Alfa Romeo Racing,0.0,10.0,2020,Portimão
+559,Haas F1 Team,0.0,10.0,2020,Portimão
+560,Williams,0.0,10.0,2020,Portimão
+561,Mercedes,44.0,1.0,2020,Imola
+562,Renault,15.0,2.0,2020,Imola
+563,AlphaTauri,12.0,3.0,2020,Imola
+564,Ferrari,10.0,5.0,2020,Imola
+565,McLaren,10.0,5.0,2020,Imola
+566,Racing Point,8.0,6.0,2020,Imola
+567,Alfa Romeo Racing,3.0,7.0,2020,Imola
+568,Haas F1 Team,0.0,10.0,2020,Imola
+569,Red Bull Racing,0.0,10.0,2020,Imola
+570,Williams,0.0,10.0,2020,Imola
+571,Ferrari,27.0,1.0,2020,Istanbul
+572,Mercedes,25.0,2.0,2020,Istanbul
+573,Racing Point,20.0,3.0,2020,Istanbul
+574,McLaren,15.0,4.0,2020,Istanbul
+575,Red Bull Racing,14.0,5.0,2020,Istanbul
+576,Renault,1.0,6.0,2020,Istanbul
+577,Alfa Romeo Racing,0.0,10.0,2020,Istanbul
+578,AlphaTauri,0.0,10.0,2020,Istanbul
+579,Haas F1 Team,0.0,10.0,2020,Istanbul
+580,Williams,0.0,10.0,2020,Istanbul
+581,Red Bull Racing,34.0,1.0,2020,Sakhir
+582,Mercedes,29.0,2.0,2020,Sakhir
+583,McLaren,22.0,3.0,2020,Sakhir
+584,AlphaTauri,8.0,5.0,2020,Sakhir
+585,Renault,8.0,5.0,2020,Sakhir
+586,Ferrari,1.0,6.0,2020,Sakhir
+587,Alfa Romeo Racing,0.0,10.0,2020,Sakhir
+588,Haas F1 Team,0.0,10.0,2020,Sakhir
+589,Racing Point,0.0,10.0,2020,Sakhir
+590,Williams,0.0,10.0,2020,Sakhir
+591,Red Bull Racing,34.0,1.0,2020,Sakhir
+592,Mercedes,29.0,2.0,2020,Sakhir
+593,McLaren,22.0,3.0,2020,Sakhir
+594,AlphaTauri,8.0,5.0,2020,Sakhir
+595,Renault,8.0,5.0,2020,Sakhir
+596,Ferrari,1.0,6.0,2020,Sakhir
+597,Alfa Romeo Racing,0.0,10.0,2020,Sakhir
+598,Haas F1 Team,0.0,10.0,2020,Sakhir
+599,Racing Point,0.0,10.0,2020,Sakhir
+600,Williams,0.0,10.0,2020,Sakhir
+601,Red Bull Racing,37.0,1.0,2020,Yas Island
+602,Mercedes,33.0,2.0,2020,Yas Island
+603,McLaren,18.0,3.0,2020,Yas Island
+604,Renault,9.0,4.0,2020,Yas Island
+605,AlphaTauri,4.0,5.0,2020,Yas Island
+606,Racing Point,1.0,6.0,2020,Yas Island
+607,Alfa Romeo Racing,0.0,10.0,2020,Yas Island
+608,Ferrari,0.0,10.0,2020,Yas Island
+609,Haas F1 Team,0.0,10.0,2020,Yas Island
+610,Williams,0.0,10.0,2020,Yas Island
+611,Mercedes,41.0,1.0,2021,Bahrain
+612,Red Bull Racing,28.0,2.0,2021,Bahrain
+613,McLaren,18.0,3.0,2021,Bahrain
+614,Ferrari,12.0,4.0,2021,Bahrain
+615,AlphaTauri,2.0,5.0,2021,Bahrain
+616,Aston Martin,1.0,6.0,2021,Bahrain
+617,Alfa Romeo Racing,0.0,10.0,2021,Bahrain
+618,Alpine,0.0,10.0,2021,Bahrain
+619,Haas F1 Team,0.0,10.0,2021,Bahrain
+620,Williams,0.0,10.0,2021,Bahrain
+621,Mercedes,41.0,1.0,2021,Sakhir
+622,Red Bull Racing,28.0,2.0,2021,Sakhir
+623,McLaren,18.0,3.0,2021,Sakhir
+624,Ferrari,12.0,4.0,2021,Sakhir
+625,AlphaTauri,2.0,5.0,2021,Sakhir
+626,Aston Martin,1.0,6.0,2021,Sakhir
+627,Alfa Romeo Racing,0.0,10.0,2021,Sakhir
+628,Alpine,0.0,10.0,2021,Sakhir
+629,Haas F1 Team,0.0,10.0,2021,Sakhir
+630,Williams,0.0,10.0,2021,Sakhir
+631,Red Bull Racing,25.0,1.0,2021,Imola
+632,McLaren,23.0,2.0,2021,Imola
+633,Ferrari,22.0,3.0,2021,Imola
+634,Mercedes,19.0,4.0,2021,Imola
+635,AlphaTauri,6.0,5.0,2021,Imola
+636,Aston Martin,4.0,6.0,2021,Imola
+637,Alpine,3.0,7.0,2021,Imola
+638,Alfa Romeo Racing,0.0,10.0,2021,Imola
+639,Haas F1 Team,0.0,10.0,2021,Imola
+640,Williams,0.0,10.0,2021,Imola
+641,Mercedes,41.0,1.0,2021,Portimão
+642,Red Bull Racing,30.0,2.0,2021,Portimão
+643,McLaren,12.0,3.0,2021,Portimão
+644,Alpine,10.0,4.0,2021,Portimão
+645,Ferrari,8.0,5.0,2021,Portimão
+646,AlphaTauri,1.0,6.0,2021,Portimão
+647,Alfa Romeo Racing,0.0,10.0,2021,Portimão
+648,Aston Martin,0.0,10.0,2021,Portimão
+649,Haas F1 Team,0.0,10.0,2021,Portimão
+650,Williams,0.0,10.0,2021,Portimão
+651,Mercedes,40.0,1.0,2021,Barcelona
+652,Red Bull Racing,29.0,2.0,2021,Barcelona
+653,Ferrari,18.0,3.0,2021,Barcelona
+654,McLaren,12.0,4.0,2021,Barcelona
+655,Alpine,2.0,5.0,2021,Barcelona
+656,AlphaTauri,1.0,6.0,2021,Barcelona
+657,Alfa Romeo Racing,0.0,10.0,2021,Barcelona
+658,Aston Martin,0.0,10.0,2021,Barcelona
+659,Haas F1 Team,0.0,10.0,2021,Barcelona
+660,Williams,0.0,10.0,2021,Barcelona
+661,Red Bull Racing,37.0,1.0,2021,Monte Carlo
+662,Ferrari,18.0,2.0,2021,Monte Carlo
+663,McLaren,15.0,3.0,2021,Monte Carlo
+664,Aston Martin,14.0,4.0,2021,Monte Carlo
+665,AlphaTauri,8.0,5.0,2021,Monte Carlo
+666,Mercedes,7.0,6.0,2021,Monte Carlo
+667,Alpine,2.0,7.0,2021,Monte Carlo
+668,Alfa Romeo Racing,1.0,8.0,2021,Monte Carlo
+669,Haas F1 Team,0.0,10.0,2021,Monte Carlo
+670,Williams,0.0,10.0,2021,Monte Carlo
+671,Red Bull Racing,25.0,1.0,2021,Baku
+672,AlphaTauri,21.0,2.0,2021,Baku
+673,Aston Martin,18.0,3.0,2021,Baku
+674,Ferrari,16.0,4.0,2021,Baku
+675,McLaren,12.0,5.0,2021,Baku
+676,Alpine,8.0,6.0,2021,Baku
+677,Alfa Romeo Racing,1.0,7.0,2021,Baku
+678,Haas F1 Team,0.0,10.0,2021,Baku
+679,Mercedes,0.0,10.0,2021,Baku
+680,Williams,0.0,10.0,2021,Baku
+681,Red Bull Racing,41.0,1.0,2021,Le Castellet
+682,Mercedes,30.0,2.0,2021,Le Castellet
+683,McLaren,18.0,3.0,2021,Le Castellet
+684,AlphaTauri,6.0,4.0,2021,Le Castellet
+685,Alpine,4.0,5.0,2021,Le Castellet
+686,Aston Martin,3.0,6.0,2021,Le Castellet
+687,Alfa Romeo Racing,0.0,10.0,2021,Le Castellet
+688,Ferrari,0.0,10.0,2021,Le Castellet
+689,Haas F1 Team,0.0,10.0,2021,Le Castellet
+690,Williams,0.0,10.0,2021,Le Castellet
+691,Red Bull Racing,37.0,1.0,2021,Spielberg
+692,Mercedes,34.0,2.0,2021,Spielberg
+693,Ferrari,14.0,3.0,2021,Spielberg
+694,McLaren,10.0,4.0,2021,Spielberg
+695,Aston Martin,4.0,5.0,2021,Spielberg
+696,Alpine,2.0,6.0,2021,Spielberg
+697,AlphaTauri,1.0,7.0,2021,Spielberg
+698,Alfa Romeo Racing,0.0,10.0,2021,Spielberg
+699,Haas F1 Team,0.0,10.0,2021,Spielberg
+700,Williams,0.0,10.0,2021,Spielberg
+701,Red Bull Racing,37.0,1.0,2021,Spielberg
+702,Mercedes,34.0,2.0,2021,Spielberg
+703,Ferrari,14.0,3.0,2021,Spielberg
+704,McLaren,10.0,4.0,2021,Spielberg
+705,Aston Martin,4.0,5.0,2021,Spielberg
+706,Alpine,2.0,6.0,2021,Spielberg
+707,AlphaTauri,1.0,7.0,2021,Spielberg
+708,Alfa Romeo Racing,0.0,10.0,2021,Spielberg
+709,Haas F1 Team,0.0,10.0,2021,Spielberg
+710,Williams,0.0,10.0,2021,Spielberg
+711,Mercedes,40.0,1.0,2021,Silverstone
+712,Ferrari,26.0,2.0,2021,Silverstone
+713,McLaren,22.0,3.0,2021,Silverstone
+714,Alpine,8.0,4.0,2021,Silverstone
+715,Aston Martin,4.0,5.0,2021,Silverstone
+716,AlphaTauri,1.0,6.0,2021,Silverstone
+717,Alfa Romeo Racing,0.0,10.0,2021,Silverstone
+718,Haas F1 Team,0.0,10.0,2021,Silverstone
+719,Red Bull Racing,0.0,10.0,2021,Silverstone
+720,Williams,0.0,10.0,2021,Silverstone
+721,Alpine,37.0,1.0,2021,Budapest
+722,AlphaTauri,19.0,2.0,2021,Budapest
+723,Mercedes,18.0,3.0,2021,Budapest
+724,Ferrari,15.0,4.0,2021,Budapest
+725,Williams,10.0,5.0,2021,Budapest
+726,Red Bull Racing,2.0,6.0,2021,Budapest
+727,Alfa Romeo Racing,1.0,7.0,2021,Budapest
+728,Aston Martin,0.0,10.0,2021,Budapest
+729,Haas F1 Team,0.0,10.0,2021,Budapest
+730,McLaren,0.0,10.0,2021,Budapest
+731,Red Bull Racing,12.5,1.0,2021,Spa-Francorchamps
+732,Williams,10.0,2.0,2021,Spa-Francorchamps
+733,Mercedes,7.5,3.0,2021,Spa-Francorchamps
+734,McLaren,6.0,4.0,2021,Spa-Francorchamps
+735,Aston Martin,5.0,5.0,2021,Spa-Francorchamps
+736,AlphaTauri,4.0,6.0,2021,Spa-Francorchamps
+737,Alpine,3.0,7.0,2021,Spa-Francorchamps
+738,Ferrari,2.5,8.0,2021,Spa-Francorchamps
+739,Alfa Romeo Racing,0.0,10.0,2021,Spa-Francorchamps
+740,Haas F1 Team,0.0,10.0,2021,Spa-Francorchamps
+741,Mercedes,34.0,1.0,2021,Zandvoort
+742,Red Bull Racing,29.0,2.0,2021,Zandvoort
+743,Ferrari,16.0,3.0,2021,Zandvoort
+744,AlphaTauri,12.0,4.0,2021,Zandvoort
+745,Alpine,10.0,5.0,2021,Zandvoort
+746,McLaren,1.0,6.0,2021,Zandvoort
+747,Alfa Romeo Racing,0.0,10.0,2021,Zandvoort
+748,Aston Martin,0.0,10.0,2021,Zandvoort
+749,Haas F1 Team,0.0,10.0,2021,Zandvoort
+750,Williams,0.0,10.0,2021,Zandvoort
+751,McLaren,44.0,1.0,2021,Monza
+752,Ferrari,20.0,2.0,2021,Monza
+753,Mercedes,15.0,3.0,2021,Monza
+754,Red Bull Racing,10.0,4.0,2021,Monza
+755,Aston Martin,6.0,5.0,2021,Monza
+756,Alpine,5.0,6.0,2021,Monza
+757,Williams,2.0,7.0,2021,Monza
+758,Alfa Romeo Racing,0.0,10.0,2021,Monza
+759,AlphaTauri,0.0,10.0,2021,Monza
+760,Haas F1 Team,0.0,10.0,2021,Monza
+761,Mercedes,35.0,1.0,2021,Sochi
+762,Red Bull Racing,20.0,2.0,2021,Sochi
+763,McLaren,19.0,3.0,2021,Sochi
+764,Ferrari,15.0,4.0,2021,Sochi
+765,Alpine,8.0,5.0,2021,Sochi
+766,Alfa Romeo Racing,4.0,6.0,2021,Sochi
+767,Williams,1.0,7.0,2021,Sochi
+768,AlphaTauri,0.0,10.0,2021,Sochi
+769,Aston Martin,0.0,10.0,2021,Sochi
+770,Haas F1 Team,0.0,10.0,2021,Sochi
+771,Mercedes,36.0,1.0,2021,Istanbul
+772,Red Bull Racing,33.0,2.0,2021,Istanbul
+773,Ferrari,16.0,3.0,2021,Istanbul
+774,AlphaTauri,8.0,4.0,2021,Istanbul
+775,McLaren,6.0,5.0,2021,Istanbul
+776,Aston Martin,2.0,6.0,2021,Istanbul
+777,Alpine,1.0,7.0,2021,Istanbul
+778,Alfa Romeo Racing,0.0,10.0,2021,Istanbul
+779,Haas F1 Team,0.0,10.0,2021,Istanbul
+780,Williams,0.0,10.0,2021,Istanbul
+781,Red Bull Racing,40.0,1.0,2021,Austin
+782,Mercedes,27.0,2.0,2021,Austin
+783,Ferrari,18.0,3.0,2021,Austin
+784,McLaren,14.0,4.0,2021,Austin
+785,AlphaTauri,2.0,5.0,2021,Austin
+786,Aston Martin,1.0,6.0,2021,Austin
+787,Alfa Romeo Racing,0.0,10.0,2021,Austin
+788,Alpine,0.0,10.0,2021,Austin
+789,Haas F1 Team,0.0,10.0,2021,Austin
+790,Williams,0.0,10.0,2021,Austin
+791,Red Bull Racing,40.0,1.0,2021,Mexico City
+792,Ferrari,18.0,3.0,2021,Mexico City
+793,Mercedes,18.0,3.0,2021,Mexico City
+794,AlphaTauri,12.0,4.0,2021,Mexico City
+795,Aston Martin,6.0,5.0,2021,Mexico City
+796,Alfa Romeo Racing,4.0,6.0,2021,Mexico City
+797,Alpine,2.0,7.0,2021,Mexico City
+798,McLaren,1.0,8.0,2021,Mexico City
+799,Haas F1 Team,0.0,10.0,2021,Mexico City
+800,Williams,0.0,10.0,2021,Mexico City
+801,Mercedes,40.0,1.0,2021,São Paulo
+802,Red Bull Racing,31.0,2.0,2021,São Paulo
+803,Ferrari,18.0,3.0,2021,São Paulo
+804,AlphaTauri,6.0,5.0,2021,São Paulo
+805,Alpine,6.0,5.0,2021,São Paulo
+806,McLaren,1.0,6.0,2021,São Paulo
+807,Alfa Romeo Racing,0.0,10.0,2021,São Paulo
+808,Aston Martin,0.0,10.0,2021,São Paulo
+809,Haas F1 Team,0.0,10.0,2021,São Paulo
+810,Williams,0.0,10.0,2021,São Paulo
+811,Red Bull Racing,31.0,1.0,2021,Lusail
+812,Alpine,25.0,3.0,2021,Lusail
+813,Mercedes,25.0,3.0,2021,Lusail
+814,Ferrari,10.0,4.0,2021,Lusail
+815,Aston Martin,9.0,5.0,2021,Lusail
+816,McLaren,2.0,6.0,2021,Lusail
+817,Alfa Romeo Racing,0.0,10.0,2021,Lusail
+818,AlphaTauri,0.0,10.0,2021,Lusail
+819,Haas F1 Team,0.0,10.0,2021,Lusail
+820,Williams,0.0,10.0,2021,Lusail
+821,Mercedes,41.0,1.0,2021,Jeddah
+822,Red Bull Racing,18.0,2.0,2021,Jeddah
+823,Alpine,12.0,3.0,2021,Jeddah
+824,McLaren,11.0,4.0,2021,Jeddah
+825,Ferrari,10.0,5.0,2021,Jeddah
+826,AlphaTauri,8.0,6.0,2021,Jeddah
+827,Alfa Romeo Racing,2.0,7.0,2021,Jeddah
+828,Aston Martin,0.0,10.0,2021,Jeddah
+829,Haas F1 Team,0.0,10.0,2021,Jeddah
+830,Williams,0.0,10.0,2021,Jeddah
+831,Mercedes,26.0,2.0,2021,Yas Island
+832,Red Bull Racing,26.0,2.0,2021,Yas Island
+833,AlphaTauri,22.0,3.0,2021,Yas Island
+834,Ferrari,16.0,4.0,2021,Yas Island
+835,Alpine,6.0,6.0,2021,Yas Island
+836,McLaren,6.0,6.0,2021,Yas Island
+837,Alfa Romeo Racing,0.0,11.0,2021,Yas Island
+838,Aston Martin,0.0,11.0,2021,Yas Island
+839,Haas F1 Team,0.0,11.0,2021,Yas Island
+840,Williams,0.0,11.0,2021,Yas Island
+841,nan,0.0,11.0,2021,Yas Island
+842,Red Bull Racing,44.0,1.0,2022,Spain
+843,Mercedes,25.0,2.0,2022,Spain
+844,Ferrari,12.0,3.0,2022,Spain
+845,Alfa Romeo,8.0,5.0,2022,Spain
+846,Alpine,8.0,5.0,2022,Spain
+847,McLaren,4.0,6.0,2022,Spain
+848,AlphaTauri,1.0,7.0,2022,Spain
+849,Aston Martin,0.0,10.0,2022,Spain
+850,Haas F1 Team,0.0,10.0,2022,Spain
+851,Williams,0.0,10.0,2022,Spain
+852,Ferrari,44.0,1.0,2022,Bahrain
+853,Mercedes,27.0,2.0,2022,Bahrain
+854,Haas F1 Team,10.0,3.0,2022,Bahrain
+855,Alfa Romeo,9.0,4.0,2022,Bahrain
+856,Alpine,8.0,5.0,2022,Bahrain
+857,AlphaTauri,4.0,6.0,2022,Bahrain
+858,Aston Martin,0.0,10.0,2022,Bahrain
+859,McLaren,0.0,10.0,2022,Bahrain
+860,Red Bull Racing,0.0,10.0,2022,Bahrain
+861,Williams,0.0,10.0,2022,Bahrain
+862,Ferrari,44.0,1.0,2022,Sakhir
+863,Mercedes,27.0,2.0,2022,Sakhir
+864,Haas F1 Team,10.0,3.0,2022,Sakhir
+865,Alfa Romeo,9.0,4.0,2022,Sakhir
+866,Alpine,8.0,5.0,2022,Sakhir
+867,AlphaTauri,4.0,6.0,2022,Sakhir
+868,Aston Martin,0.0,10.0,2022,Sakhir
+869,McLaren,0.0,10.0,2022,Sakhir
+870,Red Bull Racing,0.0,10.0,2022,Sakhir
+871,Williams,0.0,10.0,2022,Sakhir
+872,Red Bull Racing,37.0,1.0,2022,Jeddah
+873,Ferrari,34.0,2.0,2022,Jeddah
+874,Mercedes,11.0,3.0,2022,Jeddah
+875,Alpine,8.0,4.0,2022,Jeddah
+876,McLaren,6.0,5.0,2022,Jeddah
+877,AlphaTauri,4.0,6.0,2022,Jeddah
+878,Haas F1 Team,2.0,7.0,2022,Jeddah
+879,Alfa Romeo,0.0,11.0,2022,Jeddah
+880,Aston Martin,0.0,11.0,2022,Jeddah
+881,Williams,0.0,11.0,2022,Jeddah
+882,nan,0.0,11.0,2022,Jeddah
+883,Mercedes,27.0,1.0,2022,Melbourne
+884,Ferrari,26.0,2.0,2022,Melbourne
+885,McLaren,18.0,4.0,2022,Melbourne
+886,Red Bull Racing,18.0,4.0,2022,Melbourne
+887,Alpine,6.0,5.0,2022,Melbourne
+888,Alfa Romeo,4.0,6.0,2022,Melbourne
+889,AlphaTauri,2.0,7.0,2022,Melbourne
+890,Williams,1.0,8.0,2022,Melbourne
+891,Aston Martin,0.0,10.0,2022,Melbourne
+892,Haas F1 Team,0.0,10.0,2022,Melbourne
+893,Red Bull Racing,44.0,1.0,2022,Imola
+894,McLaren,15.0,2.0,2022,Imola
+895,Mercedes,12.0,3.0,2022,Imola
+896,Alfa Romeo,10.0,4.0,2022,Imola
+897,Ferrari,8.0,5.0,2022,Imola
+898,AlphaTauri,6.0,6.0,2022,Imola
+899,Aston Martin,5.0,7.0,2022,Imola
+900,Haas F1 Team,2.0,8.0,2022,Imola
+901,Alpine,0.0,10.0,2022,Imola
+902,Williams,0.0,10.0,2022,Imola
+903,Red Bull Racing,38.0,1.0,2022,Miami
+904,Ferrari,33.0,2.0,2022,Miami
+905,Mercedes,18.0,3.0,2022,Miami
+906,Alfa Romeo,6.0,4.0,2022,Miami
+907,Alpine,4.0,5.0,2022,Miami
+908,Williams,2.0,6.0,2022,Miami
+909,Aston Martin,1.0,7.0,2022,Miami
+910,AlphaTauri,0.0,10.0,2022,Miami
+911,Haas F1 Team,0.0,10.0,2022,Miami
+912,McLaren,0.0,10.0,2022,Miami
+913,Red Bull Racing,44.0,1.0,2022,Barcelona
+914,Mercedes,25.0,2.0,2022,Barcelona
+915,Ferrari,12.0,3.0,2022,Barcelona
+916,Alfa Romeo,8.0,5.0,2022,Barcelona
+917,Alpine,8.0,5.0,2022,Barcelona
+918,McLaren,4.0,6.0,2022,Barcelona
+919,AlphaTauri,1.0,7.0,2022,Barcelona
+920,Aston Martin,0.0,10.0,2022,Barcelona
+921,Haas F1 Team,0.0,10.0,2022,Barcelona
+922,Williams,0.0,10.0,2022,Barcelona
+923,Red Bull Racing,40.0,1.0,2022,Monaco
+924,Ferrari,30.0,2.0,2022,Monaco
+925,Mercedes,14.0,3.0,2022,Monaco
+926,McLaren,9.0,4.0,2022,Monaco
+927,Alpine,6.0,5.0,2022,Monaco
+928,Alfa Romeo,2.0,6.0,2022,Monaco
+929,Aston Martin,1.0,7.0,2022,Monaco
+930,AlphaTauri,0.0,10.0,2022,Monaco
+931,Haas F1 Team,0.0,10.0,2022,Monaco
+932,Williams,0.0,10.0,2022,Monaco
+933,Red Bull Racing,44.0,1.0,2022,Baku
+934,Mercedes,27.0,2.0,2022,Baku
+935,AlphaTauri,10.0,3.0,2022,Baku
+936,Aston Martin,8.0,4.0,2022,Baku
+937,Alpine,7.0,5.0,2022,Baku
+938,McLaren,6.0,6.0,2022,Baku
+939,Alfa Romeo,0.0,10.0,2022,Baku
+940,Ferrari,0.0,10.0,2022,Baku
+941,Haas F1 Team,0.0,10.0,2022,Baku
+942,Williams,0.0,10.0,2022,Baku
+943,Ferrari,29.0,1.0,2022,Montréal
+944,Mercedes,27.0,2.0,2022,Montréal
+945,Red Bull Racing,25.0,3.0,2022,Montréal
+946,Alfa Romeo,10.0,5.0,2022,Montréal
+947,Alpine,10.0,5.0,2022,Montréal
+948,Aston Martin,1.0,6.0,2022,Montréal
+949,AlphaTauri,0.0,10.0,2022,Montréal
+950,Haas F1 Team,0.0,10.0,2022,Montréal
+951,McLaren,0.0,10.0,2022,Montréal
+952,Williams,0.0,10.0,2022,Montréal
+953,Ferrari,37.0,1.0,2022,Silverstone
+954,Red Bull Racing,24.0,2.0,2022,Silverstone
+955,Mercedes,16.0,3.0,2022,Silverstone
+956,Alpine,10.0,4.0,2022,Silverstone
+957,McLaren,8.0,5.0,2022,Silverstone
+958,Haas F1 Team,5.0,6.0,2022,Silverstone
+959,Aston Martin,2.0,7.0,2022,Silverstone
+960,Alfa Romeo,0.0,10.0,2022,Silverstone
+961,AlphaTauri,0.0,10.0,2022,Silverstone
+962,Williams,0.0,10.0,2022,Silverstone
+963,Mercedes,27.0,1.0,2022,Spielberg
+964,Ferrari,25.0,2.0,2022,Spielberg
+965,Red Bull Racing,19.0,3.0,2022,Spielberg
+966,Haas F1 Team,12.0,4.0,2022,Spielberg
+967,Alpine,11.0,5.0,2022,Spielberg
+968,McLaren,8.0,6.0,2022,Spielberg
+969,Alfa Romeo,0.0,10.0,2022,Spielberg
+970,AlphaTauri,0.0,10.0,2022,Spielberg
+971,Aston Martin,0.0,10.0,2022,Spielberg
+972,Williams,0.0,10.0,2022,Spielberg
+973,Red Bull Racing,37.0,1.0,2022,Le Castellet
+974,Mercedes,33.0,2.0,2022,Le Castellet
+975,Alpine,12.0,3.0,2022,Le Castellet
+976,Ferrari,11.0,4.0,2022,Le Castellet
+977,McLaren,8.0,5.0,2022,Le Castellet
+978,Aston Martin,1.0,6.0,2022,Le Castellet
+979,Alfa Romeo,0.0,10.0,2022,Le Castellet
+980,AlphaTauri,0.0,10.0,2022,Le Castellet
+981,Haas F1 Team,0.0,10.0,2022,Le Castellet
+982,Williams,0.0,10.0,2022,Le Castellet
+983,Red Bull Racing,35.0,1.0,2022,Budapest
+984,Mercedes,34.0,2.0,2022,Budapest
+985,Ferrari,20.0,3.0,2022,Budapest
+986,Alpine,6.0,5.0,2022,Budapest
+987,McLaren,6.0,5.0,2022,Budapest
+988,Aston Martin,1.0,6.0,2022,Budapest
+989,Alfa Romeo,0.0,10.0,2022,Budapest
+990,AlphaTauri,0.0,10.0,2022,Budapest
+991,Haas F1 Team,0.0,10.0,2022,Budapest
+992,Williams,0.0,10.0,2022,Budapest
+993,Red Bull Racing,44.0,1.0,2022,Spa-Francorchamps
+994,Ferrari,23.0,2.0,2022,Spa-Francorchamps
+995,Alpine,16.0,3.0,2022,Spa-Francorchamps
+996,Mercedes,12.0,4.0,2022,Spa-Francorchamps
+997,Aston Martin,4.0,5.0,2022,Spa-Francorchamps
+998,AlphaTauri,2.0,6.0,2022,Spa-Francorchamps
+999,Williams,1.0,7.0,2022,Spa-Francorchamps
+1000,Alfa Romeo,0.0,10.0,2022,Spa-Francorchamps
+1001,Haas F1 Team,0.0,10.0,2022,Spa-Francorchamps
+1002,McLaren,0.0,10.0,2022,Spa-Francorchamps
+1003,Red Bull Racing,36.0,1.0,2022,Zandvoort
+1004,Mercedes,30.0,2.0,2022,Zandvoort
+1005,Ferrari,19.0,3.0,2022,Zandvoort
+1006,Alpine,10.0,4.0,2022,Zandvoort
+1007,McLaren,6.0,5.0,2022,Zandvoort
+1008,Aston Martin,1.0,6.0,2022,Zandvoort
+1009,Alfa Romeo,0.0,10.0,2022,Zandvoort
+1010,AlphaTauri,0.0,10.0,2022,Zandvoort
+1011,Haas F1 Team,0.0,10.0,2022,Zandvoort
+1012,Williams,0.0,10.0,2022,Zandvoort
+1013,Red Bull Racing,34.0,1.0,2022,Monza
+1014,Ferrari,30.0,2.0,2022,Monza
+1015,Mercedes,25.0,3.0,2022,Monza
+1016,McLaren,6.0,4.0,2022,Monza
+1017,AlphaTauri,4.0,5.0,2022,Monza
+1018,Williams,2.0,6.0,2022,Monza
+1019,Alfa Romeo,1.0,7.0,2022,Monza
+1020,Alpine,0.0,10.0,2022,Monza
+1021,Aston Martin,0.0,10.0,2022,Monza
+1022,Haas F1 Team,0.0,10.0,2022,Monza
+1023,Ferrari,33.0,1.0,2022,Marina Bay
+1024,Red Bull Racing,31.0,2.0,2022,Marina Bay
+1025,McLaren,22.0,3.0,2022,Marina Bay
+1026,Aston Martin,12.0,4.0,2022,Marina Bay
+1027,Mercedes,2.0,5.0,2022,Marina Bay
+1028,AlphaTauri,1.0,6.0,2022,Marina Bay
+1029,Alfa Romeo,0.0,10.0,2022,Marina Bay
+1030,Alpine,0.0,10.0,2022,Marina Bay
+1031,Haas F1 Team,0.0,10.0,2022,Marina Bay
+1032,Williams,0.0,10.0,2022,Marina Bay
+1033,Red Bull Racing,43.0,1.0,2022,Suzuka
+1034,Alpine,18.0,2.0,2022,Suzuka
+1035,Ferrari,15.0,3.0,2022,Suzuka
+1036,Mercedes,14.0,4.0,2022,Suzuka
+1037,Aston Martin,8.0,5.0,2022,Suzuka
+1038,Williams,2.0,6.0,2022,Suzuka
+1039,McLaren,1.0,7.0,2022,Suzuka
+1040,Alfa Romeo,0.0,10.0,2022,Suzuka
+1041,AlphaTauri,0.0,10.0,2022,Suzuka
+1042,Haas F1 Team,0.0,10.0,2022,Suzuka
+1043,Red Bull Racing,37.0,1.0,2022,Austin
+1044,Mercedes,29.0,2.0,2022,Austin
+1045,Ferrari,15.0,3.0,2022,Austin
+1046,McLaren,8.0,4.0,2022,Austin
+1047,Alpine,6.0,5.0,2022,Austin
+1048,Aston Martin,4.0,6.0,2022,Austin
+1049,Haas F1 Team,2.0,7.0,2022,Austin
+1050,AlphaTauri,1.0,8.0,2022,Austin
+1051,Alfa Romeo,0.0,10.0,2022,Austin
+1052,Williams,0.0,10.0,2022,Austin
+1053,Red Bull Racing,40.0,1.0,2022,Mexico City
+1054,Mercedes,31.0,2.0,2022,Mexico City
+1055,Ferrari,18.0,3.0,2022,Mexico City
+1056,McLaren,8.0,4.0,2022,Mexico City
+1057,Alpine,4.0,5.0,2022,Mexico City
+1058,Alfa Romeo,1.0,6.0,2022,Mexico City
+1059,AlphaTauri,0.0,10.0,2022,Mexico City
+1060,Aston Martin,0.0,10.0,2022,Mexico City
+1061,Haas F1 Team,0.0,10.0,2022,Mexico City
+1062,Williams,0.0,10.0,2022,Mexico City
+1063,Mercedes,44.0,1.0,2022,São Paulo
+1064,Ferrari,27.0,2.0,2022,São Paulo
+1065,Alpine,14.0,4.0,2022,São Paulo
+1066,Red Bull Racing,14.0,4.0,2022,São Paulo
+1067,Alfa Romeo,2.0,5.0,2022,São Paulo
+1068,Aston Martin,1.0,6.0,2022,São Paulo
+1069,AlphaTauri,0.0,10.0,2022,São Paulo
+1070,Haas F1 Team,0.0,10.0,2022,São Paulo
+1071,McLaren,0.0,10.0,2022,São Paulo
+1072,Williams,0.0,10.0,2022,São Paulo
+1073,Red Bull Racing,40.0,1.0,2022,Yas Island
+1074,Ferrari,30.0,2.0,2022,Yas Island
+1075,McLaren,11.0,3.0,2022,Yas Island
+1076,Mercedes,10.0,4.0,2022,Yas Island
+1077,Alpine,6.0,5.0,2022,Yas Island
+1078,Aston Martin,5.0,6.0,2022,Yas Island
+1079,Alfa Romeo,0.0,10.0,2022,Yas Island
+1080,AlphaTauri,0.0,10.0,2022,Yas Island
+1081,Haas F1 Team,0.0,10.0,2022,Yas Island
+1082,Williams,0.0,10.0,2022,Yas Island
+1083,Red Bull Racing,43.0,1.0,2023,Sakhir
+1084,Aston Martin,23.0,2.0,2023,Sakhir
+1085,Mercedes,16.0,3.0,2023,Sakhir
+1086,Ferrari,12.0,4.0,2023,Sakhir
+1087,Alfa Romeo,4.0,5.0,2023,Sakhir
+1088,Alpine,2.0,6.0,2023,Sakhir
+1089,Williams,1.0,7.0,2023,Sakhir
+1090,AlphaTauri,0.0,10.0,2023,Sakhir
+1091,Haas F1 Team,0.0,10.0,2023,Sakhir
+1092,McLaren,0.0,10.0,2023,Sakhir
+1093,Red Bull Racing,43.0,1.0,2023,Sakhir
+1094,Aston Martin,23.0,2.0,2023,Sakhir
+1095,Mercedes,16.0,3.0,2023,Sakhir
+1096,Ferrari,12.0,4.0,2023,Sakhir
+1097,Alfa Romeo,4.0,5.0,2023,Sakhir
+1098,Alpine,2.0,6.0,2023,Sakhir
+1099,Williams,1.0,7.0,2023,Sakhir
+1100,AlphaTauri,0.0,10.0,2023,Sakhir
+1101,Haas F1 Team,0.0,10.0,2023,Sakhir
+1102,McLaren,0.0,10.0,2023,Sakhir
+1103,Red Bull Racing,44.0,1.0,2023,Jeddah
+1104,Mercedes,22.0,2.0,2023,Jeddah
+1105,Aston Martin,15.0,3.0,2023,Jeddah
+1106,Ferrari,14.0,4.0,2023,Jeddah
+1107,Alpine,6.0,5.0,2023,Jeddah
+1108,Haas F1 Team,1.0,6.0,2023,Jeddah
+1109,Alfa Romeo,0.0,10.0,2023,Jeddah
+1110,AlphaTauri,0.0,10.0,2023,Jeddah
+1111,McLaren,0.0,10.0,2023,Jeddah
+1112,Williams,0.0,10.0,2023,Jeddah
+1113,Red Bull Racing,36.0,1.0,2023,Melbourne
+1114,Aston Martin,27.0,2.0,2023,Melbourne
+1115,Mercedes,18.0,3.0,2023,Melbourne
+1116,McLaren,12.0,4.0,2023,Melbourne
+1117,Haas F1 Team,6.0,5.0,2023,Melbourne
+1118,Alfa Romeo,2.0,6.0,2023,Melbourne
+1119,AlphaTauri,1.0,7.0,2023,Melbourne
+1120,Alpine,0.0,10.0,2023,Melbourne
+1121,Ferrari,0.0,10.0,2023,Melbourne
+1122,Williams,0.0,10.0,2023,Melbourne
+1123,Red Bull Racing,43.0,1.0,2023,Baku
+1124,Ferrari,25.0,2.0,2023,Baku
+1125,Aston Martin,18.0,3.0,2023,Baku
+1126,Mercedes,13.0,4.0,2023,Baku
+1127,McLaren,2.0,5.0,2023,Baku
+1128,AlphaTauri,1.0,6.0,2023,Baku
+1129,Alfa Romeo,0.0,10.0,2023,Baku
+1130,Alpine,0.0,10.0,2023,Baku
+1131,Haas F1 Team,0.0,10.0,2023,Baku
+1132,Williams,0.0,10.0,2023,Baku
+1133,Red Bull Racing,44.0,1.0,2023,Miami
+1134,Mercedes,20.0,2.0,2023,Miami
+1135,Ferrari,16.0,3.0,2023,Miami
+1136,Aston Martin,15.0,4.0,2023,Miami
+1137,Alpine,6.0,5.0,2023,Miami
+1138,Haas F1 Team,1.0,6.0,2023,Miami
+1139,Alfa Romeo,0.0,10.0,2023,Miami
+1140,AlphaTauri,0.0,10.0,2023,Miami
+1141,McLaren,0.0,10.0,2023,Miami
+1142,Williams,0.0,10.0,2023,Miami
+1143,Red Bull Racing,25.0,1.0,2023,Monaco
+1144,Mercedes,23.0,2.0,2023,Monaco
+1145,Alpine,21.0,3.0,2023,Monaco
+1146,Aston Martin,18.0,4.0,2023,Monaco
+1147,Ferrari,12.0,5.0,2023,Monaco
+1148,McLaren,3.0,6.0,2023,Monaco
+1149,Alfa Romeo,0.0,10.0,2023,Monaco
+1150,AlphaTauri,0.0,10.0,2023,Monaco
+1151,Haas F1 Team,0.0,10.0,2023,Monaco
+1152,Williams,0.0,10.0,2023,Monaco
+1153,Red Bull Racing,38.0,1.0,2023,Barcelona
+1154,Mercedes,33.0,2.0,2023,Barcelona
+1155,Aston Martin,14.0,3.0,2023,Barcelona
+1156,Ferrari,10.0,4.0,2023,Barcelona
+1157,Alpine,5.0,5.0,2023,Barcelona
+1158,Alfa Romeo,2.0,6.0,2023,Barcelona
+1159,AlphaTauri,0.0,10.0,2023,Barcelona
+1160,Haas F1 Team,0.0,10.0,2023,Barcelona
+1161,McLaren,0.0,10.0,2023,Barcelona
+1162,Williams,0.0,10.0,2023,Barcelona
