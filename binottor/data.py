@@ -153,7 +153,7 @@ def get_results_driver_CSV(years):
 
         df_results = pd.concat([df_results,df_results_per_locations],ignore_index=True)
 
-    df_results.to_csv('../raw_data/driver_results2023.csv')
+    df_results.to_csv('../raw_data/driver_results.csv')
     print (f'The file driver_results.csv has been successfully downloaded for the following years : {years}')
 
 def get_locations_CSV(years):
