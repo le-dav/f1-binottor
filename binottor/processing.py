@@ -263,7 +263,7 @@ def merge_weather(laps, weather,backfilling=6):
 
 def merge_track_status():
     pass
-  
+
 def mask_race_percentage(df, percentage):
     df = df[df["RaceProgress"] > percentage]
     return df
@@ -271,7 +271,7 @@ def mask_race_percentage(df, percentage):
 def get_tyre_stress_level(df, tyre_stress_mapping):
     df["TyreStressLevel"] = df["Location"].map(tyre_stress_mapping)
 
-  def sunny_races(df):
+def sunny_races(df):
     #Group data to get data per race
     df['LocationYear'] = df['Location'] + ' ' + df['Year'].astype(str)
     #Group data for every race where 'Wet' and 'Intermediate' tyres were used
