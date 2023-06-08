@@ -69,3 +69,19 @@ def sunny_races(df):
     df = df['LocationYear'].isin(df)
     df = df[~df]
     return df
+
+
+def keep_top_drivers_per_race(laps,driver_results,n=10):
+
+    for index, row in laps.iterrows():
+
+    #Infos Grand Prix & Pilote
+        year = row['Year']
+        location = row['Location']
+        driver = row['Driver']
+
+        conditions = (driver_results['Driver']==driver) & (driver_results['Year']==year) & (driver_results['Location']==location)
+        laps.loc[index,'Final_Position'] = driver_results[conditions]['Position'].values[0]
+
+    laps = laps[laps['Final_Position']<=n]
+    return laps
