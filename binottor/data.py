@@ -171,3 +171,6 @@ def get_locations_CSV(years):
 
     df_locations.to_csv('../raw_data/locations.csv')
     print (f'The file locations.csv has been successfully downloaded for the following years : {years} ')
+
+def get_all_CSV(years):
+    pass
