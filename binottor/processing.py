@@ -6,6 +6,7 @@ from datetime import timedelta
 abs = os.path.dirname(__file__)
 data_repo = "raw_data/"
 
+
 TIRE_MATCH = {
     'HYPERSOFT': 'SOFT',
     'ULTRASOFT': 'SOFT',
@@ -76,73 +77,73 @@ NAME_MATCH = {
     'Red Bull':'RedBull'
 }
 
-# BOUGER OU PAS BOUGER ?
+
 def load_dataset():
     laps_df = pd.read_csv(os.path.join(abs,"../raw_data/laps.csv"))
     weather_df = pd.read_csv(os.path.join(abs,"../raw_data/weather.csv"))
     track_status_df = pd.read_csv(os.path.join(abs,"../raw_data/track_status.csv"))
-    return laps_df, weather_df, track_status_df
-
+    results_df = pd.read_csv(os.path.join(abs,"../raw_data/results.csv"))
+    driver_results_df = pd.read_csv(os.path.join(abs,"../raw_data/driver_results.csv"))
+    locations_df = pd.read_csv(os.path.join(abs,"../raw_data/locations.csv"))
+    return laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df
 
 
 # FILL & CLEANING FUNCTIONS
 
-def fill_team_name(df):
-    df["Team"] = df["Team"].fillna("Renault")
-    return df
+def fill_na(laps):
+    '''
+    Replace the NaN of the df with good values
+    '''
+    laps["Team"] = laps["Team"].fillna("Renault")
+    laps["Driver"] = laps["Driver"].fillna("OCO")
+    laps["IsPersonalBest"] = laps["IsPersonalBest"].fillna(False)
+    laps["Position"] = laps["Position"].fillna(method = "ffill")
+    return laps
 
-def fill_driver(df):
-    df["Driver"] = df["Driver"].fillna("OCO")
-    return df
-
-def fill_personal_best(df):
-    df["IsPersonalBest"] = df["IsPersonalBest"].fillna(False)
-    return df
-
-def fill_position(df):
-    df["Position"] = df["Position"].fillna(method = "ffill")
-    return df
-
-def change_TeamNames(laps,name_mapping):
-    """ Changes the TeamNames with the good Names """
+def TeamNames_cleaning(laps,name_mapping):
+    '''
+    Changes the TeamNames with the good ones
+    '''
     laps['Team']=laps['Team'].map(name_mapping)
     return laps
 
-def compound_cleaning(laps,tire_mapping,backfilling=3):
+def Compound_cleaning(laps,tire_mapping,backfilling=3):
+    '''
+    Changes the coumpounds with the good ones
+    '''
     laps['Compound']=laps['Compound'].map(tire_mapping)
     laps['Compound'].replace('UNKNOWN',None,inplace=True)
     laps['Compound'].fillna(method="bfill",limit=backfilling,inplace=True)
     return laps
 
-# def remove_NaN_Drivers(laps):
-#     """ Removes the laps with Team = NaN and Driver = NaN """
-#     teams = laps['Team'].unique().tolist()[:-1]
-#     laps = laps[laps['Team'].isin(teams)]
-#     return laps
+#def remove_NaN_Drivers(laps):
+     #""" Removes the laps with Team = NaN and Driver = NaN """
+     #teams = laps['Team'].unique().tolist()[:-1]
+     #laps = laps[laps['Team'].isin(teams)]
+     #return laps
 
 
 # FEATURE ENGINEERING FUNCTIONS
 
 def get_last_team_ranking(laps,results,locations):
-    """ Adds a column to the laps DataFrame with the information of the last TeamRanking before the race """
+    '''
+    Adds a column to the laps DataFrame with the information of the last TeamRanking before the race
+    '''
 
     for index, row in laps.iterrows():
-
-    #Infos Grand Prix
         year = row['Year']
         location = row['Location']
         team = row['Team']
         gp_number = np.where(locations[str(year)] == location)[0][0]
 
-    #Si c'est le 1er Grand Prix de l'année - on récupère le classement final de la saison précédente :
+    #If it's the 1st race of the season, takes the final ranking of last season :
         if gp_number == 0 :
             condition = (results['Year'] == year-1)
             ranking = results[condition][['Team','Points']].groupby(['Team']).sum('Points').sort_values('Points',ascending=False).reset_index()
             ranking['LastTeamRanking'] = ranking['Points'].rank(ascending=False,method='max')
             laps.loc[index,'LastTeamRanking'] = ranking[(ranking['Team'] == team)]['LastTeamRanking'].values[0]
 
-
-    #Sinon, classement après le dernier Grand Prix
+    #Else, takes the actual ranking of the current season :
         else :
             list_locations = results[results['Year']== year]['Location'].unique().tolist()
             condition = (results['Year'] == year) & (results['Location'].isin(list_locations[0:gp_number]))
@@ -152,13 +153,13 @@ def get_last_team_ranking(laps,results,locations):
 
     return laps
 
-
 def tire_degradation_offset(laps):
     pass
 
 def check_second_compound(laps):
     '''
     Assess if whether or not two different compounds have been used during each GP for each driver.
+    Adds a new column to the DataFrame.
     '''
     laps['second_compound']=False
     # Loop over every year
@@ -188,8 +189,8 @@ def check_second_compound(laps):
                         if row["Compound"] != row["prev_compound"] and row["prev_compound"]:
                             laps.loc[index,"second_compound"]=True
 
-
 def add_race_progress(df):
+
     # Group data to get lap number per year per race
     grouped_data = df.groupby(by = ["Year", "Location"], as_index=False)["LapNumber"].max().rename(columns={"LapNumber":"TotalLaps"})
     grouped_data["Year_Location"] = grouped_data["Year"].map(str) + grouped_data["Location"]
@@ -251,7 +252,6 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
                     laps.loc[lap[0],"close_behind"]=True
                 laps.loc[lap[0],"is_pitting_behind"]=behind_pit
 
-
 def get_tyre_stress_level(df, tyre_stress_mapping):
     df["TyreStressLevel"] = df["Location"].map(tyre_stress_mapping)
 
@@ -287,8 +287,6 @@ def merge_track_status():
 def keep_top_drivers_per_race(laps,driver_results,n=10):
 
     for index, row in laps.iterrows():
-
-    #Infos Grand Prix & Pilote
         year = row['Year']
         location = row['Location']
         driver = row['Driver']
@@ -298,7 +296,6 @@ def keep_top_drivers_per_race(laps,driver_results,n=10):
 
     laps = laps[laps['Final_Position']<=n]
     return laps
-
 
 def sunny_races(laps):
     #Group data to get data per race
@@ -310,11 +307,9 @@ def sunny_races(laps):
     laps = laps[~laps['LocationYear'].isin(races_to_remove)]
     return laps
 
-
 def mask_race_percentage(df, percentage=0.1):
     df = df[df["RaceProgress"] > percentage]
     return df
-
 
 def drop_useless_columns(df):
     df.drop(columns=['Unnamed: 0', 'Time', 'DriverNumber', 'LapTime',
@@ -328,3 +323,26 @@ def drop_useless_columns(df):
 def drop_duplicates_rows(df):
     df.drop_duplicates(inplace=True)
     return df
+
+
+
+def preproc_data():
+    laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
+    laps_df = fill_na(laps_df) #ok
+    laps_df = TeamNames_cleaning(laps_df,NAME_MATCH) #ok
+    laps_df = Compound_cleaning(laps_df,TIRE_MATCH) #ok
+    #laps_df = remove_NaN_Drivers(laps_df)
+    #laps_df = get_last_team_ranking(laps_df,results_df,locations_df)
+    check_second_compound(laps_df) #ok
+    laps_df = add_race_progress(laps_df) #ok
+    laps_df = is_pitting_feature(laps_df) #ok
+    #check_competitors(laps_df)
+    #laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS)
+    #laps_df = merge_weather(laps_df,weather_df)
+    #laps_df = merge_track_status(laps_df,track_status_df)
+    #laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
+    #laps_df = sunny_races(laps_df)
+    #laps_df = mask_race_percentage(laps_df)
+    #laps_df = drop_useless_columns(laps_df)
+    #laps_df = drop_duplicates_rows(laps_df)
+    return laps_df
