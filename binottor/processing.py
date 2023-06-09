@@ -156,12 +156,15 @@ def get_last_team_ranking(laps,results,locations):
 def tire_degradation_offset(laps):
     pass
 
-def check_second_compound(laps):
+def context_features(laps,track):
     '''
     Assess if whether or not two different compounds have been used during each GP for each driver.
     '''
-    laps['second_compound']=False
     # Loop over every year
+    laps['second_compound']=False
+    track.Time = pd.to_timedelta(track.Time)
+    laps['status']=1
+    #laps['status_list']=np.array()
     years = laps['Year'].unique()
     for year in years:
         year_df = laps.loc[laps.Year == year]
@@ -179,6 +182,58 @@ def check_second_compound(laps):
                 first_index = driver_df.index[0]
                 # Loop over every lap
                 for index, row in driver_df.iterrows():
+                    curr_time = pd.to_timedelta(row['Time'])
+                    start_time = pd.to_timedelta(row['LapStartTime'])
+                    status_changes = track.loc[(track.Location==location) & (track.Year==year) & (track.Time <= curr_time) & (track.Time >= start_time)]
+                    if not status_changes.empty:
+                        last_event = status_changes['Status'].values[-1]
+                        events = status_changes['Status'].unique()
+                        laps.loc[index,"status_list"]=str(events)
+                        if 4 in events:
+                            # Safety Car starting
+                            laps.loc[index,"status"]=2
+                            if last_event==1:
+                                laps.loc[index,"status"]=4
+                        elif 6 in events:
+                            # VSC starting
+                            laps.loc[index,"status"]=5
+                            if last_event==1:
+                                laps.loc[index,"status"]=7
+                        elif 7 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=7
+                            if last_event==1:
+                                laps.loc[index,"status"]=1
+                        elif 5 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=8
+                            if last_event==1:
+                                laps.loc[index,"status"]=1
+                        elif 8 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=8
+                            if last_event==1:
+                                laps.loc[index,"status"]=9
+                        if last_event==1:# and len(events)==1:
+                            #print(events)
+                            #print("Hello")
+                            if laps.loc[index-1,"status"] in [2,3]:
+                                #print("Go")
+                                laps.loc[index,"status"]=4
+                            elif laps.loc[index-1,"status"] in [5,6]:
+                                laps.loc[index,"status"]=7
+                            elif laps.loc[index-1,"status"] == 8:
+                                laps.loc[index,"status"]= 9
+                    else:
+                        if index-1>=first_index:
+                            if laps.loc[index-1,"status"] in [2,3]:
+                                laps.loc[index,"status"]=3
+                            elif laps.loc[index-1,"status"] in [5,6]:
+                                laps.loc[index,"status"]=6
+                            elif laps.loc[index-1,"status"] ==8:
+                                laps.loc[index,"status"]=8
+                            elif laps.loc[index-1,"status"] in [4,7,9]:
+                                laps.loc[index,"status"]=1
                     if index-1>=first_index:
                         # Switch to True if it was already True on the previous lap
                         if laps.loc[index-1,"second_compound"]==True :
