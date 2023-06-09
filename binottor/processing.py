@@ -162,13 +162,16 @@ def get_last_team_ranking(laps,results,locations):
 def tire_degradation_offset(laps):
     pass
 
-def check_second_compound(laps):
+def context_features(laps,track):
     '''
     Assess if whether or not two different compounds have been used during each GP for each driver.
     Adds a new column to the DataFrame.
     '''
-    laps['second_compound']=False
     # Loop over every year
+    laps['second_compound']=False
+    track.Time = pd.to_timedelta(track.Time)
+    laps['status']=1
+    #laps['status_list']=np.array()
     years = laps['Year'].unique()
     for year in years:
         year_df = laps.loc[laps.Year == year]
@@ -186,6 +189,58 @@ def check_second_compound(laps):
                 first_index = driver_df.index[0]
                 # Loop over every lap
                 for index, row in driver_df.iterrows():
+                    curr_time = pd.to_timedelta(row['Time'])
+                    start_time = pd.to_timedelta(row['LapStartTime'])
+                    status_changes = track.loc[(track.Location==location) & (track.Year==year) & (track.Time <= curr_time) & (track.Time >= start_time)]
+                    if not status_changes.empty:
+                        last_event = status_changes['Status'].values[-1]
+                        events = status_changes['Status'].unique()
+                        laps.loc[index,"status_list"]=str(events)
+                        if 4 in events:
+                            # Safety Car starting
+                            laps.loc[index,"status"]=2
+                            if last_event==1:
+                                laps.loc[index,"status"]=4
+                        elif 6 in events:
+                            # VSC starting
+                            laps.loc[index,"status"]=5
+                            if last_event==1:
+                                laps.loc[index,"status"]=7
+                        elif 7 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=7
+                            if last_event==1:
+                                laps.loc[index,"status"]=1
+                        elif 5 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=8
+                            if last_event==1:
+                                laps.loc[index,"status"]=1
+                        elif 8 in events:
+                            # VSC ending
+                            laps.loc[index,"status"]=8
+                            if last_event==1:
+                                laps.loc[index,"status"]=9
+                        if last_event==1:# and len(events)==1:
+                            #print(events)
+                            #print("Hello")
+                            if laps.loc[index-1,"status"] in [2,3]:
+                                #print("Go")
+                                laps.loc[index,"status"]=4
+                            elif laps.loc[index-1,"status"] in [5,6]:
+                                laps.loc[index,"status"]=7
+                            elif laps.loc[index-1,"status"] == 8:
+                                laps.loc[index,"status"]= 9
+                    else:
+                        if index-1>=first_index:
+                            if laps.loc[index-1,"status"] in [2,3]:
+                                laps.loc[index,"status"]=3
+                            elif laps.loc[index-1,"status"] in [5,6]:
+                                laps.loc[index,"status"]=6
+                            elif laps.loc[index-1,"status"] ==8:
+                                laps.loc[index,"status"]=8
+                            elif laps.loc[index-1,"status"] in [4,7,9]:
+                                laps.loc[index,"status"]=1
                     if index-1>=first_index:
                         # Switch to True if it was already True on the previous lap
                         if laps.loc[index-1,"second_compound"]==True :
@@ -333,8 +388,6 @@ def drop_duplicates_rows(df):
     df.drop_duplicates(inplace=True)
     return df
 
-
-
 def preproc_data():
     laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
     print('Start fill_na...')
@@ -351,8 +404,8 @@ def preproc_data():
     driver_results_df = replace_NaN_Drivers(driver_results_df)
     print('Start get_last_team_ranking...')
     laps_df = get_last_team_ranking(laps_df,results_df,locations_df) #ok
-    print('Start secound_compound...')
-    check_second_compound(laps_df) #ok
+    print('Start context_features...')
+    context_features(laps_df) #ok
     print('Start add_race_progress...')
     laps_df = add_race_progress(laps_df) #ok
     print('Start is_pitting...')
@@ -378,3 +431,30 @@ def preproc_data():
 
     laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
     return laps_df, results_df, driver_results_df
+
+def shift_data(laps):
+    years = laps['Year'].unique()
+    laps['pitting_next_lap']=False
+    laps['next_compound']=laps['Compound']
+    for year in years:
+        year_df = laps.loc[laps.Year == year]
+        locations = year_df['Location'].unique()
+        # Loop over every location
+        for location in locations:
+                loc_df = year_df.loc[(year_df.Location == location)]
+                drivers = loc_df['DriverNumber'].unique()
+                # Loop over every driver
+                for driver in drivers:
+                    driver_df = loc_df.loc[(loc_df.DriverNumber == driver)]
+                    # Store in every lap the compound of the previous lap
+                    driver_df["prev_compound"]=driver_df["Compound"].shift(1)
+                    # Store the first index of the dataframe to avoid any out-of-bounds index
+                    first_index = driver_df.index[0]
+                    driver_df['next_compound']=driver_df['Compound'].shift(-2,fill_value=np.nan)
+                    driver_df['pitting_next_lap']=driver_df['pitting_this_lap'].shift(-1,fill_value=False)
+                    driver_df['next_compound'].fillna(method="ffill",inplace=True)
+                    # Loop over every lap
+                    for index, row in driver_df.iterrows():
+                        laps.loc[index,'next_compound'] = row['next_compound']
+                        laps.loc[index,'pitting_next_lap'] = row['pitting_next_lap']
+    return laps
