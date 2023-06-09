@@ -153,8 +153,10 @@ def get_last_team_ranking(laps,results,locations):
     return laps
 
 
-def tire_degradation_offset(laps):
-    pass
+def shift_data(laps):
+    laps['next_compound'] = laps['Compound'].shift(-2,fill_na=laps['Compound'],inplace=True)
+    laps['is_pitting_next_lap'] = laps['pitting_this_lap'].shift(-1,fill_na=False,inplace=True)
+    return laps
 
 def context_features(laps,track):
     '''
@@ -383,3 +385,30 @@ def drop_useless_columns(df):
 def drop_duplicates_rows(df):
     df.drop_duplicates(inplace=True)
     return df
+
+def shift_data(laps):
+    years = laps['Year'].unique()
+    laps['pitting_next_lap']=False
+    laps['next_compound']=laps['Compound']
+    for year in years:
+        year_df = laps.loc[laps.Year == year]
+        locations = year_df['Location'].unique()
+        # Loop over every location
+        for location in locations:
+                loc_df = year_df.loc[(year_df.Location == location)]
+                drivers = loc_df['DriverNumber'].unique()
+                # Loop over every driver
+                for driver in drivers:
+                    driver_df = loc_df.loc[(loc_df.DriverNumber == driver)]
+                    # Store in every lap the compound of the previous lap
+                    driver_df["prev_compound"]=driver_df["Compound"].shift(1)
+                    # Store the first index of the dataframe to avoid any out-of-bounds index
+                    first_index = driver_df.index[0]
+                    driver_df['next_compound']=driver_df['Compound'].shift(-2,fill_value=np.nan)
+                    driver_df['pitting_next_lap']=driver_df['pitting_this_lap'].shift(-1,fill_value=False)
+                    driver_df['next_compound'].fillna(method="ffill",inplace=True)
+                    # Loop over every lap
+                    for index, row in driver_df.iterrows():
+                        laps.loc[index,'next_compound'] = row['next_compound']
+                        laps.loc[index,'pitting_next_lap'] = row['pitting_next_lap']
+    return laps
