@@ -339,10 +339,6 @@ def merge_weather(laps, weather,backfilling=6):
         laps_extended[column].fillna(method="bfill",limit=backfilling,inplace=True)
     return laps_extended
 
-def merge_track_status():
-    pass
-
-
 
 # DROP FUNCTIONS
 
@@ -388,50 +384,6 @@ def drop_duplicates_rows(df):
     df.drop_duplicates(inplace=True)
     return df
 
-def preproc_data():
-    laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
-    print('Start fill_na...')
-    laps_df = fill_na(laps_df) #ok
-    print('Start TeamNames cleaning for laps...')
-    laps_df = TeamNames_cleaning(laps_df,NAME_MATCH) #ok
-    print('Start Team Names cleaning for results..')
-    results_df = TeamNames_cleaning(results_df,NAME_MATCH)
-    print('Start Coumpound cleaning...')
-    laps_df = Compound_cleaning(laps_df,TIRE_MATCH) #ok
-    print('Start Remove nan teams...')
-    results_df = remove_NaN_Teams(results_df) #ok
-    print('Start Remove nan Drivers...')
-    driver_results_df = replace_NaN_Drivers(driver_results_df)
-    print('Start get_last_team_ranking...')
-    laps_df = get_last_team_ranking(laps_df,results_df,locations_df) #ok
-    print('Start context_features...')
-    context_features(laps_df) #ok
-    print('Start add_race_progress...')
-    laps_df = add_race_progress(laps_df) #ok
-    print('Start is_pitting...')
-    laps_df = is_pitting_feature(laps_df) #ok
-
-    #check_competitors(laps_df)
-    print('Start get_tyre_stress...')
-    laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS) #ok
-    print('Start merge_weather...')
-    laps_df = merge_weather(laps_df,weather_df) #ok
-
-    #laps_df = merge_track_status(laps_df,track_status_df)
-    print('Start keep_top_drivers...')
-    laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
-    print('Start sunny_races...')
-    laps_df = sunny_races(laps_df) #ok
-    print('Start mask_race_percentage...')
-    laps_df = mask_race_percentage(laps_df) #ok
-    print('Start drop_useless_columns...')
-    laps_df = drop_useless_columns(laps_df) #ok
-    print('Start drop_duplicate_rows...')
-    laps_df = drop_duplicates_rows(laps_df) #ok
-
-    laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
-    return laps_df, results_df, driver_results_df
-
 def shift_data(laps):
     years = laps['Year'].unique()
     laps['pitting_next_lap']=False
@@ -458,3 +410,48 @@ def shift_data(laps):
                         laps.loc[index,'next_compound'] = row['next_compound']
                         laps.loc[index,'pitting_next_lap'] = row['pitting_next_lap']
     return laps
+
+
+def preproc_data():
+    laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
+    print('Start fill_na...')
+    laps_df = fill_na(laps_df) #ok
+    print('Start TeamNames cleaning for laps...')
+    laps_df = TeamNames_cleaning(laps_df,NAME_MATCH) #ok
+    print('Start Team Names cleaning for results..')
+    results_df = TeamNames_cleaning(results_df,NAME_MATCH)
+    print('Start Coumpound cleaning...')
+    laps_df = Compound_cleaning(laps_df,TIRE_MATCH) #ok
+    print('Start Remove nan teams...')
+    results_df = remove_NaN_Teams(results_df) #ok
+    print('Start Remove nan Drivers...')
+    driver_results_df = replace_NaN_Drivers(driver_results_df)
+    print('Start get_last_team_ranking...')
+    laps_df = get_last_team_ranking(laps_df,results_df,locations_df) #ok
+    print('Start context_features...')
+    context_features(laps_df,track_status_df) #ok
+    print('Start add_race_progress...')
+    laps_df = add_race_progress(laps_df) #ok
+    print('Start is_pitting...')
+    laps_df = is_pitting_feature(laps_df) #ok
+    print('Start check_competitors...')
+    check_competitors(laps_df)
+    print('Start get_tyre_stress...')
+    laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS) #ok
+    print('Start merge_weather...')
+    laps_df = merge_weather(laps_df,weather_df) #ok
+    print('Start keep_top_drivers...')
+    laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
+    print('Start sunny_races...')
+    laps_df = sunny_races(laps_df) #ok
+    print('Start mask_race_percentage...')
+    laps_df = mask_race_percentage(laps_df) #ok
+    print('Start drop_useless_columns...')
+    laps_df = drop_useless_columns(laps_df) #ok
+    print('Start drop_duplicate_rows...')
+    laps_df = drop_duplicates_rows(laps_df) #ok
+    print('Start shift_data...')
+    laps_df = shift_data(laps_df)
+
+    laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
+    return laps_df, results_df, driver_results_df
