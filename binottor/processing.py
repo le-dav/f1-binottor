@@ -296,12 +296,13 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
         # If you're not the leader
         if position_ahead >= 1:
             ahead = laps.loc[(laps['Position']==position_ahead) & (laps['Location']==track) & (laps['Year']==year) & (laps['LapNumber']==lapnum)]
-            ahead_pit = ahead.iloc[0]['pitting_this_lap']
-            ahead_time = pd.to_timedelta(ahead.iloc[0]['Time'])
-            delta_ahead = curr_time-ahead_time
-            if delta_ahead>=close_timedelta:
-                laps.loc[lap[0],"close_ahead"]=True
-            laps.loc[lap[0],"is_pitting_ahead"]=ahead_pit
+            if len(ahead)>0:
+                ahead_pit = ahead.iloc[0]['pitting_this_lap']
+                ahead_time = pd.to_timedelta(ahead.iloc[0]['Time'])
+                delta_ahead = curr_time-ahead_time
+                if delta_ahead>=close_timedelta:
+                    laps.loc[lap[0],"close_ahead"]=True
+                laps.loc[lap[0],"is_pitting_ahead"]=ahead_pit
         # If you're not last
         if position_behind <=20:
             behind = laps.loc[(laps['Position']==position_behind) & (laps['Location']==track) & (laps['Year']==year) & (laps['LapNumber']==lapnum)]
@@ -388,6 +389,33 @@ def drop_duplicates_rows(df):
     df.drop_duplicates(inplace=True)
     return df
 
+def shift_data(laps):
+    years = laps['Year'].unique()
+    laps['pitting_next_lap']=False
+    laps['next_compound']=laps['Compound']
+    for year in years:
+        year_df = laps.loc[laps.Year == year]
+        locations = year_df['Location'].unique()
+        # Loop over every location
+        for location in locations:
+                loc_df = year_df.loc[(year_df.Location == location)]
+                drivers = loc_df['Driver'].unique()
+                # Loop over every driver
+                for driver in drivers:
+                    driver_df = loc_df.loc[(loc_df.Driver == driver)]
+                    # Store in every lap the compound of the previous lap
+                    driver_df["prev_compound"]=driver_df["Compound"].shift(1)
+                    # Store the first index of the dataframe to avoid any out-of-bounds index
+                    first_index = driver_df.index[0]
+                    driver_df['next_compound']=driver_df['Compound'].shift(-2,fill_value=np.nan)
+                    driver_df['pitting_next_lap']=driver_df['pitting_this_lap'].shift(-1,fill_value=False)
+                    driver_df['next_compound'].fillna(method="ffill",inplace=True)
+                    # Loop over every lap
+                    for index, row in driver_df.iterrows():
+                        laps.loc[index,'next_compound'] = row['next_compound']
+                        laps.loc[index,'pitting_next_lap'] = row['pitting_next_lap']
+    return laps
+
 def preproc_data():
     laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
     print('Start fill_na...')
@@ -405,13 +433,12 @@ def preproc_data():
     print('Start get_last_team_ranking...')
     laps_df = get_last_team_ranking(laps_df,results_df,locations_df) #ok
     print('Start context_features...')
-    context_features(laps_df) #ok
+    context_features(laps_df, track_status_df) #ok
     print('Start add_race_progress...')
     laps_df = add_race_progress(laps_df) #ok
     print('Start is_pitting...')
     laps_df = is_pitting_feature(laps_df) #ok
 
-    #check_competitors(laps_df)
     print('Start get_tyre_stress...')
     laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS) #ok
     print('Start merge_weather...')
@@ -424,37 +451,20 @@ def preproc_data():
     laps_df = sunny_races(laps_df) #ok
     print('Start mask_race_percentage...')
     laps_df = mask_race_percentage(laps_df) #ok
-    print('Start drop_useless_columns...')
-    laps_df = drop_useless_columns(laps_df) #ok
     print('Start drop_duplicate_rows...')
     laps_df = drop_duplicates_rows(laps_df) #ok
+
+    print('Start check_competitors...')
+    check_competitors(laps_df)
+
+    print('Start drop_useless_columns...')
+    laps_df = drop_useless_columns(laps_df) #ok
+
+
+    print('Start shift_data...')
+    laps_df = shift_data(laps_df) #ok
 
     laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
     return laps_df, results_df, driver_results_df
 
-def shift_data(laps):
-    years = laps['Year'].unique()
-    laps['pitting_next_lap']=False
-    laps['next_compound']=laps['Compound']
-    for year in years:
-        year_df = laps.loc[laps.Year == year]
-        locations = year_df['Location'].unique()
-        # Loop over every location
-        for location in locations:
-                loc_df = year_df.loc[(year_df.Location == location)]
-                drivers = loc_df['DriverNumber'].unique()
-                # Loop over every driver
-                for driver in drivers:
-                    driver_df = loc_df.loc[(loc_df.DriverNumber == driver)]
-                    # Store in every lap the compound of the previous lap
-                    driver_df["prev_compound"]=driver_df["Compound"].shift(1)
-                    # Store the first index of the dataframe to avoid any out-of-bounds index
-                    first_index = driver_df.index[0]
-                    driver_df['next_compound']=driver_df['Compound'].shift(-2,fill_value=np.nan)
-                    driver_df['pitting_next_lap']=driver_df['pitting_this_lap'].shift(-1,fill_value=False)
-                    driver_df['next_compound'].fillna(method="ffill",inplace=True)
-                    # Loop over every lap
-                    for index, row in driver_df.iterrows():
-                        laps.loc[index,'next_compound'] = row['next_compound']
-                        laps.loc[index,'pitting_next_lap'] = row['pitting_next_lap']
-    return laps
+preproc_data()
