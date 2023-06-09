@@ -116,11 +116,17 @@ def Compound_cleaning(laps,tire_mapping,backfilling=3):
     laps['Compound'].fillna(method="bfill",limit=backfilling,inplace=True)
     return laps
 
-def remove_NaN_Drivers(laps):
-     """ Removes the laps with Team = NaN and Driver = NaN """
-     teams = laps['Team'].unique().tolist()[:-1]
-     laps = laps[laps['Team'].isin(teams)]
-     return laps
+def remove_NaN_Teams(results):
+     """ Removes the laps with Team = NaN """
+     teams = results['Team'].unique().tolist()[:-1]
+     results = results[results['Team'].isin(teams)]
+     return results
+
+def replace_NaN_Drivers(driver_results):
+    driver_results.loc[933,'Driver'] = 'OCO'
+    driver_results.loc[1679,'Driver'] = 'MAZ'
+    driver_results.loc[1759,'Driver'] = 'MSC'
+    return driver_results
 
 
 # FEATURE ENGINEERING FUNCTIONS
@@ -293,6 +299,8 @@ def keep_top_drivers_per_race(laps,driver_results,n=10):
         driver = row['Driver']
 
         conditions = (driver_results['Driver']==driver) & (driver_results['Year']==year) & (driver_results['Location']==location)
+        if len(driver_results[conditions]['Position'])==0:
+            print(f"{driver} {year} {location}")
         laps.loc[index,'Final_Position'] = driver_results[conditions]['Position'].values[0]
 
     laps = laps[laps['Final_Position']<=n]
@@ -329,21 +337,44 @@ def drop_duplicates_rows(df):
 
 def preproc_data():
     laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
+    print('Start fill_na...')
     laps_df = fill_na(laps_df) #ok
+    print('Start TeamNames cleaning for laps...')
     laps_df = TeamNames_cleaning(laps_df,NAME_MATCH) #ok
+    print('Start Team Names cleaning for results..')
+    results_df = TeamNames_cleaning(results_df,NAME_MATCH)
+    print('Start Coumpound cleaning...')
     laps_df = Compound_cleaning(laps_df,TIRE_MATCH) #ok
-    laps_df = remove_NaN_Drivers(laps_df)
-    #laps_df = get_last_team_ranking(laps_df,results_df,locations_df)
+    print('Start Remove nan teams...')
+    results_df = remove_NaN_Teams(results_df) #ok
+    print('Start Remove nan Drivers...')
+    driver_results_df = replace_NaN_Drivers(driver_results_df)
+    print('Start get_last_team_ranking...')
+    laps_df = get_last_team_ranking(laps_df,results_df,locations_df) #ok
+    print('Start secound_compound...')
     check_second_compound(laps_df) #ok
+    print('Start add_race_progress...')
     laps_df = add_race_progress(laps_df) #ok
+    print('Start is_pitting...')
     laps_df = is_pitting_feature(laps_df) #ok
+
     #check_competitors(laps_df)
+    print('Start get_tyre_stress...')
     laps_df = get_tyre_stress_level(laps_df,TYRE_STRESS) #ok
+    print('Start merge_weather...')
     laps_df = merge_weather(laps_df,weather_df) #ok
+
     #laps_df = merge_track_status(laps_df,track_status_df)
-    #laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
+    print('Start keep_top_drivers...')
+    laps_df = keep_top_drivers_per_race(laps_df,driver_results_df)
+    print('Start sunny_races...')
     laps_df = sunny_races(laps_df) #ok
+    print('Start mask_race_percentage...')
     laps_df = mask_race_percentage(laps_df) #ok
+    print('Start drop_useless_columns...')
     laps_df = drop_useless_columns(laps_df) #ok
+    print('Start drop_duplicate_rows...')
     laps_df = drop_duplicates_rows(laps_df) #ok
-    return laps_df
+
+    laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
+    return laps_df, results_df, driver_results_df
