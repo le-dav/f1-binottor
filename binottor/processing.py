@@ -152,12 +152,6 @@ def get_last_team_ranking(laps,results,locations):
 
     return laps
 
-
-def shift_data(laps):
-    laps['next_compound'] = laps['Compound'].shift(-2,fill_na=laps['Compound'],inplace=True)
-    laps['is_pitting_next_lap'] = laps['pitting_this_lap'].shift(-1,fill_na=False,inplace=True)
-    return laps
-
 def context_features(laps,track):
     '''
     Assess if whether or not two different compounds have been used during each GP for each driver.
