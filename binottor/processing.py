@@ -278,7 +278,6 @@ def check_competitors(laps, seconds_delta = 1, milliseconds_delta = 500):
     laps['close_behind']=False
     laps['is_pitting_ahead']=False
     laps['is_pitting_behind']=False
-    laps['pitting_this_lap']=False
 
     # As we use itertuples instead of iterrows, create dict to match column names to tuple index.
     column_dict = { column: index+1 for index, column in enumerate(laps.columns)}
