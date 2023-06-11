@@ -7,3 +7,10 @@ matplotlib
 seaborn
 scikit-learn
 imblearn
+
+# Race Simulator requirements
+scipy
+# required in opt_strategy_basic
+cvxpy
+tensorflow-probability
+tf-agents
