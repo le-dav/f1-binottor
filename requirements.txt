@@ -3,7 +3,7 @@ pandas
 fastf1
 plotly
 tensorflow
-matplotlib.pyplot
+matplotlib
 seaborn
-sklearn
+scikit-learn
 imblearn
