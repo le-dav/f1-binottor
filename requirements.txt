@@ -3,7 +3,14 @@ pandas
 fastf1
 plotly
 tensorflow
-matplotlib.pyplot
+matplotlib
 seaborn
-sklearn
+scikit-learn
 imblearn
+
+# Race Simulator requirements
+scipy
+# required in opt_strategy_basic
+cvxpy
+tensorflow-probability
+tf-agents
