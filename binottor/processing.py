@@ -346,7 +346,7 @@ def merge_track_status():
 
 # DROP FUNCTIONS
 
-def keep_top_drivers_per_race(laps,driver_results,n=10):
+def keep_top_drivers_per_race(laps,driver_results,n=13):
 
     for index, row in laps.iterrows():
         year = row['Year']
@@ -375,17 +375,12 @@ def mask_race_percentage(df, percentage=0.1):
     df = df[df["RaceProgress"] > percentage]
     return df
 
-def drop_useless_columns(df):
-    df.drop(columns=['Unnamed: 0', 'Time', 'DriverNumber', 'LapTime',
-       'Stint', 'PitOutTime', 'PitInTime', 'Sector1Time', 'Sector2Time',
-       'Sector3Time', 'Sector1SessionTime', 'Sector2SessionTime',
-       'Sector3SessionTime', 'SpeedI1', 'SpeedI2', 'SpeedFL', 'SpeedST',
-       'LapStartTime', 'LapStartDate', 'Deleted',
-       'DeletedReason', 'FastF1Generated', 'IsAccurate', 'TrackStatus'], inplace = True)
+def drop_column_unamed(df):
+    df.drop(columns=['Unnamed: 0'], inplace = True)
     return df
 
 def drop_duplicates_rows(df):
-    df.drop_duplicates(inplace=True)
+    df.drop_duplicates(keep='first',inplace=True)
     return df
 
 def shift_data(laps):
@@ -417,6 +412,11 @@ def shift_data(laps):
 
 def preproc_data():
     laps_df, weather_df, track_status_df, results_df, driver_results_df, locations_df = load_dataset()
+
+    print('Start drop_column_unamed...')
+    laps_df = drop_column_unamed(laps_df)
+    print('Start drop_duplicate_rows...')
+    laps_df = drop_duplicates_rows(laps_df)
     print('Start fill_na...')
     laps_df = fill_na(laps_df) #ok
     print('Start TeamNames cleaning for laps...')
@@ -450,20 +450,12 @@ def preproc_data():
     laps_df = sunny_races(laps_df) #ok
     print('Start mask_race_percentage...')
     laps_df = mask_race_percentage(laps_df) #ok
-    print('Start drop_duplicate_rows...')
-    laps_df = drop_duplicates_rows(laps_df) #ok
 
     print('Start check_competitors...')
     check_competitors(laps_df)
 
-    print('Start drop_useless_columns...')
-    laps_df = drop_useless_columns(laps_df) #ok
-
-
     print('Start shift_data...')
     laps_df = shift_data(laps_df) #ok
 
-    laps_df.to_csv(os.path.join(abs,"../raw_data/clean_data.csv"))
+    laps_df.to_csv(os.path.join(abs,"../raw_data/new_clean_data.csv"))
     return laps_df, results_df, driver_results_df
-
-preproc_data()
