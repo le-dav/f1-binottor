@@ -16,7 +16,12 @@ app.add_middleware(
 )
 
 
-@app.get("/predict")
-def predict(X_pred_prepoc):
+@app.get("/predict_pit")
+def predict_pit(X_pred_prepoc):
+    y_pred = model.predict(X_pred_prepoc)
+    return y_pred
+
+@app.get("/predict_compound")
+def predict_compound(X_pred_prepoc):
     y_pred = model.predict(X_pred_prepoc)
     return y_pred
