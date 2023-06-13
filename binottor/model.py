@@ -12,8 +12,10 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import models, layers, regularizers
 from tensorflow.keras.callbacks import EarlyStopping
 
-def init_model_compound():
+from binottor.preproc_compound import preproc_compound
+from binottor.main import main
 
+def init_model_compound():
     model = models.Sequential()
 
     reg = regularizers.l1(0.001)
@@ -28,22 +30,10 @@ def init_model_compound():
     model.add(layers.Dense(3, activation="softmax"))
 
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    return model
-
-def compile_model_compound():
-    """
-    Compile the Neural Network
-    """
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-
-    print("✅ Model compiled")
 
     return model
 
-def train_model_compound():
-    """
-    Fit the model and return a tuple (fitted_model, history)
-    """
+def train_model(model, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat):
     es = EarlyStopping(patience=20, restore_best_weights=True)
 
     history = model.fit(X_train_preproc, y_train_cat,
@@ -51,19 +41,16 @@ def train_model_compound():
           validation_data=(X_val_preproc, y_val_cat),
           callbacks=[es])
 
-    return model, history
+    return history
 
-def evaluate_model():
-    """
-    Evaluate trained model performance on the dataset
-    """
-    if model is None:
-        print(f"\n❌ No model to evaluate")
-        return None
-
-    metrics = model.evaluate(X_test_preproc,y_test_cat)
-
+def evaluate_model(model, X_test_preproc, y_test_cat):
+    metrics = model.evaluate(X_test_preproc, y_test_cat)
     return metrics
 
 def init_model_pit():
     pass
+
+
+model = init_model_compound()
+history = train_model(model, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat)
+metrics = evaluate_model(model, X_test_preproc, y_test_cat)

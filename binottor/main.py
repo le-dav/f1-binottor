@@ -9,6 +9,10 @@
     #predict =
 
 
+from pkgutil import get_data
+from .model import init_model_compound
+
+
 def train_model_compound(model, X, y):
     history = model.fit()
     return history
