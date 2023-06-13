@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from binottor.processing import preproc_data
-from binottor.model import load_model_compound, load_model_pit
+from binottor.model import load_model_compound, load_model_pit, process_data
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -62,20 +62,26 @@ app.add_middleware(
 )
 
 
-/predict_pit?driver=GAS&gp=Melbourne&year=2023
+# /predict_pit?driver=GAS&gp=Melbourne&year=2023
 @app.get("/predict_pit")
-def predict_pit(driver='GAS', gp='Melbourne', year=2023):
+def predict_pit(driver='Pierre Gasly', gp='Melbourne', year=2023):
     driver = drivers_name[driver]
     laps = pd.read_csv(os.path.join(abs,'../../raw_data/new_clean_data.csv'))
     X_pred = laps[(laps['Driver']==driver) & (laps['Location']==gp) & (laps['Year']==year)]
-    X_pred_prepoc = ''
-
+    X_pred_prepoc = process_data(X_pred)
     model = app.state.model_pit
     y_pred = model.predict(X_pred_prepoc)
-    return y_pred
+    return dict(result = y_pred)
 
-@app.get("/predict_compound")
-def predict_compound(X_pred_prepoc_resamp):
-    model = app.state.model_compound
-    y_pred = model.predict(X_pred_prepoc_resamp)
-    return y_pred
+#@app.get("/predict_compound")
+#def predict_compound(X_pred_prepoc_resamp):
+    #model = app.state.model_compound
+    #y_pred = model.predict(X_pred_prepoc_resamp)
+    #return y_pred
+
+@app.get('/')
+def main():
+    return {'coucou':'coucou'}
+
+if __name__ == '__main__':
+    pass
