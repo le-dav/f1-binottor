@@ -10,14 +10,11 @@
 
 
 from pkgutil import get_data
-from .model import init_model_compound
-
+from model import init_model_compound
+from preproc_compound import final_preproc_compound
 
 def train_model_compound(model, X, y):
-    history = model.fit()
-    return history
-
-def main():
-    X, y = get_data()
+    final_preproc_compound
     model = init_model_compound()
-    train_model_compound(model, X, y)
+    history = train_model(model, )
+    return history

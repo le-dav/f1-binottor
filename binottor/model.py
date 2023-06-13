@@ -1,3 +1,6 @@
+from tensorflow.keras import models, layers, regularizers
+from tensorflow.keras.callbacks import EarlyStopping
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -12,8 +15,8 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import models, layers, regularizers
 from tensorflow.keras.callbacks import EarlyStopping
 
-from binottor.preproc_compound import preproc_compound
-from binottor.main import main
+from main import *
+from preproc_compound import *
 
 def init_model_compound():
     model = models.Sequential()
@@ -46,11 +49,3 @@ def train_model(model, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat):
 def evaluate_model(model, X_test_preproc, y_test_cat):
     metrics = model.evaluate(X_test_preproc, y_test_cat)
     return metrics
-
-def init_model_pit():
-    pass
-
-
-model = init_model_compound()
-history = train_model(model, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat)
-metrics = evaluate_model(model, X_test_preproc, y_test_cat)
