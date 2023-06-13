@@ -15,7 +15,6 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import models, layers, regularizers
 from tensorflow.keras.callbacks import EarlyStopping
 
-from main import *
 from preproc_compound import *
 
 def init_model_compound():
@@ -23,7 +22,7 @@ def init_model_compound():
 
     reg = regularizers.l1(0.001)
 
-    model.add(layers.Dense(128, activation="relu", input_dim=169, kernel_regularizer=regularizers.l1(0.001)))
+    model.add(layers.Dense(128, activation="relu", input_dim=92, kernel_regularizer=regularizers.l1(0.001)))
     model.add(layers.Dense(128, activation="relu", kernel_regularizer=reg))
     model.add(layers.Dense(64, activation="relu", kernel_regularizer=reg))
     model.add(layers.Dense(64, activation="relu", kernel_regularizer=reg))
