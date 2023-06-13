@@ -113,7 +113,7 @@ def get_several_X_transformed(pipeline, X_train, X_val, X_test):
     X_test_preproc = pipeline.transform(X_test)
     X_val_preproc = pipeline.transform(X_val)
 
-    return X_train_preproc, X_test_preproc, X_val_preproc
+    return X_train_preproc, X_val_preproc, X_test_preproc
 
 
 def resample_classes(X_train_preproc, y_train):
@@ -124,7 +124,7 @@ def resample_classes(X_train_preproc, y_train):
 
 
 def global_preproc():
-    laps = pd.read_csv("../../raw_data/new_clean_data.csv")
+    laps = pd.read_csv("../raw_data/new_clean_data.csv")
     X_train, X_val, X_test, y_train, y_val, y_test = get_X_y_split(laps)
     preproc_pipeline = get_pipeline()
     X_train_preproc, X_test_preproc, X_val_preproc = get_several_X_transformed(preproc_pipeline, X_train, X_val, X_test)
