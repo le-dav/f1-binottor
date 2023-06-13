@@ -212,9 +212,7 @@ def context_features(laps,track):
                         elif 5 in events:
                             # Red flag starting
                             laps.loc[index,"status"]=8
-                            if last_event==1:
-                                laps.loc[index,"status"]=9
-                        if last_event==1:# and len(events)==1:
+                        elif last_event==1:# and len(events)==1:
                             #print(events)
                             #print("Hello")
                             if laps.loc[index-1,"status"] in [2,3]:
@@ -231,7 +229,7 @@ def context_features(laps,track):
                             elif laps.loc[index-1,"status"] in [5,6]:
                                 laps.loc[index,"status"]=6
                             elif laps.loc[index-1,"status"] ==8:
-                                laps.loc[index,"status"]=8
+                                laps.loc[index,"status"]=9
                             elif laps.loc[index-1,"status"] in [4,7,9]:
                                 laps.loc[index,"status"]=1
                     if index-1>=first_index:
