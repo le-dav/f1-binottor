@@ -15,8 +15,6 @@ tensorflow==2.10.0; sys_platform != 'darwin' # Windows & Ubuntu Intel chips
 scipy
 # required in opt_strategy_basic
 cvxpy
-tensorflow-probability
-tf-agents
 
 # API
 fastapi
