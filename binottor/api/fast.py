@@ -62,16 +62,17 @@ app.add_middleware(
 )
 
 
-# /predict_pit?driver=GAS&gp=Melbourne&year=2023
 @app.get("/predict_pit")
-def predict_pit(driver='Pierre Gasly', gp='Melbourne', year=2023):
+def predict_pit(driver='Charles Leclerc', gp='Melbourne', year=2023):
     driver = drivers_name[driver]
+
     laps = pd.read_csv(os.path.join(abs,'../../raw_data/new_clean_data.csv'))
     X_pred = laps[(laps['Driver']==driver) & (laps['Location']==gp) & (laps['Year']==year)]
     X_pred_prepoc = process_data(X_pred)
+
     model = app.state.model_pit
     y_pred = model.predict(X_pred_prepoc)
-    return dict(result = y_pred)
+    return y_pred.tolist()
 
 #@app.get("/predict_compound")
 #def predict_compound(X_pred_prepoc_resamp):
