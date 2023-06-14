@@ -334,7 +334,6 @@ def merge_track_status():
     pass
 
 
-
 # DROP FUNCTIONS
 
 def keep_top_drivers_per_race(laps,driver_results,n=13):

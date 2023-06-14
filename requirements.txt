@@ -12,5 +12,3 @@ imblearn
 scipy
 # required in opt_strategy_basic
 cvxpy
-tensorflow-probability
-tf-agents
