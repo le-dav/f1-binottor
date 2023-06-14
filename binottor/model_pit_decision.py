@@ -42,8 +42,10 @@ def evaluate_pit_decision_model(y_test, y_pred):
                 tracker += 1
             elif i < len(predictions) - 1 and predictions[i + 1] == 1:
                 tracker += 1
+    metric = tracker / ones_count
+    print(f"Score: {round(metric * 100, 2)}%")
 
-    return tracker / ones_count
+    return metric
 
 
 def save_model_pit_decision(model, model_name):
