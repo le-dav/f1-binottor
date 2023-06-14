@@ -1,3 +1,4 @@
+from plot_keras_history import plot_history
 from tensorflow.keras import models, layers, regularizers
 from tensorflow.keras.callbacks import EarlyStopping
 
@@ -48,3 +49,16 @@ def train_model(model, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat):
 def evaluate_model(model, X_test_preproc, y_test_cat):
     metrics = model.evaluate(X_test_preproc, y_test_cat)
     return metrics
+
+def predict_model(model, X_test_preproc, y_test_cat, history):
+    y_classes = [np.argmax(y, axis=None, out=None) for y in y_test_cat]
+    y_classes
+    y_pred = model.predict(X_test_preproc)
+    y_pred_encode = []
+    for prediction in y_pred:
+        y_pred_encode.append(prediction.argmax())
+
+    baseline_acc = accuracy_score(y_classes, y_pred_encode)
+    baseline_f1 = f1_score(y_classes, y_pred_encode, average='weighted')
+
+    return baseline_acc, baseline_f1, plot_history(history)

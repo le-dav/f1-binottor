@@ -7,9 +7,6 @@
     #train =
     #evaluate =
     #predict =
-
-
-from pkgutil import get_data
 import model_compound
 from preproc_compound import final_preproc_compound
 import pandas as pd
@@ -20,4 +17,7 @@ def train_model_compound():
     model_tire = model_compound.init_model_compound()
     history = model_compound.train_model(model_tire, X_train_preproc, y_train_cat, X_val_preproc, y_val_cat)
     metrics = model_compound.evaluate_model(model_tire, X_test_preproc, y_test_cat)
-    return history, metrics
+    predict = model_compound.predict_model(model_tire, X_test_preproc,y_test_cat, history)
+    return history, metrics, predict
+
+train_model_compound()
