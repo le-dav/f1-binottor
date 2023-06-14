@@ -449,5 +449,3 @@ def preproc_data():
 
     laps_df.to_csv(os.path.join(abs,"../raw_data/new_clean_data.csv"))
     return laps_df, results_df, driver_results_df
-
-preproc_data()
