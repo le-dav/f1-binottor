@@ -44,3 +44,7 @@ def evaluate_pit_decision_model(y_test, y_pred):
                 tracker += 1
 
     return tracker / ones_count
+
+
+def save_model_pit_decision(model, model_name):
+    pickle.dump(model, open(f'{model_name}.pkl', 'wb'))
