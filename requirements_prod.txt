@@ -11,13 +11,6 @@ tensorflow-macos==2.10.0; sys_platform == 'darwin' and 'ARM' in platform_version
 tensorflow==2.10.0; sys_platform == 'darwin' and 'ARM' not in platform_version # Mac Intel chips
 tensorflow==2.10.0; sys_platform != 'darwin' # Windows & Ubuntu Intel chips
 
-# Race Simulator requirements
-scipy
-# required in opt_strategy_basic
-cvxpy
-tensorflow-probability
-tf-agents
-
 # API
 fastapi
 pytz
