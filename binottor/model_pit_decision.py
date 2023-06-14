@@ -48,3 +48,9 @@ def evaluate_pit_decision_model(y_test, y_pred):
 
 def save_model_pit_decision(model, model_name):
     pickle.dump(model, open(f'{model_name}.pkl', 'wb'))
+
+
+# def load_model_pit_decision():
+#     loaded_model_pit_decision = pickle.load(open('model_pit_decision_rf.pkl', 'rb'))
+
+#     return loaded_model_pit_decision
