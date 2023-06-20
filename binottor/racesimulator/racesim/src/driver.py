@@ -1,5 +1,5 @@
-from racesim.src.combustioncar import CombustionCar
-from racesim.src.electriccar import ElectricCar
+from binottor.racesimulator.racesim.src.combustioncar import CombustionCar
+from binottor.racesimulator.racesim.src.electriccar import ElectricCar
 from typing import List
 import random
 

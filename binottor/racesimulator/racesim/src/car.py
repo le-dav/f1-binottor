@@ -1,4 +1,4 @@
-from racesim.src.tireset import Tireset
+from binottor.racesimulator.racesim.src.tireset import Tireset
 import scipy.stats
 
 

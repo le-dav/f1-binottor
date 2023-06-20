@@ -1,7 +1,7 @@
 # import own modules
-from racesim.src.track import Track
-from racesim.src.driver import Driver
-from racesim.src.vse import VSE
+from binottor.racesimulator.racesim.src.track import Track
+from binottor.racesimulator.racesim.src.driver import Driver
+from binottor.racesimulator.racesim.src.vse import VSE
 
 # import general Python modules
 import numpy as np
@@ -11,8 +11,8 @@ import copy
 import math
 
 # import method classes that are outsourced to extra files
-from racesim.src._race_montecarlo import MonteCarlo
-from racesim.src._race_raceanalysis import RaceAnalysis
+from binottor.racesimulator.racesim.src._race_montecarlo import MonteCarlo
+from binottor.racesimulator.racesim.src._race_raceanalysis import RaceAnalysis
 
 
 class Race(MonteCarlo, RaceAnalysis):

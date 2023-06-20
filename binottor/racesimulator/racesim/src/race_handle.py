@@ -1,4 +1,4 @@
-from racesim.src.race import Race
+from binottor.racesimulator.racesim.src.race import Race
 
 """
 author:

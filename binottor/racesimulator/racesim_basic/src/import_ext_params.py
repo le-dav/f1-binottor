@@ -1,4 +1,4 @@
-import racesim.src.import_pars
+import binottor.racesimulator.racesim.src.import_pars
 
 
 def import_ext_params(use_print: bool, race_pars_file: str, driver_initials: str) -> dict:

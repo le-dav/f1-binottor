@@ -1,12 +1,12 @@
 import numpy as np
-from racesim.src.driver import Driver
+from binottor.racesimulator.racesim.src.driver import Driver
 import math
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # set logging level such that TF shows only errors
-from racesim.src.vse_supervised import VSE_SUPERVISED
-from racesim.src.vse_reinforcement import VSE_REINFORCEMENT
-from racesim.src.vse_basestrategy import VSE_BASESTRATEGY
-from racesim.src.vse_realstrategy import VSE_REALSTRATEGY
+from binottor.racesimulator.racesim.src.vse_supervised import VSE_SUPERVISED
+from binottor.racesimulator.racesim.src.vse_reinforcement import VSE_REINFORCEMENT
+from binottor.racesimulator.racesim.src.vse_basestrategy import VSE_BASESTRATEGY
+from binottor.racesimulator.racesim.src.vse_realstrategy import VSE_REALSTRATEGY
 
 
 class VSE(object):
