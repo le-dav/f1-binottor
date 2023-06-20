@@ -1,1 +1,1 @@
-import racesim_basic.src
+import binottor.racesimulator.racesim_basic.src

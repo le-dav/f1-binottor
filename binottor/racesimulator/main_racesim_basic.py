@@ -3,7 +3,7 @@ import itertools
 import time
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # noqa
-import racesim_basic
+import binottor.racesimulator.racesim_basic
 import os
 import pkg_resources
 import helper_funcs.src.calc_tire_degradation

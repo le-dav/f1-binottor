@@ -1,6 +1,6 @@
 import racesim
 import helper_funcs
-from racesim.src.race_handle import race_handle
+from binottor.racesimulator.racesim.src.race_handle import race_handle
 from concurrent import futures  # required for parallel computing
 import numpy as np
 import time

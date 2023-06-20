@@ -1,4 +1,4 @@
-from racesim.src.car import Car
+from binottor.racesimulator.racesim.src.car import Car
 
 
 class ElectricCar(Car):

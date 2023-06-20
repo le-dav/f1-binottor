@@ -1,2 +1,2 @@
-import racesim.main_racesim_basic
-import racesim_basic
+import binottor.racesimulator.main_racesim_basic
+import binottor.racesimulator.racesim_basic
