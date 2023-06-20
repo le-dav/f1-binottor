@@ -28,7 +28,7 @@ def predict_pit_decision(model, X_test):
     return y_pred
 
 
-def evaluate_pit_decision_model(y_test, y_pred):
+def evaluate_model_pit_decision(y_test, y_pred):
     predictions = list(y_pred)
     reality = y_test.to_list()
     tracker = 0
@@ -43,16 +43,9 @@ def evaluate_pit_decision_model(y_test, y_pred):
             elif i < len(predictions) - 1 and predictions[i + 1] == 1:
                 tracker += 1
     metric = tracker / ones_count
-    print(f"Score: {round(metric * 100, 2)}%")
 
     return metric
 
 
-def save_model_pit_decision(model, model_name):
-    pickle.dump(model, open(f'{model_name}.pkl', 'wb'))
-
-
-# def load_model_pit_decision():
-#     loaded_model_pit_decision = pickle.load(open('model_pit_decision_rf.pkl', 'rb'))
-
-#     return loaded_model_pit_decision
+def save_model_pit_decision(model):
+    pickle.dump(model, open(f'model_pit_decision_trained.pkl', 'wb'))
