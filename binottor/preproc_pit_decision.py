@@ -1,4 +1,5 @@
 import pandas as pd
+import pickle
 
 from imblearn.combine import SMOTETomek
 
@@ -109,7 +110,7 @@ def get_pipeline(cat_features = cat_features_pit_decision, num_features = num_fe
 
 def get_several_X_transformed(pipeline, X_train, X_val, X_test):
     pipeline.fit(X_train)
-    # Save pipeline?
+    pickle.dump(pipeline, open('pipeline_pit_decision.pkl', 'wb'))
     X_train_preproc = pipeline.transform(X_train)
     X_test_preproc = pipeline.transform(X_test)
     X_val_preproc = pipeline.transform(X_val)
