@@ -7,9 +7,13 @@
     #train =
     #evaluate =
     #predict =
-import model_compound
-from preproc_compound import final_preproc_compound
+
 import pandas as pd
+import model_compound
+
+from preproc_compound import final_preproc_compound
+from preproc_pit_decision import global_preproc
+from model_pit_decision import *
 
 
 def train_model_compound():
@@ -20,4 +24,20 @@ def train_model_compound():
     predict = model_compound.predict_model(model_tire, X_test_preproc,y_test_cat, history)
     return history, metrics, predict
 
-train_model_compound()
+
+def main_model_pit_decision():
+    X_train_preproc_resamp, X_val_preproc, X_test_preproc, y_train_resamp, y_val, y_test = global_preproc()
+    model = get_model_pit_decision()
+    trained_model = train_model_pit_decision(model, X_train_preproc_resamp, y_train_resamp)
+    saved_model_pit_decision = save_model_pit_decision(trained_model, "model_pit_decision_trained")
+    y_pred = predict_pit_decision(trained_model, X_test_preproc)
+    metric = evaluate_pit_decision_model(y_test, y_pred)
+    print(f"Model has been trained with a {round(metric * 100, 2)}% score and is now saved")
+
+
+def predict_model_pit_decision(X_new):
+    pipeline = pickle.load(open('pipeline_pit_decision.pkl', 'rb'))
+    X_new_preproc = pipeline.transform(X_new)
+    loaded_model_pit_decision = pickle.load(open('model_pit_decision_trained.pkl', 'rb'))
+    y_pred = loaded_model_pit_decision.predict(X_new_preproc)
+    return y_pred
